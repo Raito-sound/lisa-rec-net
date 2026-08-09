@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ページが見つかりません｜株式会社リサレコ</title>
+<meta name="robots" content="noindex,follow">
+<style>
+  :root {
+    --ink: #201412;
+    --blue-deep: #0060C0;
+    --grad: linear-gradient(160deg, #0060C0 0%, #30A0E0 55%, #5ED8F7 100%);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+    color: var(--ink); background: #fff;
+    line-height: 2.0; letter-spacing: 0.05em;
+    min-height: 100vh; display: flex; flex-direction: column;
+  }
+  header { padding: 22px 6vw; }
+  .logo img { height: 40px; width: auto; display: block; }
+  main {
+    flex: 1; display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    text-align: center; padding: 8vh 8vw;
+  }
+  .code {
+    font-size: clamp(3.4rem, 11vw, 7rem); font-weight: 800; line-height: 1;
+    letter-spacing: 0.06em;
+    background: var(--grad);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h1 {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+    font-weight: 600;
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
+    letter-spacing: 0.14em; margin-top: 1.4em;
+  }
+  p { margin-top: 2em; font-size: 0.9rem; color: #4a4442; letter-spacing: 0.1em; }
+  .back {
+    display: inline-block; margin-top: 3.2em;
+    font-size: 0.76rem; letter-spacing: 0.22em;
+    color: var(--blue-deep); text-decoration: none;
+    border: 1px solid #cfe0ee; border-radius: 999px;
+    padding: 0.95em 2.6em;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  .back:hover { background: var(--blue-deep); color: #fff; border-color: var(--blue-deep); }
+  footer { padding: 5vh 6vw; font-size: 0.72rem; color: #8a9099; border-top: 1px solid #e8eef4; }
+  @media (max-width: 640px) {
+    header { padding: 16px 5vw; }
+    .logo img { height: 30px; }
+    p { font-size: 0.82rem; letter-spacing: 0.05em; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="logo.png" alt="株式会社リサレコ" width="208" height="120"></a>
+</header>
+<main>
+  <div class="code">404</div>
+  <h1>ページが見つかりません</h1>
+  <p>お探しのページは移動または削除された可能性があります。</p>
+  <a class="back" href="/">トップページへ戻る</a>
+</main>
+<footer>© Lisa-Rec Co.,Ltd</footer>
+</body>
+</html>

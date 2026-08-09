@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）</title>
+<meta name="description" content="株式会社リサレコ（Lisa-Rec Co.,Ltd）は、作曲家・来兎（らいと）が代表を務める沖縄県那覇市の音楽制作会社です。CM音楽・サウンドロゴを112件、施設・空間のための音楽、ゲーム・アニメ音楽を、企画から作曲・仕上げまで一貫して制作しています。">
+<link rel="canonical" href="https://lisa-rec.net/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="株式会社リサレコ">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:url" content="https://lisa-rec.net/">
+<meta property="og:title" content="株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）">
+<meta property="og:description" content="作曲家・来兎（らいと）が代表を務める沖縄・那覇の音楽制作会社。CM音楽・サウンドロゴ112件、施設音楽、ゲーム・アニメ音楽を手がけています。">
+<meta property="og:image" content="https://lisa-rec.net/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0060C0">
+<style>
+  :root {
+    --ink: #201412;
+    --blue-deep: #0060C0;
+    --blue-mid: #30A0E0;
+    --blue-light: #5ED8F7;
+    --bg: #FFFFFF;
+    --bg-soft: #F6FAFD;
+    --grad: linear-gradient(160deg, #0060C0 0%, #30A0E0 55%, #5ED8F7 100%);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 2.0;
+    letter-spacing: 0.05em;
+    overflow-x: hidden;
+  }
+  .serif {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+    font-weight: 600;
+  }
+
+  #notes { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+  .wrap { position: relative; z-index: 1; }
+
+  /* ---- header ---- */
+  header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 22px 6vw;
+    position: sticky; top: 0;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+  }
+  .logo img { height: 40px; width: auto; display: block; }
+  nav a {
+    color: var(--ink); text-decoration: none;
+    font-size: 0.82rem; margin-left: 2.4em; letter-spacing: 0.16em;
+    position: relative;
+  }
+  nav a::after {
+    content: ""; position: absolute; left: 0; bottom: -6px;
+    width: 0; height: 2px; background: var(--grad);
+    transition: width 0.3s ease;
+  }
+  nav a:hover::after { width: 100%; }
+
+  /* ---- hero ---- */
+  .hero {
+    min-height: 88vh;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center;
+    padding: 0 8vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .bignote {
+    position: absolute;
+    right: -7%; top: 50%;
+    transform: translateY(-52%) rotate(8deg);
+    width: min(58vw, 800px);
+    height: auto;
+    opacity: 0.09;
+    pointer-events: none;
+    user-select: none;
+  }
+  .hero > *:not(.bignote) { position: relative; z-index: 1; }
+
+  /* ---- stats ---- */
+  .stats {
+    display: flex; justify-content: center; gap: 8vw;
+    padding: 10vh 8vw;
+    text-align: center;
+  }
+  .stats .stat .num {
+    font-size: clamp(2.4rem, 5.5vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    background: var(--grad);
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+    line-height: 1.2;
+  }
+  .stats .stat .lbl {
+    margin-top: 0.7em;
+    font-size: 0.78rem; letter-spacing: 0.18em; color: #6b6660;
+  }
+  .stats .stat .num.wide { letter-spacing: 0.02em; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.5; }
+  .hero h1 {
+    font-size: clamp(2.1rem, 5.4vw, 4.4rem);
+    line-height: 1.8;
+    letter-spacing: 0.14em;
+  }
+  .hero h1 .accent {
+    background: var(--grad);
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+  }
+  .hero .sub {
+    margin-top: 2.6em;
+    font-size: 0.92rem;
+    color: #4a4442;
+    letter-spacing: 0.12em;
+  }
+  .hero .en {
+    margin-top: 3.2em;
+    font-size: 0.72rem; letter-spacing: 0.42em;
+    color: var(--blue-deep);
+    text-transform: uppercase;
+  }
+  .scroll-cue {
+    margin-top: 7vh;
+    width: 1px; height: 64px;
+    background: linear-gradient(to bottom, var(--blue-deep), transparent);
+    animation: cue 2.4s ease-in-out infinite;
+  }
+  @keyframes cue {
+    0% { transform: scaleY(0); transform-origin: top; }
+    45% { transform: scaleY(1); transform-origin: top; }
+    55% { transform: scaleY(1); transform-origin: bottom; }
+    100% { transform: scaleY(0); transform-origin: bottom; }
+  }
+
+  /* ---- sound stories ---- */
+  section { padding: 15vh 8vw; }
+  section.soft { background: var(--bg-soft); }
+  .sec-label {
+    font-weight: 400;
+    font-size: 0.72rem; letter-spacing: 0.38em;
+    color: var(--blue-deep); text-transform: uppercase;
+    margin-bottom: 3em;
+    display: flex; align-items: center; gap: 1.2em;
+  }
+  .sec-label::after { content: ""; height: 1px; width: 64px; background: var(--grad); }
+
+  .story {
+    max-width: 46em;
+    margin: 0 auto 11vh;
+  }
+  .story:last-child { margin-bottom: 0; }
+  .story .num {
+    font-size: 0.78rem; letter-spacing: 0.3em; color: var(--blue-mid);
+    margin-bottom: 1.2em;
+  }
+  .story h3 {
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    letter-spacing: 0.12em;
+    line-height: 1.7;
+    margin-bottom: 1em;
+  }
+  .story p {
+    font-size: 0.94rem; color: #3c3634;
+  }
+  .story .quiet {
+    display: block; margin-top: 1.6em;
+    font-size: 0.82rem; color: #8a9099;
+    letter-spacing: 0.1em;
+  }
+  .story a.more {
+    display: inline-block; margin-top: 2em;
+    font-size: 0.8rem; letter-spacing: 0.22em;
+    color: var(--blue-deep); text-decoration: none;
+    border-bottom: 1px solid var(--blue-light);
+    padding-bottom: 3px;
+    transition: opacity 0.3s ease;
+  }
+  .story a.more:hover { opacity: 0.6; }
+
+  /* ---- works ---- */
+  .work-row {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #e8eef4;
+    text-decoration: none; color: var(--ink);
+    max-width: 46em; margin: 0 auto;
+    transition: padding-left 0.3s ease;
+  }
+  .work-row:hover { padding-left: 0.8em; }
+  .work-row:hover .work-title { color: var(--blue-deep); }
+  .work-title { font-size: 1.02rem; font-weight: 600; transition: color 0.3s ease; }
+  .work-meta { font-size: 0.76rem; color: #8a9099; letter-spacing: 0.14em; }
+
+  /* ---- works list (static / year grouped) ---- */
+  .wnote {
+    max-width: 46rem; margin: -2.6em auto 3.5em;
+    font-size: 0.7rem; letter-spacing: 0.2em; color: #8a9099;
+  }
+  .wcount {
+    font-size: 0.7rem; letter-spacing: 0.18em; color: var(--blue-deep);
+    margin-left: 1.1em; font-weight: 400; white-space: nowrap;
+  }
+  .wyear {
+    display: grid; grid-template-columns: 5.2em 1fr; gap: 0 1.2em;
+    padding: 1.15em 0; border-top: 1px solid #e8eef4;
+  }
+  .wyear:last-child { border-bottom: 1px solid #e8eef4; }
+  .wyear .y {
+    font-size: 0.8rem; letter-spacing: 0.14em; color: var(--blue-deep);
+    font-weight: 600; padding-top: 0.35em; line-height: 1.9;
+  }
+  .wyear ul { list-style: none; }
+  .wyear li {
+    font-size: 0.9rem; line-height: 1.95; letter-spacing: 0.03em;
+    padding: 0.1em 0;
+  }
+  .wlist.clip { position: relative; max-height: 44em; overflow: hidden; }
+  .wlist.clip::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 12em;
+    background: linear-gradient(to bottom, rgba(246,250,253,0) 0%, var(--bg-soft) 85%);
+    pointer-events: none;
+  }
+  .wlist.open { max-height: none; }
+  .wlist.open::after { display: none; }
+  .wl-more {
+    display: block; margin: 2.4em auto 0;
+    background: none; border: 1px solid #cfe0ee; border-radius: 999px;
+    color: var(--blue-deep); font-family: inherit;
+    font-size: 0.74rem; letter-spacing: 0.22em;
+    padding: 0.95em 2.6em; cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  .wl-more:hover { background: var(--blue-deep); color: #fff; border-color: var(--blue-deep); }
+
+  /* ---- artist ---- */
+  .artist { max-width: 46em; margin: 0 auto; }
+  .artist h3 {
+    font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+    letter-spacing: 0.18em; margin-bottom: 0.6em;
+  }
+  .artist .role { font-size: 0.8rem; letter-spacing: 0.26em; color: var(--blue-deep); margin-bottom: 2em; }
+  .artist p { font-size: 0.94rem; color: #3c3634; }
+
+  .fade { opacity: 0; transform: translateY(26px); transition: opacity 0.9s ease, transform 0.9s ease; }
+  .fade.in { opacity: 1; transform: none; }
+
+  /* ---- works categories ---- */
+  .wcat { max-width: 46em; margin: 0 auto 12vh; }
+  .wcat:last-child { margin-bottom: 0; }
+  .wcat-title { font-size: clamp(1.3rem, 2.6vw, 1.8rem); letter-spacing: 0.12em; margin-bottom: 0.9em; }
+  .cat-intro { font-size: 0.92rem; color: #3c3634; margin-bottom: 2.5em; }
+  .cat-intro .ext { color: var(--blue-deep); text-decoration: none; border-bottom: 1px solid var(--blue-light); font-size: 0.85rem; }
+  .cat-intro .ext:hover { opacity: 0.6; }
+  .wl-row {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1.5em;
+    padding: 0.9em 0;
+    border-bottom: 1px solid #e8eef4;
+    font-size: 0.92rem;
+  }
+  .wl-row .t { letter-spacing: 0.04em; }
+  .wl-row .t .dot { color: var(--blue-deep); margin-right: 0.5em; }
+  .wl-row .y { font-size: 0.72rem; color: #8a9099; letter-spacing: 0.12em; white-space: nowrap; }
+  a.mail { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--blue-mid); font-size: 1rem; letter-spacing: 0.06em; }
+  a.mail:hover { color: var(--blue-deep); }
+  .finfo { display: flex; flex-direction: column; gap: 0.4em; }
+
+  footer {
+    padding: 7vh 8vw;
+    font-size: 0.74rem; color: #8a9099;
+    display: flex; justify-content: space-between;
+    border-top: 1px solid #e8eef4;
+  }
+
+  /* ---- mobile ---- */
+  @media (max-width: 640px) {
+    header { padding: 16px 5vw; }
+    .logo img { height: 30px; width: auto; }
+    nav a {
+      font-size: 0.66rem; letter-spacing: 0.1em; margin-left: 1.5em;
+      white-space: nowrap;
+    }
+    .hero h1 { letter-spacing: 0.08em; line-height: 1.7; }
+    .hero .sub { font-size: 0.82rem; letter-spacing: 0.05em; padding: 0 4vw; }
+    .hero .en { font-size: 0.58rem; letter-spacing: 0.2em; }
+    section { padding: 11vh 7vw; }
+    .sec-label { letter-spacing: 0.28em; }
+    .work-row { flex-direction: column; align-items: flex-start; gap: 0.4em; }
+    .wl-row { flex-direction: column; gap: 0.1em; align-items: flex-start; padding: 0.8em 0; }
+    .wyear { grid-template-columns: 3.4em 1fr; gap: 0 0.8em; padding: 1em 0; }
+    .wyear .y { font-size: 0.72rem; letter-spacing: 0.06em; }
+    .wyear li { font-size: 0.84rem; line-height: 1.85; padding-left: 0.7em; }
+    .wcount { display: block; margin-left: 0; margin-top: 0.5em; font-size: 0.66rem; }
+    .wlist.clip { max-height: 40em; }
+    .wl-more { font-size: 0.68rem; padding: 0.9em 2em; letter-spacing: 0.16em; }
+    .artist h3 { letter-spacing: 0.1em; }
+    .stats { flex-direction: column; gap: 3em; padding: 8vh 8vw; }
+    .bignote { right: -20%; opacity: 0.07; }
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://lisa-rec.net/#org",
+      "name": "株式会社リサレコ",
+      "alternateName": ["リサレコ", "Lisa-Rec Co.,Ltd", "Lisa-Rec Inc.", "Lisa-Rec"],
+      "url": "https://lisa-rec.net/",
+      "email": "contact@lisa-rec.net",
+      "foundingDate": "2010-03",
+      "description": "CM音楽・サウンドロゴ、施設・空間のための音楽、ゲーム・アニメ音楽の企画制作を行う音楽制作会社。沖縄県那覇市。",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JP",
+        "addressRegion": "沖縄県",
+        "addressLocality": "那覇市",
+        "streetAddress": "久茂地1-1-1 9階"
+      },
+      "founder": { "@id": "https://raito.studio/#person" },
+      "employee": { "@id": "https://raito.studio/#person" },
+      "knowsAbout": ["CM音楽", "サウンドロゴ", "コマーシャルソング", "施設音楽", "空間音楽", "ゲーム音楽", "アニメ音楽", "劇伴"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://raito.studio/#person",
+      "name": "来兎",
+      "alternateName": ["らいと", "Raito", "久場 超", "Masaru Kuba"],
+      "jobTitle": "作曲家 / 株式会社リサレコ 代表取締役",
+      "url": "https://raito.studio/",
+      "sameAs": [
+        "https://raito.studio/",
+        "https://open.spotify.com/artist/6UunbAVLWAebLi1UB7GyXk",
+        "https://www.youtube.com/channel/UCuUUK_sojL65BDL2AK7yWNw"
+      ],
+      "worksFor": { "@id": "https://lisa-rec.net/#org" },
+      "knowsLanguage": ["ja", "en"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://lisa-rec.net/#website",
+      "url": "https://lisa-rec.net/",
+      "name": "株式会社リサレコ",
+      "inLanguage": "ja",
+      "publisher": { "@id": "https://lisa-rec.net/#org" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<canvas id="notes"></canvas>
+<div class="wrap">
+
+<header>
+  <div class="logo"><img src="logo.png" alt="株式会社リサレコ" width="208" height="120"></div>
+  <nav>
+    <a href="#works">WORKS</a>
+    <a href="#artist">ARTIST</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <svg class="bignote" viewBox="0 0 353 574" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="noteg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#0060C0"/><stop offset="0.55" stop-color="#30A0E0"/><stop offset="1" stop-color="#5ED8F7"/></linearGradient></defs><path d="M 137.5 571.5 L 135.0 569.1 L 135.0 383.1 C 135.0 199.2 135.0 197.1 133.0 196.5 C 132.0 196.2 130.3 196.3 129.3 196.8 C 122.2 200.6 95.0 200.8 80.4 197.1 C 73.0 195.3 60.9 190.5 57.0 188.0 C 56.2 187.4 54.4 186.5 53.1 185.9 C 45.3 182.6 27.9 166.7 21.0 156.5 C 15.7 148.8 13.4 144.6 7.9 132.4 C 4.9 125.8 2.1 113.4 0.8 101.0 C -0.2 91.1 -0.1 87.9 1.3 79.0 C 4.8 56.7 11.8 41.7 25.7 27.0 C 36.3 15.7 51.2 6.9 66.5 3.0 C 69.2 2.3 71.9 1.3 72.4 0.9 C 73.7 -0.3 111.5 -0.3 113.8 0.9 C 114.7 1.4 119.0 2.7 123.3 3.9 C 131.7 6.2 150.9 15.0 153.0 17.5 C 153.7 18.3 154.7 19.0 155.2 19.0 C 159.0 19.0 178.4 39.3 184.9 50.0 C 194.2 65.3 201.0 83.4 204.4 102.0 C 207.7 119.9 208.0 133.8 208.0 282.7 L 208.0 432.0 L 217.8 422.4 C 223.1 417.2 230.9 410.1 235.0 406.7 C 246.7 397.0 263.8 380.1 268.5 373.5 C 282.6 353.8 286.1 335.9 279.6 316.8 C 272.7 296.0 262.1 280.8 235.2 252.8 C 222.2 239.2 222.1 238.8 232.2 228.6 C 236.2 224.6 241.8 219.6 244.5 217.4 C 247.2 215.3 253.4 209.8 258.1 205.3 C 265.9 197.8 267.1 197.0 270.6 197.0 C 274.3 197.0 275.3 197.8 293.2 215.8 C 303.5 226.1 313.5 236.5 315.4 239.0 C 325.0 251.2 327.0 254.0 331.2 261.0 C 340.9 277.0 346.1 290.0 350.2 308.1 C 352.2 317.0 352.5 321.2 352.5 338.0 C 352.5 358.8 351.8 363.4 346.3 381.0 C 343.3 390.4 335.4 406.9 330.6 413.8 C 328.9 416.2 327.0 419.0 326.4 420.1 C 325.8 421.2 322.3 425.3 318.6 429.3 C 310.1 438.3 312.0 436.4 301.3 446.2 C 284.3 461.5 281.3 464.0 280.4 464.0 C 279.8 464.0 277.6 465.8 275.5 468.0 C 273.4 470.2 271.1 472.0 270.5 472.0 C 269.9 472.0 267.2 474.2 264.5 477.0 C 261.8 479.8 259.1 482.0 258.5 482.0 C 256.4 482.0 230.1 509.7 225.4 516.8 C 219.4 525.8 219.9 525.0 216.0 533.2 C 212.3 541.0 211.6 543.6 209.0 558.9 C 207.8 565.9 206.5 570.9 205.4 572.1 C 203.8 573.9 201.8 574.0 171.8 574.0 L 139.9 574.0 L 137.5 571.5 Z M 341.4 232.5 C 341.4 214.9 341.6 207.8 341.7 216.8 C 341.9 225.8 341.9 240.2 341.7 248.8 C 341.6 257.4 341.4 250.1 341.4 232.5 Z" fill="url(#noteg)" fill-rule="evenodd"/></svg>
+  <h1 class="serif fade in">その場所に、<br>まだない<span class="accent">音</span>を</h1>
+  <p class="sub fade in">株式会社リサレコ（Lisa-Rec Co.,Ltd）は、作曲家・来兎（らいと）が代表を務める音楽制作会社です。<br>
+  CM音楽・サウンドロゴと、施設・空間のための音楽を中心に、企画から作曲・仕上げまでを一貫して手がけています。</p>
+  <div class="en fade in">Lisa-Rec — Music for Scenes &amp; Stories</div>
+  <div class="scroll-cue"></div>
+</div>
+
+<section class="stats">
+  <div class="stat fade"><div class="num">100+</div><div class="lbl">CM音楽・サウンドロゴ</div></div>
+  <div class="stat fade"><div class="num wide">100,000,000+</div><div class="lbl">音楽配信 再生数突破</div></div>
+</section>
+
+<section id="works" class="soft">
+  <h2 class="sec-label fade">Works</h2>
+  <p class="wnote fade">順不同・敬称略</p>
+
+  <div class="wcat">
+    <h3 class="serif wcat-title">CM音楽・サウンドロゴ<span class="wcount">113件</span></h3>
+    <p class="cat-intro">15秒で覚えてもらうための音を、企画意図から逆算して作ります。2010年から2023年までに手がけたCM音楽・サウンドロゴは113件です。</p>
+          <div class="wlist clip" id="cm-list">
+      <div class="wyear">
+        <div class="y"><time datetime="2023">2023</time></div>
+        <ul>
+          <li>ユーポス CM「護得久のズンドコ篇」楽曲</li>
+          <li>『Fate/Grand Order』水着イベント TV-CM楽曲</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2022">2022</time></div>
+        <ul>
+          <li>りゅうせき TVCM BGM</li>
+          <li>サンエー「アプリクーポン利用篇」CMコマソン</li>
+          <li>サンエー「テイクアウト篇」CMコマソン</li>
+          <li>とまとハウジング サウンドロゴ</li>
+          <li>sity サウンドロゴ</li>
+          <li>ABC CM 仮歌制作（4タイプ・15秒）</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2021">2021</time></div>
+        <ul>
+          <li>JAおきなわ「パイン」オリジナルソング</li>
+          <li>ぐしけんパン コマソング</li>
+          <li>ハドムフードサービス CMソング</li>
+          <li>サンエー「サンリィ」CMソング</li>
+          <li>サンエー サウンドロゴ</li>
+          <li>いなんせ会館 CMソング</li>
+          <li>タマキホーム「特P」サウンドロゴ</li>
+          <li>奏ホールディングス サウンドロゴ</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2020">2020</time></div>
+        <ul>
+          <li>リウボウホンダ コマソング</li>
+          <li>沖縄そばCM「ウサガミソーレー」楽曲</li>
+          <li>FM沖縄「Radio dub」番組ジングル</li>
+          <li>楽ラック 商品名サウンドロゴ</li>
+          <li>Edy「Edyサン子さん」CMソング 追加収録</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2019">2019</time></div>
+        <ul>
+          <li>サロンCELL TVCM音楽</li>
+          <li>沖縄大学 TVCM楽曲</li>
+          <li>サンエー「かりゆし」CM 男性版</li>
+          <li>麸久寿 商品名サウンドロゴ</li>
+          <li>ビッグワン 店内動画コマソン</li>
+          <li>RCワークス 企業サウンドロゴ</li>
+          <li>FM沖縄「Chuning Candy」新番組ジングル・BGM</li>
+          <li>ビッグワン おつまみ・お菓子「マーチ」CMソング</li>
+          <li>さかえ塗装 TVCM BGM</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2018">2018</time></div>
+        <ul>
+          <li>沖縄県立博物館・美術館「縄文と沖縄」展 CM音楽</li>
+          <li>サンエー「Edyカード」CM音楽</li>
+          <li>auショップ「かんたん予約」TVCM BGM・SE</li>
+          <li>マーチ家賃保証 サウンドロゴ</li>
+          <li>唐船島・自家製米 CMコマソン</li>
+          <li>HOT沖縄 CM BGM（ニュースアレンジ）</li>
+          <li>FM沖縄「ラジダブのテーマ2018」ジングル</li>
+          <li>サンエー「かりゆしキャンペーン」新CM楽曲アレンジ</li>
+          <li>ジョブカロリ CMソング・サウンドロゴ</li>
+          <li>沖縄ファミリーマート コマソン</li>
+          <li>とまとハウジング サウンドロゴ・楽曲</li>
+          <li>沖縄労働金庫「iDeCoのうた」「ろうきんズ」TVCM</li>
+          <li>ワコー貿易 CMインストBGM</li>
+          <li>ツーワン マンションCM サウンドロゴ</li>
+          <li>PETBOX CMソング</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2017">2017</time></div>
+        <ul>
+          <li>謝花組 サウンドロゴ・ラジオCM・オリジナルソング</li>
+          <li>ビッグワン「安納芋」CMソング</li>
+          <li>動物病院グループaniC コマソン・BGM</li>
+          <li>ABC「ホメラップ」CMサンプル曲</li>
+          <li>ワーキングショップ CMソング</li>
+          <li>宜野座村 CM楽曲</li>
+          <li>沖縄労働金庫「iDeCo」ラジオCMソング</li>
+          <li>琉球新報 TVCM・ラジオCM BGM</li>
+          <li>サンエー「ハッピーシニアデー」CMソング</li>
+          <li>ラッキー自動車「愛と感謝のメッセージ」CMソング編曲</li>
+          <li>沖縄銀行 CM「苗」BGM</li>
+          <li>HOT沖縄 オリジナルソング</li>
+          <li>琉球新報 CM BGM（テクノ風アレンジ）</li>
+          <li>タカラ住建 CMソング</li>
+          <li>大同火災 CMソング</li>
+          <li>安納誘 ラジオCMソング</li>
+          <li>パーティーフェイスガレージ TVCMコマソン</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2016">2016</time></div>
+        <ul>
+          <li>沖縄ホンダ CM楽曲（テンプラキッズ起用）</li>
+          <li>新洋ロードドライブ「太平洋マーチ」ラジオCMコマソン</li>
+          <li>大知建設 TVCM楽曲</li>
+          <li>ラジオ「いきいき健康あいらんど」ジングル</li>
+          <li>サンエー「旧盆スペシャル」CM楽曲</li>
+          <li>沖縄労働金庫 CM「ミュージカル編」楽曲</li>
+          <li>au×A&amp;W「森のくまさん」CM BGM</li>
+          <li>サンエー「Edyカード」CMコマソン</li>
+          <li>ステーキハウス88 CMコマソン</li>
+          <li>A&amp;W TVCM・ラジオCM BGM</li>
+          <li>ベビー館 TVCMソング</li>
+          <li>ジムキ文明堂 ラジオCMソング</li>
+          <li>琉球新報 TVCM・ラジオCM BGM</li>
+          <li>コザ信用金庫「きいやま商店50周年」CMソング</li>
+          <li>財全グループ サウンドロゴ</li>
+          <li>沖縄県「自動車税」CMソング</li>
+          <li>宜野座村 CM BGM・ナレーション</li>
+          <li>A&amp;W「ハロウィン」WEB動画BGM</li>
+          <li>メディカルアシスト サウンドロゴ</li>
+          <li>Mr.KINJO ラジオCMコマソン</li>
+          <li>カーサポートHIDE ラジオCMコマソン</li>
+          <li>てもみん CMソング</li>
+          <li>沖縄ホーメル「デリカフランク」CMソング</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2015">2015</time></div>
+        <ul>
+          <li>国保「がんじゅうタイム」番組OP・特定健診CM BGM</li>
+          <li>国民健康保険「被保険者証更新」CMソング</li>
+          <li>沖縄県「自動車税」コマソン</li>
+          <li>沖縄銀行 ラジオCMサウンドロゴ</li>
+          <li>動物病院「vet's park 22時」CMコマソン</li>
+          <li>赤峰家具 CM楽曲</li>
+          <li>プレステージホーム沖縄 サウンドロゴ</li>
+          <li>コザ信用金庫「ジンがねーらん」CMソング</li>
+          <li>琉球新報「たまりゅうちゃん」CM 尺調整・SE追加</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2014">2014</time></div>
+        <ul>
+          <li>ACジャパン 全国TVCMサウンドロゴ</li>
+          <li>サンエー「かりゆし」CM楽曲</li>
+          <li>ファミリーマート「クリスマス」CM音楽</li>
+          <li>サンエー モーションロゴ サウンド</li>
+          <li>au沖縄セルラー「春CM」楽曲（2曲）</li>
+          <li>琉球新報 CM オーケストラ版楽曲</li>
+          <li>メガネ1番「GWセール」TVCM・イベントBGM</li>
+          <li>サンエー「ランドセル」CM楽曲</li>
+          <li>au「auパラダイスネット」ジングル</li>
+          <li>ソーメンマン ラジオBGM・ジングル</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2013">2013</time></div>
+        <ul>
+          <li>au沖縄セルラー「夏キャンペーン」CMソング</li>
+          <li>琉球新報 CM BGM（ピアノ／エレクトロニカ版）</li>
+          <li>沖縄保険者協議会 CM楽曲</li>
+          <li>南城市 PR映像コマソング・「なんじぃ」PV BGM</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2012">2012</time></div>
+        <ul>
+          <li>琉球銀行 CMソング</li>
+          <li>日本ウエストン 社歌</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2011">2011</time></div>
+        <ul>
+          <li>琉球銀行「ATM48キャンペーン」CMソング</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2010">2010</time></div>
+        <ul>
+          <li>沖縄県「自動車税」CMソング</li>
+          <li>au（KDDI）「夏市音頭」ラジオCM</li>
+        </ul>
+      </div>
+      </div>
+      <button class="wl-more" type="button" data-target="cm-list" aria-expanded="false">CM実績 113件をすべて表示</button>
+  </div>
+
+  <div class="wcat">
+    <h3 class="serif wcat-title">施設・空間の音楽<span class="wcount">6件</span></h3>
+    <p class="cat-intro">人がその場所で過ごす時間のための音楽。サラウンドのシアター音楽から、屋外イベントの環境音楽など、空間の体験そのものを音で設計します。</p>
+    <div class="wlist" id="space-list">
+      <div class="wyear">
+        <div class="y"><time datetime="2022">2022</time></div>
+        <ul>
+          <li>DMMかりゆし水族館 シアタールーム投影用BGM（5.1chサラウンド）</li>
+          <li>DMMかりゆし水族館 はいさいプラザ プロジェクション映像音楽</li>
+          <li>金秀グループ 映像SE</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2016">2016</time></div>
+        <ul>
+          <li>しまくとうば普及推進事業 楽曲</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2015">2015</time></div>
+        <ul>
+          <li>パシフィックホテル沖縄「月の砂漠」アレンジ</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2013">2013</time></div>
+        <ul>
+          <li>沖縄観光コンベンションビューロー 著作権フリーBGM・ジングル集</li>
+        </ul>
+      </div>
+      </div>
+  </div>
+
+  <div class="wcat">
+    <h3 class="serif wcat-title">ゲーム・アニメの音楽<span class="wcount">17件</span></h3>
+    <p class="cat-intro">『MELTY BLOOD』『UNDER NIGHT IN-BIRTH』シリーズ、TVアニメ『SK∞ エスケーエイト』など。来兎（Raito）名義のゲーム・アニメ音楽は、いま世界中のプレイヤーとファンに届いています。<br><a class="ext" href="https://raito.studio" target="_blank" rel="noopener">→ 詳しくは raito.studio（英語）</a></p>
+    <div class="wlist" id="game-list">
+      <div class="wyear">
+        <div class="y"><time datetime="2025">2025</time></div>
+        <ul>
+          <li>Double Dragon Revive</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2021">2021</time></div>
+        <ul>
+          <li>SK∞ エスケーエイト</li>
+          <li>Fate/Grand Order</li>
+          <li>キングダム DASH!!</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2020">2020</time></div>
+        <ul>
+          <li>痛いのは嫌なので防御力に極振りしたいと思います。～らいんうぉーず！～</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2019">2019</time></div>
+        <ul>
+          <li>ぼくたちは勉強ができない（Study 主題歌）</li>
+          <li>Indivisible</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2018">2018</time></div>
+        <ul>
+          <li>BLAZBLUE CROSS TAG BATTLE</li>
+          <li>斉木楠雄のΨ難 妄想暴走!Ψキックバトル</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2016">2016</time></div>
+        <ul>
+          <li>オキナワノコワイハナシ 劇伴（TVドラマシリーズ）</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2014">2014</time></div>
+        <ul>
+          <li>電撃文庫 FIGHTING CLIMAX</li>
+          <li>クレヨンしんちゃん 嵐を呼ぶ炎のカスカベランナー!!</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2012">2012</time></div>
+        <ul>
+          <li>UNDER NIGHT IN-BIRTH シリーズ</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2008">2008</time></div>
+        <ul>
+          <li>キューティーハニー THE LIVE</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2007">2007</time></div>
+        <ul>
+          <li>らき☆すた</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2006">2006</time></div>
+        <ul>
+          <li>ひぐらしのなく頃に イメージアルバム</li>
+        </ul>
+      </div>
+      <div class="wyear">
+        <div class="y"><time datetime="2003">2003</time></div>
+        <ul>
+          <li>MELTY BLOOD シリーズ</li>
+        </ul>
+      </div>
+      </div>
+  </div>
+</section>
+
+<section id="artist">
+  <h2 class="sec-label fade">Artist</h2>
+  <div class="artist">
+    <h3 class="serif fade">来兎</h3>
+    <div class="role fade">COMPOSER / 株式会社リサレコ代表</div>
+    <p class="fade">作曲家・来兎（らいと / Raito）。1997年にゲーム音楽から作曲活動を始め、対戦格闘ゲーム『MELTY BLOOD』『UNDER NIGHT IN-BIRTH』シリーズ、TVアニメ『SK∞ エスケーエイト』などの音楽を手がける。2010年に株式会社リサレコを設立。沖縄・那覇を拠点に、ゲーム音楽で培ったキャッチーなサウンドを活かし、CM音楽・サウンドロゴ・施設音楽へと領域を広げる。</p>
+  </div>
+</section>
+
+<section id="contact" class="soft">
+  <h2 class="sec-label fade">Contact</h2>
+  <div class="artist">
+    <p class="fade"><a class="mail" href="mailto:contact@lisa-rec.net">contact@lisa-rec.net</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="finfo">
+    <span>© Lisa-Rec Co.,Ltd</span>
+    <span>株式会社リサレコ｜代表: 久場 超（来兎）｜2010年3月設立</span>
+    <span>沖縄県那覇市久茂地1-1-1 9階</span>
+  </div>
+</footer>
+
+</div>
+
+<script>
+// ---- 泳ぐ記号たち ----
+const cv = document.getElementById('notes');
+const ctx = cv.getContext('2d');
+let W, H;
+function resize(){ W = cv.width = innerWidth; H = cv.height = innerHeight; }
+resize(); addEventListener('resize', resize);
+
+const COLORS = ['#0060C0', '#30A0E0', '#5ED8F7', '#2090D0'];
+const FONT = '"Noto Music","Apple Symbols","Segoe UI Symbol",serif';
+
+const GLYPHS = {
+  treble: '\u{1D11E}',
+  bass:   '\u{1D122}',
+  beam:   '♫',
+  eighth: '♪',
+  rest:   '\u{1D13D}'
+};
+// 環境のフォントが対応していない記号は豆腐（□）になるため、
+// 描画結果を未定義文字と比較して、対応していなければ安全な音符に差し替える
+(function(){
+  const t = document.createElement('canvas');
+  t.width = t.height = 48;
+  const c2 = t.getContext('2d');
+  function draw(ch){
+    c2.clearRect(0, 0, 48, 48);
+    c2.font = '32px ' + FONT;
+    c2.textBaseline = 'top';
+    c2.fillText(ch, 4, 4);
+    return t.toDataURL();
+  }
+  const notdef1 = draw('\u{10FFFF}');
+  const notdef2 = draw('\uFDD0');
+  const FALLBACK = { treble: '♬', bass: '♩', rest: '♪' };
+  for (const k in FALLBACK) {
+    const d = draw(GLYPHS[k]);
+    if (d === notdef1 || d === notdef2) GLYPHS[k] = FALLBACK[k];
+  }
+})();
+
+// スマホは記号を小さく・少なく（画面に対して主張しすぎない）
+const MOBILE = innerWidth < 600;
+const SC = MOBILE ? 0.5 : 1;    // サイズ倍率
+const cast = [
+  { g: 'treble', n: MOBILE ? 1 : 2, s: [140 * SC, 220 * SC], a: [0.045, 0.07], v: [0.08, 0.15] },
+  { g: 'bass',   n: MOBILE ? 1 : 2, s: [120 * SC, 180 * SC], a: [0.045, 0.07], v: [0.08, 0.15] },
+  { g: 'beam',   n: MOBILE ? 2 : 5, s: [40 * SC, 70 * SC],  a: [0.09, 0.13],  v: [0.25, 0.45] },
+  { g: 'rest',   n: MOBILE ? 2 : 3, s: [36 * SC, 60 * SC],  a: [0.08, 0.12],  v: [0.22, 0.4] },
+  { g: 'eighth', n: MOBILE ? 6 : 10, s: [9 * SC, 20 * SC],   a: [0.14, 0.2],  v: [0.5, 0.9] },
+  { g: 'beam',   n: MOBILE ? 2 : 5, s: [12 * SC, 22 * SC],  a: [0.14, 0.2],  v: [0.5, 0.85] }
+];
+
+const rnd = (a, b) => a + Math.random() * (b - a);
+const swimmers = [];
+for (const c of cast) {
+  for (let i = 0; i < c.n; i++) {
+    swimmers.push({
+      ch: GLYPHS[c.g],
+      x: Math.random() * W, y: Math.random() * H,
+      v: rnd(c.v[0], c.v[1]),
+      s: rnd(c.s[0], c.s[1]),
+      a: rnd(c.a[0], c.a[1]),
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+      ph: Math.random() * Math.PI * 2,
+      amp: rnd(10, 36),
+      freq: rnd(0.4, 1.1)
+    });
+  }
+}
+swimmers.sort((p, q) => q.s - p.s);
+
+function tick(t){
+  ctx.clearRect(0, 0, W, H);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  for (const n of swimmers) {
+    const surge = 1 + 0.45 * Math.sin(t * 0.0006 * n.freq + n.ph);
+    n.x += n.v * surge;
+    const wave = Math.sin(t * 0.0008 * n.freq + n.ph);
+    const yy = n.y + wave * n.amp;
+    const tilt = Math.cos(t * 0.0008 * n.freq + n.ph) * 0.10 * Math.min(1, 40 / n.s);
+
+    const m = n.s * 1.2;
+    if (n.x > W + m) { n.x = -m; n.y = Math.random() * H; }
+
+    ctx.save();
+    ctx.translate(n.x, yy);
+    ctx.rotate(tilt);
+    ctx.globalAlpha = n.a;
+    ctx.fillStyle = n.c;
+    ctx.font = n.s + 'px ' + FONT;
+    ctx.fillText(n.ch, 0, 0);
+    ctx.restore();
+  }
+  requestAnimationFrame(tick);
+}
+requestAnimationFrame(tick);
+
+// ---- WORKS 一覧の展開（HTMLは静的。JSは開閉だけ） ----
+document.querySelectorAll('.wl-more').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const box = document.getElementById(btn.dataset.target);
+    box.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+    btn.remove();
+  });
+});
+
+const io = new IntersectionObserver(es => {
+  es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+}, { threshold: 0.15 });
+document.querySelectorAll('.fade').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
