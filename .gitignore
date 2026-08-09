@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# 作業用の下書き・退避
+*.bak
+_to_delete/
