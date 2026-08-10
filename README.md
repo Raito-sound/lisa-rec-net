@@ -12,6 +12,7 @@
 |---|---|
 | `index.html` | サイト本体。CSS・JS・ロゴ・音符SVGをすべてインラインした自己完結型の1ファイル |
 | `404.html` | 存在しないURLに来たとき用 |
+| `ogp.png` | SNS共有時のカード画像（1200×630） |
 | `llms.txt` | 生成AI・LLM向けのサイト要約（AIフレンドリー方針） |
 | `robots.txt` | クローラー設定。AIクローラーは全許可 |
 | `sitemap.xml` | サイトマップ |
@@ -29,4 +30,25 @@
 
 ## 公開
 
-GitHub Pages（`main` ブランチのルート）。独自ドメイン `lisa-rec.net` へ切り替える際は `CNAME` ファイルを追加し、DNS の apex と www のみ変更する。既存のサブドメインのレコードは消さないこと。
+GitHub Pages（`main` ブランチのルート）で配信する。
+
+- 仮公開URL: https://raito-sound.github.io/lisa-rec-net/
+- 本番URL（予定）: https://lisa-rec.net/
+
+### 独自ドメイン切替時のチェックリスト
+
+1. `CNAME` ファイル（中身は `lisa-rec.net` の1行）をリポジトリのルートに追加する
+2. DNS は **apex と www のみ** 変更する。**既存のサブドメインのレコードは消さない**（別サービスが稼働しているため）
+3. Settings → Pages → Custom domain に `lisa-rec.net` を設定し、Enforce HTTPS を有効にする
+4. `https://lisa-rec.net/ogp.png` が表示されることを確認する。`index.html` の `og:image` はこのURLを指しているため、DNS切替までSNSの共有カードには画像が出ない（想定どおりの挙動）
+5. Google Search Console と Bing Webmaster Tools にサイトを登録する
+
+## 更新方法
+
+ファイルを編集したあと、リポジトリのフォルダで次を実行する。
+
+```
+git add -A
+git commit -m "変更内容"
+git push
+```

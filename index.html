@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）</title>
-<meta name="description" content="株式会社リサレコ（Lisa-Rec Co.,Ltd）は、作曲家・来兎（らいと）が代表を務める沖縄県那覇市の音楽制作会社です。CM音楽・サウンドロゴを112件、施設・空間のための音楽、ゲーム・アニメ音楽を、企画から作曲・仕上げまで一貫して制作しています。">
+<meta name="description" content="株式会社リサレコ（Lisa-Rec Co.,Ltd）は、作曲家・来兎（らいと）が代表を務める沖縄県那覇市の音楽制作会社です。CM音楽・サウンドロゴを104件、施設・空間のための音楽、ゲーム・アニメ音楽を、企画から作曲・仕上げまで一貫して制作しています。">
 <link rel="canonical" href="https://lisa-rec.net/">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta property="og:type" content="website">
@@ -12,7 +12,7 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:url" content="https://lisa-rec.net/">
 <meta property="og:title" content="株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）">
-<meta property="og:description" content="作曲家・来兎（らいと）が代表を務める沖縄・那覇の音楽制作会社。CM音楽・サウンドロゴ112件、施設音楽、ゲーム・アニメ音楽を手がけています。">
+<meta property="og:description" content="作曲家・来兎（らいと）が代表を務める沖縄・那覇の音楽制作会社。CM音楽・サウンドロゴ104件、施設音楽、ゲーム・アニメ音楽を手がけています。">
 <meta property="og:image" content="https://lisa-rec.net/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0060C0">
@@ -201,6 +201,26 @@
   .work-title { font-size: 1.02rem; font-weight: 600; transition: color 0.3s ease; }
   .work-meta { font-size: 0.76rem; color: #8a9099; letter-spacing: 0.14em; }
 
+  /* ---- clients ---- */
+  .clients-grid {
+    list-style: none;
+    max-width: 46rem; margin: 0 auto;
+    display: flex; flex-wrap: wrap; justify-content: center;
+    gap: 0.7em;
+  }
+  .clients-grid li {
+    flex: 0 0 calc(25% - 0.525rem);
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    min-height: 4.4em;
+    padding: 0.9em 0.8em;
+    font-size: 0.84rem; line-height: 1.6; letter-spacing: 0.03em;
+    color: #2a2422;
+    background: var(--bg-soft);
+    border: 1px solid #e8eef4;
+    border-radius: 6px;
+  }
+
   /* ---- works list (static / year grouped) ---- */
   .wnote {
     max-width: 46rem; margin: -2.6em auto 3.5em;
@@ -210,28 +230,32 @@
     font-size: 0.7rem; letter-spacing: 0.18em; color: var(--blue-deep);
     margin-left: 1.1em; font-weight: 400; white-space: nowrap;
   }
-  .wyear {
-    display: grid; grid-template-columns: 5.2em 1fr; gap: 0 1.2em;
-    padding: 1.15em 0; border-top: 1px solid #e8eef4;
+  .wgroup {
+    display: grid; grid-template-columns: 8.6em 1fr; gap: 0 1.4em;
+    padding: 1.4em 0; border-top: 1px solid #e8eef4;
   }
-  .wyear:last-child { border-bottom: 1px solid #e8eef4; }
-  .wyear .y {
-    font-size: 0.8rem; letter-spacing: 0.14em; color: var(--blue-deep);
-    font-weight: 600; padding-top: 0.35em; line-height: 1.9;
+  .wgroup:last-of-type { border-bottom: 1px solid #e8eef4; }
+  .wgroup .g {
+    font-size: 0.78rem; letter-spacing: 0.08em; color: var(--blue-deep);
+    font-weight: 600; line-height: 1.6; padding-top: 0.45em;
   }
-  .wyear ul { list-style: none; }
-  .wyear li {
-    font-size: 0.9rem; line-height: 1.95; letter-spacing: 0.03em;
-    padding: 0.1em 0;
+  .wgroup .g .n {
+    display: block; margin-top: 0.35em;
+    font-size: 0.66rem; font-weight: 400; letter-spacing: 0.1em; color: #9aa3ac;
   }
-  .wlist.clip { position: relative; max-height: 44em; overflow: hidden; }
-  .wlist.clip::after {
-    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 12em;
-    background: linear-gradient(to bottom, rgba(246,250,253,0) 0%, var(--bg-soft) 85%);
-    pointer-events: none;
+  .wgroup ul, .wflat { list-style: none; }
+  .wflat { border-top: 1px solid #e8eef4; }
+  .wflat .wrow { padding: 0.95em 0; border-bottom: 1px solid #e8eef4; }
+  .wrow {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1.2em;
+    font-size: 0.9rem; line-height: 1.9; letter-spacing: 0.03em;
+    padding: 0.15em 0;
   }
-  .wlist.open { max-height: none; }
-  .wlist.open::after { display: none; }
+  .wrow .yr { font-size: 0.72rem; color: #9aa3ac; letter-spacing: 0.1em; white-space: nowrap; }
+  .note { display: inline-block; margin-left: 0.6em; padding: 0.1em 0.5em; border: 1px solid #d3dae1; border-radius: 2px; color: #7b858f; font-size: 0.66rem; letter-spacing: 0.06em; white-space: nowrap; vertical-align: 0.1em; }
+  .award { display: inline-block; margin-left: 0.6em; padding: 0.1em 0.5em; border: 1px solid #c8a94a; border-radius: 2px; color: #8a6d0b; font-size: 0.66rem; letter-spacing: 0.06em; white-space: nowrap; vertical-align: 0.1em; }
+  .wlist.clip .wrow.ex { display: none; }
+  .wlist.open .wrow.ex { display: flex; }
   .wl-more {
     display: block; margin: 2.4em auto 0;
     background: none; border: 1px solid #cfe0ee; border-radius: 999px;
@@ -281,6 +305,10 @@
     border-top: 1px solid #e8eef4;
   }
 
+  @media (max-width: 900px) {
+    .clients-grid li { flex: 0 0 calc(33.333% - 0.467rem); }
+  }
+
   /* ---- mobile ---- */
   @media (max-width: 640px) {
     header { padding: 16px 5vw; }
@@ -296,9 +324,13 @@
     .sec-label { letter-spacing: 0.28em; }
     .work-row { flex-direction: column; align-items: flex-start; gap: 0.4em; }
     .wl-row { flex-direction: column; gap: 0.1em; align-items: flex-start; padding: 0.8em 0; }
-    .wyear { grid-template-columns: 3.4em 1fr; gap: 0 0.8em; padding: 1em 0; }
-    .wyear .y { font-size: 0.72rem; letter-spacing: 0.06em; }
-    .wyear li { font-size: 0.84rem; line-height: 1.85; padding-left: 0.7em; }
+    .clients-grid { gap: 0.5em; }
+    .clients-grid li { flex: 0 0 calc(50% - 0.25rem); min-height: 4em; font-size: 0.74rem; padding: 0.8em 0.5em; }
+    .wgroup { grid-template-columns: 1fr; gap: 0.5em 0; padding: 1.2em 0; }
+    .wgroup .g { padding-top: 0; font-size: 0.74rem; }
+    .wgroup .g .n { display: inline; margin-left: 0.9em; }
+    .wrow { font-size: 0.84rem; line-height: 1.8; }
+    .wrow .yr { font-size: 0.66rem; }
     .wcount { display: block; margin-left: 0; margin-top: 0.5em; font-size: 0.66rem; }
     .wlist.clip { max-height: 40em; }
     .wl-more { font-size: 0.68rem; padding: 0.9em 2em; letter-spacing: 0.16em; }
@@ -385,231 +417,241 @@
   <div class="stat fade"><div class="num wide">100,000,000+</div><div class="lbl">音楽配信 再生数突破</div></div>
 </section>
 
+<section id="brands">
+  <h2 class="sec-label fade">Brands</h2>
+  <p class="wnote fade">敬称略／一部抜粋</p>
+  <p class="cat-intro fade" style="max-width:46rem;margin:0 auto 2.6em;">株式会社リサレコが音楽を手がけたCM・施設の広告主および事業主です。制作は広告代理店・制作会社を通じたご依頼を中心にお受けしています。</p>
+  <ul class="clients-grid">
+      <li>サンエー</li>
+      <li>イオン琉球</li>
+      <li>沖縄ファミリーマート</li>
+      <li>A&amp;W</li>
+      <li>琉球銀行</li>
+      <li>沖縄銀行</li>
+      <li>コザ信用金庫</li>
+      <li>JAおきなわ</li>
+      <li>au 沖縄セルラー電話</li>
+      <li>琉球新報</li>
+      <li>FM沖縄</li>
+      <li>沖縄県</li>
+      <li>DMMかりゆし水族館</li>
+      <li>沖縄ホンダ</li>
+      <li>金秀グループ</li>
+      <li>りゅうせき</li>
+  </ul>
+</section>
+
 <section id="works" class="soft">
   <h2 class="sec-label fade">Works</h2>
   <p class="wnote fade">順不同・敬称略</p>
 
   <div class="wcat">
-    <h3 class="serif wcat-title">CM音楽・サウンドロゴ<span class="wcount">113件</span></h3>
-    <p class="cat-intro">15秒で覚えてもらうための音を、企画意図から逆算して作ります。2010年から2023年までに手がけたCM音楽・サウンドロゴは113件です。</p>
+    <h3 class="serif wcat-title">CM音楽・サウンドロゴ<span class="wcount">137件</span></h3>
+    <p class="cat-intro">15秒で覚えてもらうための音を、企画意図から逆算して作ります。2010年から2025年までに手がけたCM音楽・サウンドロゴは137件です。</p>
           <div class="wlist clip" id="cm-list">
-      <div class="wyear">
-        <div class="y"><time datetime="2023">2023</time></div>
+      <div class="wgroup">
+        <div class="g">流通・小売<span class="n">29件</span></div>
         <ul>
-          <li>ユーポス CM「護得久のズンドコ篇」楽曲</li>
-          <li>『Fate/Grand Order』水着イベント TV-CM楽曲</li>
+          <li class="wrow"><span class="t">イオンモール沖縄ライカム10周年 CM BGM</span><time class="yr" datetime="2025">2025</time></li>
+          <li class="wrow"><span class="t">サンエー「アプリクーポン利用篇」CMコマソン</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow"><span class="t">サンエー「テイクアウト篇」CMコマソン</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow"><span class="t">ジャンボサンシャイン CM 歌・ガヤ音源</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow ex"><span class="t">ビッグワン「こだわりの自家精米」CMソング ロングバージョン</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow ex"><span class="t">サンエー「サンリィ」CMソング</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">サンエー サウンドロゴ</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">ビッグワン「安納芋」CMソング ロングバージョン</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">ビッグワン「唐船峡 童謡篇」CMソング ロングバージョン</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">iias沖縄豊崎 サウンドロゴ</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow ex"><span class="t">サンエー「かりゆし」CM 男性版</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">ビッグワン 店内動画コマソン</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">ビッグワン おつまみ・お菓子「マーチ」CMソング</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">OTONA FASHION PLACE ファッションショー テーマソング</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">サンエー「Edyカード」CM音楽</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">サンエー「かりゆしキャンペーン」新CM楽曲アレンジ</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">沖縄ファミリーマート コマソン</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">ビッグワン「安納芋」CMソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">サンエー「ハッピーシニアデー」CMソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">サンエー「旧盆スペシャル」CM楽曲</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">サンエー「Edyカード」CMコマソン</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">ベビー館 TVCMソング</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">赤峰家具 CM楽曲</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">サンエー 母の日・父の日セール オリジナルBGM</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">サンエー「かりゆし」CM楽曲</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow ex"><span class="t">沖縄ファミリーマート「クリスマス」CM音楽</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow ex"><span class="t">サンエー モーションロゴ サウンド</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow ex"><span class="t">メガネ1番「GWセール」TVCM・イベントBGM</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow ex"><span class="t">サンエー「ランドセル」CM楽曲</span><time class="yr" datetime="2014">2014</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2022">2022</time></div>
+      <div class="wgroup">
+        <div class="g">飲食・食品<span class="n">16件</span></div>
         <ul>
-          <li>りゅうせき TVCM BGM</li>
-          <li>サンエー「アプリクーポン利用篇」CMコマソン</li>
-          <li>サンエー「テイクアウト篇」CMコマソン</li>
-          <li>とまとハウジング サウンドロゴ</li>
-          <li>sity サウンドロゴ</li>
-          <li>ABC CM 仮歌制作（4タイプ・15秒）</li>
+          <li class="wrow"><span class="t">オキハム キャンペーンソング「ポキポキ」</span><time class="yr" datetime="2023">2023</time></li>
+          <li class="wrow"><span class="t">JAおきなわ「パイン」オリジナルソング</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow"><span class="t">ぐしけんパン コマソング<span class="award">沖縄広告賞 テレビ15秒CM部門 銅賞</span></span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow"><span class="t">ハドムフードサービス CMソング</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">唐船島・自家製米 CMコマソン</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">ヘリオス酒造「くらゾンビ」ウチナーグチ版 ナレーション</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">au沖縄セルラー電話×A&amp;W「森のくまさん」CM BGM</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">ステーキハウス88 CMコマソン</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">A&amp;W TVCM・ラジオCM BGM</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">ジムキ文明堂 ラジオCMソング</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">A&amp;W「ハロウィン」WEB動画BGM</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">ステーキハウス88 求人TVCMソング</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">「琉Q大戦 はぶ×まん」OP「琉Qニコイチ」・ED「琉Q萌演歌」</span><time class="yr" datetime="2011">2011</time></li>
+          <li class="wrow ex"><span class="t">JA「ヒラミ８」TVCM・ラジオCMソング</span><time class="yr" datetime="2011">2011</time></li>
+          <li class="wrow ex"><span class="t">泡盛「あわもえ」イメージソング「琉Q！キュン×2」</span><time class="yr" datetime="2010">2010</time></li>
+          <li class="wrow ex"><span class="t">泡盛「あわもえ2」演歌（ミクガチ演歌ver.）</span><time class="yr" datetime="2010">2010</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2021">2021</time></div>
+      <div class="wgroup">
+        <div class="g">メディア・放送<span class="n">10件</span></div>
         <ul>
-          <li>JAおきなわ「パイン」オリジナルソング</li>
-          <li>ぐしけんパン コマソング</li>
-          <li>ハドムフードサービス CMソング</li>
-          <li>サンエー「サンリィ」CMソング</li>
-          <li>サンエー サウンドロゴ</li>
-          <li>いなんせ会館 CMソング</li>
-          <li>タマキホーム「特P」サウンドロゴ</li>
-          <li>奏ホールディングス サウンドロゴ</li>
+          <li class="wrow"><span class="t">FM沖縄「Radio dub」番組ジングル</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow"><span class="t">FM沖縄「Chuning Candy」新番組ジングル・BGM</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow"><span class="t">FM沖縄「ラジダブのテーマ2018」ジングル</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow"><span class="t">琉球新報 TVCM・ラジオCM BGM</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">琉球新報 CM BGM（テクノ風アレンジ）</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">ラジオ「いきいき健康あいらんど」ジングル</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">琉球新報 TVCM・ラジオCM BGM<span class="award">沖縄広告賞 テレビCM15秒部門 銅賞</span></span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">琉球新報「たまりゅうちゃん」CM 尺調整・SE追加</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">琉球新報 CM オーケストラ版楽曲</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow ex"><span class="t">琉球新報 CM BGM（ピアノ／エレクトロニカ版）</span><time class="yr" datetime="2013">2013</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2020">2020</time></div>
+      <div class="wgroup">
+        <div class="g">住宅・不動産・建設<span class="n">15件</span></div>
         <ul>
-          <li>リウボウホンダ コマソング</li>
-          <li>沖縄そばCM「ウサガミソーレー」楽曲</li>
-          <li>FM沖縄「Radio dub」番組ジングル</li>
-          <li>楽ラック 商品名サウンドロゴ</li>
-          <li>Edy「Edyサン子さん」CMソング 追加収録</li>
+          <li class="wrow"><span class="t">Nice不動産 CMソング</span><time class="yr" datetime="2025">2025</time></li>
+          <li class="wrow"><span class="t">マルユウハウジー CMソング</span><time class="yr" datetime="2024">2024</time></li>
+          <li class="wrow"><span class="t">とまとハウジング サウンドロゴ</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow"><span class="t">金秀グループ CM音楽（SE・BGM）</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow ex"><span class="t">タマキホーム「特P」サウンドロゴ</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">照正組「美ウォール」TVCMオリジナルソング・サウンドロゴ</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow ex"><span class="t">さかえ塗装 TVCM BGM</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">マーチ家賃保証 サウンドロゴ</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">とまとハウジング サウンドロゴ・楽曲</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">ツーワン マンションCM サウンドロゴ</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">謝花組 サウンドロゴ・ラジオCM・オリジナルソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">タカラ住建 CMソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">大知建設 新TVCM BGM（2017年）</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">大知建設 TVCM楽曲</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">プレステージホーム沖縄 サウンドロゴ</span><time class="yr" datetime="2015">2015</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2019">2019</time></div>
+      <div class="wgroup">
+        <div class="g">教育・医療・サービス<span class="n">12件</span></div>
         <ul>
-          <li>サロンCELL TVCM音楽</li>
-          <li>沖縄大学 TVCM楽曲</li>
-          <li>サンエー「かりゆし」CM 男性版</li>
-          <li>麸久寿 商品名サウンドロゴ</li>
-          <li>ビッグワン 店内動画コマソン</li>
-          <li>RCワークス 企業サウンドロゴ</li>
-          <li>FM沖縄「Chuning Candy」新番組ジングル・BGM</li>
-          <li>ビッグワン おつまみ・お菓子「マーチ」CMソング</li>
-          <li>さかえ塗装 TVCM BGM</li>
+          <li class="wrow"><span class="t">沖縄セントラル病院 院歌</span><time class="yr" datetime="2023">2023</time></li>
+          <li class="wrow"><span class="t">いなんせ会館 CMソング</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow"><span class="t">さくらメディネス整骨院 CMソング</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow"><span class="t">サロンCELL TVCM音楽</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">沖縄大学 TVCM楽曲</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">HOT沖縄 CM BGM（ニュースアレンジ）</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">ジョブカロリ CMソング・サウンドロゴ</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">PETBOX CMソング</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">HOT沖縄 オリジナルソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">動物病院グループaniC コマソン・BGM</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">メディカルアシスト サウンドロゴ</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">動物病院「vet's park 22時」CMコマソン</span><time class="yr" datetime="2015">2015</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2018">2018</time></div>
+      <div class="wgroup">
+        <div class="g">行政・自治体・公共<span class="n">13件</span></div>
         <ul>
-          <li>沖縄県立博物館・美術館「縄文と沖縄」展 CM音楽</li>
-          <li>サンエー「Edyカード」CM音楽</li>
-          <li>auショップ「かんたん予約」TVCM BGM・SE</li>
-          <li>マーチ家賃保証 サウンドロゴ</li>
-          <li>唐船島・自家製米 CMコマソン</li>
-          <li>HOT沖縄 CM BGM（ニュースアレンジ）</li>
-          <li>FM沖縄「ラジダブのテーマ2018」ジングル</li>
-          <li>サンエー「かりゆしキャンペーン」新CM楽曲アレンジ</li>
-          <li>ジョブカロリ CMソング・サウンドロゴ</li>
-          <li>沖縄ファミリーマート コマソン</li>
-          <li>とまとハウジング サウンドロゴ・楽曲</li>
-          <li>沖縄労働金庫「iDeCoのうた」「ろうきんズ」TVCM</li>
-          <li>ワコー貿易 CMインストBGM</li>
-          <li>ツーワン マンションCM サウンドロゴ</li>
-          <li>PETBOX CMソング</li>
+          <li class="wrow"><span class="t">国保連合会「がんじゅうタイム」オープニング音源（2020年版）</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow"><span class="t">沖縄県立博物館・美術館「縄文と沖縄」展 CM音楽<span class="award">沖縄広告賞 テレビ15秒CM部門 銅賞</span></span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow"><span class="t">宜野座村 CM楽曲</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow"><span class="t">沖縄県「自動車税」CMソング</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">宜野座村 CM BGM・ナレーション</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">国保 太鼓BGM</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">東村 PV BGM・SE</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">国保「がんじゅうタイム」番組OP・特定健診CM BGM</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">国民健康保険「被保険者証更新」CMソング</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">沖縄県「自動車税」コマソン</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">沖縄保険者協議会 CM楽曲</span><time class="yr" datetime="2013">2013</time></li>
+          <li class="wrow ex"><span class="t">南城市 PR映像コマソング・「なんじぃ」PV BGM</span><time class="yr" datetime="2013">2013</time></li>
+          <li class="wrow ex"><span class="t">沖縄県「自動車税」CMソング</span><time class="yr" datetime="2010">2010</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2017">2017</time></div>
+      <div class="wgroup">
+        <div class="g">金融・保険<span class="n">11件</span></div>
         <ul>
-          <li>謝花組 サウンドロゴ・ラジオCM・オリジナルソング</li>
-          <li>ビッグワン「安納芋」CMソング</li>
-          <li>動物病院グループaniC コマソン・BGM</li>
-          <li>ABC「ホメラップ」CMサンプル曲</li>
-          <li>ワーキングショップ CMソング</li>
-          <li>宜野座村 CM楽曲</li>
-          <li>沖縄労働金庫「iDeCo」ラジオCMソング</li>
-          <li>琉球新報 TVCM・ラジオCM BGM</li>
-          <li>サンエー「ハッピーシニアデー」CMソング</li>
-          <li>ラッキー自動車「愛と感謝のメッセージ」CMソング編曲</li>
-          <li>沖縄銀行 CM「苗」BGM</li>
-          <li>HOT沖縄 オリジナルソング</li>
-          <li>琉球新報 CM BGM（テクノ風アレンジ）</li>
-          <li>タカラ住建 CMソング</li>
-          <li>大同火災 CMソング</li>
-          <li>安納誘 ラジオCMソング</li>
-          <li>パーティーフェイスガレージ TVCMコマソン</li>
+          <li class="wrow"><span class="t">Edy「Edyサン子さん」CMソング 追加収録</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow"><span class="t">沖縄労働金庫「iDeCoのうた」「ろうきんズ」TVCM</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow"><span class="t">沖縄労働金庫「iDeCo」ラジオCMソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow"><span class="t">沖縄銀行 CM「苗」BGM</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">協同組合 企業福祉共済会 サウンドロゴ</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">沖縄労働金庫 CM「ミュージカル編」楽曲</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">コザ信用金庫「きいやま商店50周年」CMソング</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">沖縄銀行 ラジオCMサウンドロゴ</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">コザ信用金庫「ジンがねーらん」CMソング</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">琉球銀行 CMソング</span><time class="yr" datetime="2012">2012</time></li>
+          <li class="wrow ex"><span class="t">琉球銀行「ATM48キャンペーン」CMソング</span><time class="yr" datetime="2011">2011</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2016">2016</time></div>
+      <div class="wgroup">
+        <div class="g">通信<span class="n">7件</span></div>
         <ul>
-          <li>沖縄ホンダ CM楽曲（テンプラキッズ起用）</li>
-          <li>新洋ロードドライブ「太平洋マーチ」ラジオCMコマソン</li>
-          <li>大知建設 TVCM楽曲</li>
-          <li>ラジオ「いきいき健康あいらんど」ジングル</li>
-          <li>サンエー「旧盆スペシャル」CM楽曲</li>
-          <li>沖縄労働金庫 CM「ミュージカル編」楽曲</li>
-          <li>au×A&amp;W「森のくまさん」CM BGM</li>
-          <li>サンエー「Edyカード」CMコマソン</li>
-          <li>ステーキハウス88 CMコマソン</li>
-          <li>A&amp;W TVCM・ラジオCM BGM</li>
-          <li>ベビー館 TVCMソング</li>
-          <li>ジムキ文明堂 ラジオCMソング</li>
-          <li>琉球新報 TVCM・ラジオCM BGM</li>
-          <li>コザ信用金庫「きいやま商店50周年」CMソング</li>
-          <li>財全グループ サウンドロゴ</li>
-          <li>沖縄県「自動車税」CMソング</li>
-          <li>宜野座村 CM BGM・ナレーション</li>
-          <li>A&amp;W「ハロウィン」WEB動画BGM</li>
-          <li>メディカルアシスト サウンドロゴ</li>
-          <li>Mr.KINJO ラジオCMコマソン</li>
-          <li>カーサポートHIDE ラジオCMコマソン</li>
-          <li>てもみん CMソング</li>
-          <li>沖縄ホーメル「デリカフランク」CMソング</li>
+          <li class="wrow"><span class="t">au沖縄セルラー電話 auショップ「かんたん予約」TVCM BGM・SE</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow"><span class="t">au×沖縄ファミリーマート コラボCM BGM「十九の春」</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow"><span class="t">au沖縄セルラー電話「春CM」楽曲（2曲）</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow"><span class="t">au沖縄セルラー電話「auパラダイスネット」ジングル</span><time class="yr" datetime="2014">2014</time></li>
+          <li class="wrow ex"><span class="t">au沖縄セルラー電話「夏キャンペーン」CMソング</span><time class="yr" datetime="2013">2013</time></li>
+          <li class="wrow ex"><span class="t">au沖縄セルラー電話 TVCMソング「サクサク Love TEnsion」</span><time class="yr" datetime="2012">2012</time></li>
+          <li class="wrow ex"><span class="t">au沖縄セルラー電話「夏市音頭」ラジオCM</span><time class="yr" datetime="2010">2010</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2015">2015</time></div>
+      <div class="wgroup">
+        <div class="g">自動車<span class="n">3件</span></div>
         <ul>
-          <li>国保「がんじゅうタイム」番組OP・特定健診CM BGM</li>
-          <li>国民健康保険「被保険者証更新」CMソング</li>
-          <li>沖縄県「自動車税」コマソン</li>
-          <li>沖縄銀行 ラジオCMサウンドロゴ</li>
-          <li>動物病院「vet's park 22時」CMコマソン</li>
-          <li>赤峰家具 CM楽曲</li>
-          <li>プレステージホーム沖縄 サウンドロゴ</li>
-          <li>コザ信用金庫「ジンがねーらん」CMソング</li>
-          <li>琉球新報「たまりゅうちゃん」CM 尺調整・SE追加</li>
+          <li class="wrow"><span class="t">ユーポス CM「護得久のズンドコ篇」楽曲</span><time class="yr" datetime="2023">2023</time></li>
+          <li class="wrow"><span class="t">沖縄ホンダ CM楽曲（テンプラキッズ起用）<span class="note">琉球新報「沖縄CMものがたり」で紹介</span></span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow"><span class="t">新洋ロードドライブ「太平洋マーチ」ラジオCMコマソン</span><time class="yr" datetime="2016">2016</time></li>
         </ul>
       </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2014">2014</time></div>
+      <div class="wgroup">
+        <div class="g">その他<span class="n">21件</span></div>
         <ul>
-          <li>ACジャパン 全国TVCMサウンドロゴ</li>
-          <li>サンエー「かりゆし」CM楽曲</li>
-          <li>ファミリーマート「クリスマス」CM音楽</li>
-          <li>サンエー モーションロゴ サウンド</li>
-          <li>au沖縄セルラー「春CM」楽曲（2曲）</li>
-          <li>琉球新報 CM オーケストラ版楽曲</li>
-          <li>メガネ1番「GWセール」TVCM・イベントBGM</li>
-          <li>サンエー「ランドセル」CM楽曲</li>
-          <li>au「auパラダイスネット」ジングル</li>
-          <li>ソーメンマン ラジオBGM・ジングル</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2013">2013</time></div>
-        <ul>
-          <li>au沖縄セルラー「夏キャンペーン」CMソング</li>
-          <li>琉球新報 CM BGM（ピアノ／エレクトロニカ版）</li>
-          <li>沖縄保険者協議会 CM楽曲</li>
-          <li>南城市 PR映像コマソング・「なんじぃ」PV BGM</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2012">2012</time></div>
-        <ul>
-          <li>琉球銀行 CMソング</li>
-          <li>日本ウエストン 社歌</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2011">2011</time></div>
-        <ul>
-          <li>琉球銀行「ATM48キャンペーン」CMソング</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2010">2010</time></div>
-        <ul>
-          <li>沖縄県「自動車税」CMソング</li>
-          <li>au（KDDI）「夏市音頭」ラジオCM</li>
+          <li class="wrow"><span class="t">『Fate/Grand Order』 CMソング アレンジサポート（2025年）</span><time class="yr" datetime="2025">2025</time></li>
+          <li class="wrow"><span class="t">沖縄電力 CMソング（2025年）</span><time class="yr" datetime="2025">2025</time></li>
+          <li class="wrow"><span class="t">『Fate/Grand Order』水着イベント TV-CM楽曲</span><time class="yr" datetime="2023">2023</time></li>
+          <li class="wrow"><span class="t">りゅうせき TVCM BGM</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow ex"><span class="t">sity サウンドロゴ</span><time class="yr" datetime="2022">2022</time></li>
+          <li class="wrow ex"><span class="t">奏ホールディングス サウンドロゴ</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">善林堂 CMソング</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">DMMかりゆし水族館 Music SAKA-Bar ジングル3本</span><time class="yr" datetime="2021">2021</time></li>
+          <li class="wrow ex"><span class="t">楽ラック 商品名サウンドロゴ</span><time class="yr" datetime="2020">2020</time></li>
+          <li class="wrow ex"><span class="t">RCワークス 企業サウンドロゴ</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">琉球インタラクティブ 新サービス サウンドロゴ</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">オフィス伊藤 CMソング</span><time class="yr" datetime="2019">2019</time></li>
+          <li class="wrow ex"><span class="t">ワコー貿易 CMインストBGM</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">ALLSTAR サウンドロゴ</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">東南植物楽園 施設BGM（3曲）</span><time class="yr" datetime="2018">2018</time></li>
+          <li class="wrow ex"><span class="t">ワーキングショップ CMソング</span><time class="yr" datetime="2017">2017</time></li>
+          <li class="wrow ex"><span class="t">財全グループ サウンドロゴ</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">エムズグループ オリジナルソング（エムズガーデン CMソング）</span><time class="yr" datetime="2016">2016</time></li>
+          <li class="wrow ex"><span class="t">パシフィックホテル沖縄「月の砂漠」CM音楽</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">トイファクトリー プロモーション映像 BGM・SE</span><time class="yr" datetime="2015">2015</time></li>
+          <li class="wrow ex"><span class="t">日本ウエストン 社歌</span><time class="yr" datetime="2012">2012</time></li>
         </ul>
       </div>
       </div>
-      <button class="wl-more" type="button" data-target="cm-list" aria-expanded="false">CM実績 113件をすべて表示</button>
+      <button class="wl-more" type="button" data-target="cm-list" aria-expanded="false">CM実績 137件をすべて表示</button>
   </div>
 
   <div class="wcat">
     <h3 class="serif wcat-title">施設・空間の音楽<span class="wcount">6件</span></h3>
     <p class="cat-intro">人がその場所で過ごす時間のための音楽。サラウンドのシアター音楽から、屋外イベントの環境音楽など、空間の体験そのものを音で設計します。</p>
     <div class="wlist" id="space-list">
-      <div class="wyear">
-        <div class="y"><time datetime="2022">2022</time></div>
-        <ul>
-          <li>DMMかりゆし水族館 シアタールーム投影用BGM（5.1chサラウンド）</li>
-          <li>DMMかりゆし水族館 はいさいプラザ プロジェクション映像音楽</li>
-          <li>金秀グループ 映像SE</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2016">2016</time></div>
-        <ul>
-          <li>しまくとうば普及推進事業 楽曲</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2015">2015</time></div>
-        <ul>
-          <li>パシフィックホテル沖縄「月の砂漠」アレンジ</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2013">2013</time></div>
-        <ul>
-          <li>沖縄観光コンベンションビューロー 著作権フリーBGM・ジングル集</li>
-        </ul>
-      </div>
+      <ul class="wflat">
+        <li class="wrow"><span class="t">DMMかりゆし水族館 シアタールーム投影用BGM（5.1chサラウンド）</span><time class="yr" datetime="2022">2022</time></li>
+        <li class="wrow"><span class="t">DMMかりゆし水族館 はいさいプラザ プロジェクション映像音楽</span><time class="yr" datetime="2022">2022</time></li>
+        <li class="wrow"><span class="t">金秀グループ 映像SE</span><time class="yr" datetime="2022">2022</time></li>
+        <li class="wrow"><span class="t">しまくとうば普及推進事業 楽曲</span><time class="yr" datetime="2016">2016</time></li>
+        <li class="wrow"><span class="t">パシフィックホテル沖縄「月の砂漠」アレンジ</span><time class="yr" datetime="2015">2015</time></li>
+        <li class="wrow"><span class="t">沖縄観光コンベンションビューロー 著作権フリーBGM・ジングル集</span><time class="yr" datetime="2013">2013</time></li>
+      </ul>
       </div>
   </div>
 
@@ -617,83 +659,25 @@
     <h3 class="serif wcat-title">ゲーム・アニメの音楽<span class="wcount">17件</span></h3>
     <p class="cat-intro">『MELTY BLOOD』『UNDER NIGHT IN-BIRTH』シリーズ、TVアニメ『SK∞ エスケーエイト』など。来兎（Raito）名義のゲーム・アニメ音楽は、いま世界中のプレイヤーとファンに届いています。<br><a class="ext" href="https://raito.studio" target="_blank" rel="noopener">→ 詳しくは raito.studio（英語）</a></p>
     <div class="wlist" id="game-list">
-      <div class="wyear">
-        <div class="y"><time datetime="2025">2025</time></div>
-        <ul>
-          <li>Double Dragon Revive</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2021">2021</time></div>
-        <ul>
-          <li>SK∞ エスケーエイト</li>
-          <li>Fate/Grand Order</li>
-          <li>キングダム DASH!!</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2020">2020</time></div>
-        <ul>
-          <li>痛いのは嫌なので防御力に極振りしたいと思います。～らいんうぉーず！～</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2019">2019</time></div>
-        <ul>
-          <li>ぼくたちは勉強ができない（Study 主題歌）</li>
-          <li>Indivisible</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2018">2018</time></div>
-        <ul>
-          <li>BLAZBLUE CROSS TAG BATTLE</li>
-          <li>斉木楠雄のΨ難 妄想暴走!Ψキックバトル</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2016">2016</time></div>
-        <ul>
-          <li>オキナワノコワイハナシ 劇伴（TVドラマシリーズ）</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2014">2014</time></div>
-        <ul>
-          <li>電撃文庫 FIGHTING CLIMAX</li>
-          <li>クレヨンしんちゃん 嵐を呼ぶ炎のカスカベランナー!!</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2012">2012</time></div>
-        <ul>
-          <li>UNDER NIGHT IN-BIRTH シリーズ</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2008">2008</time></div>
-        <ul>
-          <li>キューティーハニー THE LIVE</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2007">2007</time></div>
-        <ul>
-          <li>らき☆すた</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2006">2006</time></div>
-        <ul>
-          <li>ひぐらしのなく頃に イメージアルバム</li>
-        </ul>
-      </div>
-      <div class="wyear">
-        <div class="y"><time datetime="2003">2003</time></div>
-        <ul>
-          <li>MELTY BLOOD シリーズ</li>
-        </ul>
-      </div>
+      <ul class="wflat">
+        <li class="wrow"><span class="t">Double Dragon Revive</span><time class="yr" datetime="2025">2025</time></li>
+        <li class="wrow"><span class="t">SK∞ エスケーエイト</span><time class="yr" datetime="2021">2021</time></li>
+        <li class="wrow"><span class="t">Fate/Grand Order</span><time class="yr" datetime="2021">2021</time></li>
+        <li class="wrow"><span class="t">キングダム DASH!!</span><time class="yr" datetime="2021">2021</time></li>
+        <li class="wrow"><span class="t">痛いのは嫌なので防御力に極振りしたいと思います。～らいんうぉーず！～</span><time class="yr" datetime="2020">2020</time></li>
+        <li class="wrow"><span class="t">ぼくたちは勉強ができない（Study 主題歌）</span><time class="yr" datetime="2019">2019</time></li>
+        <li class="wrow"><span class="t">Indivisible</span><time class="yr" datetime="2019">2019</time></li>
+        <li class="wrow"><span class="t">BLAZBLUE CROSS TAG BATTLE</span><time class="yr" datetime="2018">2018</time></li>
+        <li class="wrow"><span class="t">斉木楠雄のΨ難 妄想暴走!Ψキックバトル</span><time class="yr" datetime="2018">2018</time></li>
+        <li class="wrow"><span class="t">オキナワノコワイハナシ 劇伴（TVドラマシリーズ）</span><time class="yr" datetime="2016">2016</time></li>
+        <li class="wrow"><span class="t">電撃文庫 FIGHTING CLIMAX</span><time class="yr" datetime="2014">2014</time></li>
+        <li class="wrow"><span class="t">クレヨンしんちゃん 嵐を呼ぶ炎のカスカベランナー!!</span><time class="yr" datetime="2014">2014</time></li>
+        <li class="wrow"><span class="t">UNDER NIGHT IN-BIRTH シリーズ</span><time class="yr" datetime="2012">2012</time></li>
+        <li class="wrow"><span class="t">キューティーハニー THE LIVE</span><time class="yr" datetime="2008">2008</time></li>
+        <li class="wrow"><span class="t">らき☆すた</span><time class="yr" datetime="2007">2007</time></li>
+        <li class="wrow"><span class="t">ひぐらしのなく頃に イメージアルバム</span><time class="yr" datetime="2006">2006</time></li>
+        <li class="wrow"><span class="t">MELTY BLOOD シリーズ</span><time class="yr" datetime="2003">2003</time></li>
+      </ul>
       </div>
   </div>
 </section>
