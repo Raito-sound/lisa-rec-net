@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）</title>
-<meta name="description" content="株式会社リサレコ（Lisa-Rec Co.,Ltd）は、作曲家・来兎（らいと）が代表を務める沖縄県那覇市の音楽制作会社です。CM音楽・サウンドロゴを167件、施設・空間のための音楽、ゲーム・アニメ音楽を、企画から作曲・仕上げまで一貫して制作しています。">
+<meta name="description" content="株式会社リサレコ（Lisa-Rec Co.,Ltd）は、作曲家・来兎（らいと）が代表を務める沖縄県那覇市の音楽制作会社です。CM音楽・サウンドロゴ167件、施設・空間のための音楽を制作。『MELTY BLOOD』『UNDER NIGHT IN-BIRTH』などゲーム音楽で培った、記憶に残る音づくりが強みです。現在はご指名でのご依頼のみお受けしています。">
 <link rel="canonical" href="https://lisa-rec.net/">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta property="og:type" content="website">
@@ -12,7 +12,7 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:url" content="https://lisa-rec.net/">
 <meta property="og:title" content="株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）">
-<meta property="og:description" content="作曲家・来兎（らいと）が代表を務める沖縄・那覇の音楽制作会社。CM音楽・サウンドロゴ167件、施設音楽、ゲーム・アニメ音楽を手がけています。">
+<meta property="og:description" content="作曲家・来兎（らいと）が代表を務める沖縄・那覇の音楽制作会社。CM音楽・サウンドロゴ167件、施設・空間のための音楽を制作。ゲーム音楽で培ったキャッチーな音づくりが強みです。">
 <meta property="og:image" content="https://lisa-rec.net/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0060C0">
@@ -338,6 +338,19 @@
     .stats { flex-direction: column; gap: 3em; padding: 8vh 8vw; }
     .bignote { right: -20%; opacity: 0.07; }
   }
+
+  /* --- Services / FAQ --- */
+  .svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+              gap: 1.6em 2.2em; max-width: 62rem; margin: 0 auto; }
+  .svc { border-top: 1px solid #e6eef5; padding-top: 1.1em; }
+  .svc h3 { font-size: 1rem; font-weight: 600; margin-bottom: .5em; color: var(--blue-deep); }
+  .svc p { font-size: 0.9rem; line-height: 1.9; color: #3c3634; }
+  .faq-list { max-width: 46rem; margin: 0 auto; }
+  .faq-item { border-bottom: 1px solid #e6eef5; padding: 1.4em 0; }
+  .faq-item h3 { font-size: 0.98rem; font-weight: 600; margin-bottom: .6em; line-height: 1.7; }
+  .faq-item h3::before { content: "Q. "; color: var(--blue-mid); font-weight: 700; }
+  .faq-item p { font-size: 0.9rem; line-height: 1.95; color: #3c3634; }
+  .updated { font-size: 0.76rem; color: #8a8380; letter-spacing: .04em; }
 </style>
 <script type="application/ld+json">
 {
@@ -347,11 +360,16 @@
       "@type": "Organization",
       "@id": "https://lisa-rec.net/#org",
       "name": "株式会社リサレコ",
-      "alternateName": ["リサレコ", "Lisa-Rec Co.,Ltd", "Lisa-Rec Inc.", "Lisa-Rec"],
+      "alternateName": [
+        "リサレコ",
+        "Lisa-Rec Co.,Ltd",
+        "Lisa-Rec Inc.",
+        "Lisa-Rec"
+      ],
       "url": "https://lisa-rec.net/",
       "email": "contact@lisa-rec.net",
       "foundingDate": "2010-03",
-      "description": "CM音楽・サウンドロゴ、施設・空間のための音楽、ゲーム・アニメ音楽の企画制作を行う音楽制作会社。沖縄県那覇市。",
+      "description": "CM音楽・サウンドロゴ、施設・空間のための音楽、ゲーム・アニメ音楽の企画制作を行う音楽制作会社。沖縄県那覇市。国内のご依頼を担当し、海外からのご依頼は代表・来兎の英語サイト Raito.studio で受けています。現在はご指名でのご依頼のみお受けしています。",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "JP",
@@ -359,15 +377,50 @@
         "addressLocality": "那覇市",
         "streetAddress": "久茂地1-1-1 9階"
       },
-      "founder": { "@id": "https://raito.studio/#person" },
-      "employee": { "@id": "https://raito.studio/#person" },
-      "knowsAbout": ["CM音楽", "サウンドロゴ", "コマーシャルソング", "施設音楽", "空間音楽", "ゲーム音楽", "アニメ音楽", "劇伴"]
+      "founder": {
+        "@id": "https://raito.studio/#person"
+      },
+      "employee": {
+        "@id": "https://raito.studio/#person"
+      },
+      "knowsAbout": [
+        "AIボーカル",
+        "CM音楽",
+        "MA（整音）",
+        "TVアニメ劇伴",
+        "アニメ音楽",
+        "ゲーム音楽",
+        "コマーシャルソング",
+        "サウンドロゴ",
+        "ナレーション収録",
+        "主題歌制作",
+        "劇伴",
+        "効果音",
+        "対戦格闘ゲーム音楽",
+        "施設音楽",
+        "空間音楽"
+      ],
+      "award": [
+        "沖縄広告賞 テレビ15秒CM部門 銅賞（2022年・第40回沖縄広告協会広告賞／ぐしけんパン「パングリー」TVCM 楽曲制作）",
+        "沖縄広告賞 テレビ15秒CM部門 銅賞（2019年／沖縄県立博物館・美術館 特別展「縄文と沖縄」TVCM 音楽）",
+        "沖縄広告賞 テレビCM15秒部門 銅賞（2017年／琉球新報 TVCM BGM）"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "日本"
+      },
+      "slogan": "その場所に、まだない音を"
     },
     {
       "@type": "Person",
       "@id": "https://raito.studio/#person",
       "name": "来兎",
-      "alternateName": ["らいと", "Raito", "久場 超", "Masaru Kuba"],
+      "alternateName": [
+        "らいと",
+        "Raito",
+        "久場 超",
+        "Masaru Kuba"
+      ],
       "jobTitle": "作曲家 / 株式会社リサレコ 代表取締役",
       "url": "https://raito.studio/",
       "sameAs": [
@@ -375,8 +428,18 @@
         "https://open.spotify.com/artist/6UunbAVLWAebLi1UB7GyXk",
         "https://www.youtube.com/channel/UCuUUK_sojL65BDL2AK7yWNw"
       ],
-      "worksFor": { "@id": "https://lisa-rec.net/#org" },
-      "knowsLanguage": ["ja", "en"]
+      "worksFor": {
+        "@id": "https://lisa-rec.net/#org"
+      },
+      "knowsLanguage": [
+        "ja",
+        "en"
+      ],
+      "award": [
+        "沖縄広告賞 テレビ15秒CM部門 銅賞（2022年・第40回沖縄広告協会広告賞／ぐしけんパン「パングリー」TVCM 楽曲制作）",
+        "沖縄広告賞 テレビ15秒CM部門 銅賞（2019年／沖縄県立博物館・美術館 特別展「縄文と沖縄」TVCM 音楽）",
+        "沖縄広告賞 テレビCM15秒部門 銅賞（2017年／琉球新報 TVCM BGM）"
+      ]
     },
     {
       "@type": "WebSite",
@@ -384,7 +447,104 @@
       "url": "https://lisa-rec.net/",
       "name": "株式会社リサレコ",
       "inLanguage": "ja",
-      "publisher": { "@id": "https://lisa-rec.net/#org" }
+      "publisher": {
+        "@id": "https://lisa-rec.net/#org"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://lisa-rec.net/#webpage",
+      "url": "https://lisa-rec.net/",
+      "name": "株式会社リサレコ｜CM音楽・サウンドロゴ・施設音楽の制作会社（沖縄・那覇）",
+      "isPartOf": {
+        "@id": "https://lisa-rec.net/#website"
+      },
+      "about": {
+        "@id": "https://lisa-rec.net/#org"
+      },
+      "inLanguage": "ja",
+      "dateModified": "2026-08-11"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://lisa-rec.net/#faq",
+      "isPartOf": {
+        "@id": "https://lisa-rec.net/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "どのようにご依頼を受けていますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "現在はご指名でのご依頼のみをお受けしています。数を追うのではなく、一件ずつ企画から深く関わる形に絞っているためです。相見積もりやコンペ形式のご相談は、原則としてお受けしていません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "海外からの依頼や、海外向け作品の音楽もお願いできますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "海外からのご依頼と海外向け作品については、代表・来兎（Raito）の英語サイト Raito.studio で承っています。世界各国で配信される対戦格闘ゲームやTVアニメの音楽を手がけており、英語でのやり取りにも対応しています。株式会社リサレコ（本サイト）は、国内のご依頼を担当しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CM音楽やサウンドロゴの制作費はいくらですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "企業・商品のサウンドロゴは30万円から、CM楽曲は30万円からを基準としています。歌唱者の起用、収録の立ち会い、尺違いのバージョン制作、使用範囲などによって変動します。まず内容をうかがってお見積もりをお出しします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "制作期間はどれくらいかかりますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "サウンドロゴで2〜3週間、CM楽曲で3週間〜1か月が標準です。コンペ用のラフやサンプルであれば、1週間前後、急ぎの場合は数日でお出しした実績もあります。オンエア日から逆算してスケジュールを組みます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "広告代理店を通さず、直接依頼できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "できます。広告代理店・映像制作会社を通したご依頼と、事業会社さまから直接いただくご依頼の両方をお受けしています。窓口の形にかかわらず、企画意図をうかがうところから進めます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "沖縄県外・全国の案件にも対応していますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "対応しています。拠点は沖縄県那覇市ですが、東京のゲーム会社・アニメ制作会社・広告会社からのご依頼を継続して受けています。打ち合わせから納品までオンラインで完結できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "歌手やナレーターの手配もお願いできますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "お受けしています。楽曲の方向性に合うボーカリスト・ナレーターの人選と手配、自社スタジオでの収録、ミックスまで一貫して対応します。タレントや出演者ご本人に歌っていただく収録のディレクションも行っています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AIボーカルやAI音声を使った制作はできますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "できます。AIボーカルと人の歌声を重ねて仕上げたCM楽曲が実際にオンエアされているほか、AI音声によるナレーションのバリエーション制作も行っています。人の歌でしか出ない質感とAIの利点を使い分けて提案します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "映像のMA（整音）や効果音だけの依頼もできますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "できます。ドラマ・テレビ番組・企業PVの整音、効果音の制作と配置、ラウドネス調整をお受けしています。仮編集の映像をお預かりして仕上げる形が中心です。"
+          }
+        }
+      ]
     }
   ]
 }
@@ -413,7 +573,7 @@
 </div>
 
 <section class="stats">
-  <div class="stat fade"><div class="num">100+</div><div class="lbl">CM音楽・サウンドロゴ制作数</div></div>
+  <div class="stat fade"><div class="num">167</div><div class="lbl">CM音楽・サウンドロゴ制作数</div></div>
   <div class="stat fade"><div class="num wide">100,000,000+</div><div class="lbl">音楽配信 総再生数</div></div>
 </section>
 
@@ -712,12 +872,85 @@
   </div>
 </section>
 
+<section id="services">
+  <h2 class="sec-label fade">Services</h2>
+  <p class="cat-intro fade" style="max-width:46rem;margin:0 auto 2.6em;">株式会社リサレコが対応している制作業務です。作曲だけでなく、収録・仕上げ・整音まで自社スタジオで一貫して行えます。現在は<strong>ご指名でのご依頼のみ</strong>をお受けしています。</p>
+  <div class="svc-grid fade">
+    <div class="svc">
+      <h3>CM音楽・サウンドロゴ</h3>
+      <p>テレビCM・ラジオCM・WEB動画の楽曲、コマーシャルソング、企業や商品のサウンドロゴ。15秒・30秒・60秒の尺調整、インスト版やカラオケ版の書き分けまで対応します。</p>
+    </div>
+    <div class="svc">
+      <h3>施設・空間の音楽</h3>
+      <p>商業施設・観光施設の常設BGM、館内映像やプロジェクション用の音楽。5.1chサラウンド仕様の制作実績もあります。</p>
+    </div>
+    <div class="svc">
+      <h3>ゲーム・アニメの音楽</h3>
+      <p>対戦格闘ゲームのBGM・効果音、TVアニメの劇伴・主題歌。『MELTY BLOOD』『UNDER NIGHT IN-BIRTH』シリーズ、TVアニメ『SK∞ エスケーエイト』など、世界各国で配信されるタイトルを1997年から手がけています。</p>
+    </div>
+    <div class="svc">
+      <h3>歌唱・ナレーション収録</h3>
+      <p>ボーカリストやナレーターの人選・手配から、自社スタジオでの収録、ミックスまで。タレント・アーティスト起用の収録ディレクションも行います。</p>
+    </div>
+    <div class="svc">
+      <h3>MA・整音・効果音</h3>
+      <p>ドラマ・テレビ番組・企業PVの整音（MA）、効果音の制作と配置、ラウドネス調整。映像の仮編集をお預かりして仕上げます。</p>
+    </div>
+    <div class="svc">
+      <h3>AIボーカル・AI音声の活用</h3>
+      <p>AIボーカルと人の歌声を重ねる、AI音声でナレーションのバリエーションを作るなど、実際にオンエアされたCMでの運用実績があります。用途に応じて人の歌との使い分けを提案します。</p>
+    </div>
+  </div>
+</section>
+
 <section id="artist">
   <h2 class="sec-label fade">Artist</h2>
   <div class="artist">
     <h3 class="serif fade">来兎</h3>
     <div class="role fade">COMPOSER / 株式会社リサレコ代表</div>
     <p class="fade">作曲家・来兎（らいと / Raito）。1997年にゲーム音楽から作曲活動を始め、対戦格闘ゲーム『MELTY BLOOD』『UNDER NIGHT IN-BIRTH』シリーズ、TVアニメ『SK∞ エスケーエイト』などの音楽を手がける。2010年に株式会社リサレコを設立。沖縄・那覇を拠点に、ゲーム音楽で培ったキャッチーなサウンドを活かし、CM音楽・サウンドロゴ・施設音楽へと領域を広げる。</p>
+  </div>
+</section>
+
+<section id="faq" class="soft">
+  <h2 class="sec-label fade">FAQ</h2>
+  <div class="faq-list">
+    <div class="faq-item fade">
+      <h3>どのようにご依頼を受けていますか？</h3>
+      <p>現在は<strong>ご指名でのご依頼のみ</strong>をお受けしています。数を追うのではなく、一件ずつ企画から深く関わる形に絞っているためです。相見積もりやコンペ形式のご相談は、原則としてお受けしていません。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>海外からの依頼や、海外向け作品の音楽もお願いできますか？</h3>
+      <p>海外からのご依頼と海外向け作品については、代表・来兎（Raito）の英語サイト <a class="ext" href="https://raito.studio/" target="_blank" rel="noopener">Raito.studio</a> で承っています。世界各国で配信される対戦格闘ゲームやTVアニメの音楽を手がけており、英語でのやり取りにも対応しています。株式会社リサレコ（本サイト）は、国内のご依頼を担当しています。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>CM音楽やサウンドロゴの制作費はいくらですか？</h3>
+      <p>企業・商品のサウンドロゴは30万円から、CM楽曲は30万円からを基準としています。歌唱者の起用、収録の立ち会い、尺違いのバージョン制作、使用範囲などによって変動します。まず内容をうかがってお見積もりをお出しします。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>制作期間はどれくらいかかりますか？</h3>
+      <p>サウンドロゴで2〜3週間、CM楽曲で3週間〜1か月が標準です。コンペ用のラフやサンプルであれば、1週間前後、急ぎの場合は数日でお出しした実績もあります。オンエア日から逆算してスケジュールを組みます。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>広告代理店を通さず、直接依頼できますか？</h3>
+      <p>できます。広告代理店・映像制作会社を通したご依頼と、事業会社さまから直接いただくご依頼の両方をお受けしています。窓口の形にかかわらず、企画意図をうかがうところから進めます。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>沖縄県外・全国の案件にも対応していますか？</h3>
+      <p>対応しています。拠点は沖縄県那覇市ですが、東京のゲーム会社・アニメ制作会社・広告会社からのご依頼を継続して受けています。打ち合わせから納品までオンラインで完結できます。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>歌手やナレーターの手配もお願いできますか？</h3>
+      <p>お受けしています。楽曲の方向性に合うボーカリスト・ナレーターの人選と手配、自社スタジオでの収録、ミックスまで一貫して対応します。タレントや出演者ご本人に歌っていただく収録のディレクションも行っています。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>AIボーカルやAI音声を使った制作はできますか？</h3>
+      <p>できます。AIボーカルと人の歌声を重ねて仕上げたCM楽曲が実際にオンエアされているほか、AI音声によるナレーションのバリエーション制作も行っています。人の歌でしか出ない質感とAIの利点を使い分けて提案します。</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>映像のMA（整音）や効果音だけの依頼もできますか？</h3>
+      <p>できます。ドラマ・テレビ番組・企業PVの整音、効果音の制作と配置、ラウドネス調整をお受けしています。仮編集の映像をお預かりして仕上げる形が中心です。</p>
+    </div>
   </div>
 </section>
 
@@ -733,6 +966,7 @@
     <span>© Lisa-Rec Co.,Ltd</span>
     <span>株式会社リサレコ｜代表: 久場 超（来兎）｜2010年3月設立</span>
     <span>沖縄県那覇市久茂地1-1-1 9階</span>
+    <span class="updated">最終更新: <time datetime="2026-08-11">2026年08月11日</time></span>
   </div>
 </footer>
 
