@@ -4,18 +4,20 @@
 
 - 本番URL（予定）: https://lisa-rec.net/
 - 会社: 株式会社リサレコ / 代表取締役 久場 超（作曲家・来兎）/ 2010年3月設立 / 沖縄県那覇市
-- 連絡先: contact@lisa-rec.net
+- 連絡先: contact@lisa-rec.com
 
 ## ファイル
 
 | ファイル | 役割 |
 |---|---|
-| `index.html` | サイト本体。CSS・JS・ロゴ・音符SVGをすべてインラインした自己完結型の1ファイル |
+| `index.html` | サイト本体。会社情報・実績・構造化データを静的HTMLで掲載 |
+| `site-refresh.css` | コーポレートカラーと可読性を定義するサイトデザイン |
 | `404.html` | 存在しないURLに来たとき用 |
-| `ogp.png` | SNS共有時のカード画像（1200×630） |
+| `ogp-v3.png` | SNS共有時のカード画像（1200×630） |
 | `llms.txt` | 生成AI・LLM向けのサイト要約（AIフレンドリー方針） |
 | `robots.txt` | クローラー設定。AIクローラーは全許可 |
 | `sitemap.xml` | サイトマップ |
+| `REQUIREMENTS.md` | デザイン、可読性、AIフレンドリー、情報品質の要件定義 |
 
 ## 設計方針
 
@@ -23,6 +25,8 @@
 - **実績一覧は静的HTML**: WORKSの全件をHTMLに直接書き出す。JavaScriptで生成しない（LLMクローラーはJSを実行しないため）
 - **構造化データ**: JSON-LD で Organization / Person / WebSite を宣言。Person は `https://raito.studio/#person` を共通IDにして raito.studio と同一人物として接続する
 - **軽量維持**: 外部CDN・外部フォント・トラッキングを入れない。Core Web Vitals は軽さで勝つ
+
+詳細は [`REQUIREMENTS.md`](REQUIREMENTS.md) を参照する。
 
 ## 更新の流れ
 
@@ -40,7 +44,7 @@ GitHub Pages（`main` ブランチのルート）で配信する。
 1. `CNAME` ファイル（中身は `lisa-rec.net` の1行）をリポジトリのルートに追加する
 2. DNS は **apex と www のみ** 変更する。**既存のサブドメインのレコードは消さない**（別サービスが稼働しているため）
 3. Settings → Pages → Custom domain に `lisa-rec.net` を設定し、Enforce HTTPS を有効にする
-4. `https://lisa-rec.net/ogp.png` が表示されることを確認する。`index.html` の `og:image` はこのURLを指しているため、DNS切替までSNSの共有カードには画像が出ない（想定どおりの挙動）
+4. `https://lisa-rec.net/ogp-v3.png` が表示されることを確認する。`index.html` の `og:image` はこのURLを指しているため、DNS切替までSNSの共有カードには画像が出ない（想定どおりの挙動）
 5. Google Search Console と Bing Webmaster Tools にサイトを登録する
 
 ## 更新方法
