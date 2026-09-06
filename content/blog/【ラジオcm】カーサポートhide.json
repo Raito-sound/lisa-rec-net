@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90%E3%83%A9%E3%82%B8%E3%82%AAcm%E3%80%91%E3%82%AB%E3%83%BC%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88hide",
+  "slug": "【ラジオcm】カーサポートhide",
+  "title": "【ラジオCM】カーサポートHIDE",
+  "description": "カーサポートHIDE様CMソングの作編曲レコーディングをリサレコが担当しました。 カーサポートHIDE WEBサイト http://www.cs-hide.com ＠広告代理店 有限会社ライズ様 WEBサイト http://www.ryukyurise.com",
+  "published": "2016-11-12T02:25:56.000Z",
+  "modified": "2016-11-12T02:25:56.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "カーサポートHIDE様CMソングの作編曲レコーディングをリサレコが担当しました。"
+    },
+    {
+      "type": "p",
+      "html": "カーサポートHIDE WEBサイト\n<a href=\"http://www.cs-hide.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.cs-hide.com</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n有限会社ライズ様 WEBサイト\n<a href=\"http://www.ryukyurise.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.ryukyurise.com</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_30ca204569d249bb88b2ab6f496b4ce6~mv2.jpg",
+      "alt": "slide_01",
+      "caption": "",
+      "width": 960,
+      "height": 320
+    }
+  ]
+}

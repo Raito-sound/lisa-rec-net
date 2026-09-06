@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E3%82%B5%E3%83%B3%E3%82%A8%E3%83%BC%E6%97%A7%E7%9B%86%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB",
+  "slug": "【cm】サンエー旧盆スペシャル",
+  "title": "【CM】サンエー旧盆スペシャル",
+  "description": "サンエー様の旧盆スペシャルCMの音楽を制作しました。 株式会社サンエー様 オフィシャルWEB http://www.san-a.co.jp ＠広告代理店 株式会社ワンダーリューキュー様 オフィシャルWEB http://wonder-ryukyu.co.jp",
+  "published": "2016-08-15T17:06:04.000Z",
+  "modified": "2016-08-15T17:06:04.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "サンエー様の旧盆スペシャルCMの音楽を制作しました。"
+    },
+    {
+      "type": "p",
+      "html": "株式会社サンエー様 オフィシャルWEB\n<a href=\"http://www.san-a.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.san-a.co.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n株式会社ワンダーリューキュー様 オフィシャルWEB\n<a href=\"http://wonder-ryukyu.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://wonder-ryukyu.co.jp</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_9b0c8fd2cc0a40328783dc8c5465c536~mv2.png",
+      "alt": "kyubon_bill",
+      "caption": "",
+      "width": 1000,
+      "height": 562
+    }
+  ]
+}

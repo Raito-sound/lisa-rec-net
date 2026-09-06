@@ -1,0 +1,242 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E8%87%AA%E4%BD%9Ccd%E3%82%92amazon%E3%81%A7%E8%B2%A9%E5%A3%B2%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%952015%E5%B9%B4%E7%89%88",
+  "slug": "自作cdをamazonで販売する方法2015年版",
+  "title": "自作CDをAmazonで販売する方法2015年版",
+  "description": "4年前にはてなダイアリーで書いた記事が今も結構見られているようなのですが、情報が古くなってるので2015年版です。 amazonの「e託販売サービス」を利用することで、個人でも本やCD、パソコンソフトを販売することができます。 おおざっぱな流れ amazon e託販売サービスに申し込む ↓ JANメーカーコード取得 ↓ JANコードを使いamazonに商品登録 ↓ amazonから納入依頼 ↓ CDをamazonに送る ↓ amazonに自分のCDが並ぶ＾＾ amazon e託販売サービスに申し込む Amazon e託販売サービス http://www.amazon.co.jp/gp/help/customer/display.ht&hellip;",
+  "published": "2015-03-05T22:02:46.000Z",
+  "modified": "2015-03-05T22:02:46.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "4年前にはてなダイアリーで書いた記事が今も結構見られているようなのですが、情報が古くなってるので2015年版です。"
+    },
+    {
+      "type": "p",
+      "html": "amazonの「e託販売サービス」を利用することで、個人でも本やCD、パソコンソフトを販売することができます。"
+    },
+    {
+      "type": "p",
+      "html": "おおざっぱな流れ"
+    },
+    {
+      "type": "p",
+      "html": "amazon e託販売サービスに申し込む\n↓\nJANメーカーコード取得\n↓\nJANコードを使いamazonに商品登録\n↓\namazonから納入依頼\n↓\nCDをamazonに送る\n↓\namazonに自分のCDが並ぶ＾＾"
+    },
+    {
+      "type": "h2",
+      "html": "amazon e託販売サービスに申し込む"
+    },
+    {
+      "type": "p",
+      "html": "<strong>Amazon e託販売サービス</strong><a href=\"http://www.amazon.co.jp/gp/help/customer/display.html/?nodeId=108722011\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.amazon.co.jp/gp/help/customer/display.html/?nodeId=108722011</a>"
+    },
+    {
+      "type": "p",
+      "html": "Amazon e託販売サービスは、出版社・メーカー様の商品をAmazonの配送センターに委託で在庫をお預かりするセルフサービスのプログラムです。"
+    },
+    {
+      "type": "p",
+      "html": "委託する商品に、ISBNバーコードもしくはJANバーコードが印刷されていること（バーコードシール貼付も可）\n委託する商品の販売権を有していること\nAmazon e託販売サービスで委託が可能な商品であること\n2006年9月現在、委託可能な商品は「書籍・雑誌」、「CD、高音質メディア（DVDオーディオ、ブルーレイオーディオ等）、レコード、カセット（国内盤のみ）」、「DVD・ブルーレイ（国内盤のみ）」、および「ソフトウェア（国内盤のみ）」となっています。"
+    },
+    {
+      "type": "p",
+      "html": "e託販売サービスの利用料は年間9,000円。掛率は60%\nCDだけでなく、本やDVDも販売できます。"
+    },
+    {
+      "type": "h2",
+      "html": "JANコードを取得する"
+    },
+    {
+      "type": "p",
+      "html": "このe託販売サービスを利用するのに必要なのがJANコード。JANメーカーコードを付与してもらい、商品にJANコードを印刷、またはシールを貼る必要があります。"
+    },
+    {
+      "type": "p",
+      "html": "JANメーカーコードを付与してもらうためには「JAN企業コード(JANメーカーコード)利用の手引き」を購入します。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.amazon.co.jp/exec/obidos/ASIN/B00JIGILCQ/lisalab-22/ref=nosim/\" target=\"_blank\" rel=\"noopener noreferrer\">バーコード利用の手引き GS1事業者コード(JAN企業コード)登録申請書付</a>"
+    },
+    {
+      "type": "p",
+      "html": "posted with <a href=\"http://www.amazlet.com/\" target=\"_blank\" rel=\"noopener noreferrer\">amazlet</a> at 15.03.05"
+    },
+    {
+      "type": "p",
+      "html": "流通システム開発センター流通システム開発センター売り上げランキング: 2,154"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.amazon.co.jp/exec/obidos/ASIN/B00JIGILCQ/lisalab-22/ref=nosim/\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon.co.jpで詳細を見る</a>"
+    },
+    {
+      "type": "p",
+      "html": "Janコードの使用料10,800円（3年分）を振りこみ、書類を書いて最寄りの商工会議所に提出。"
+    },
+    {
+      "type": "p",
+      "html": "これで、自分用のJANコードのメーカー番号が送られてきます。"
+    },
+    {
+      "type": "p",
+      "html": "番号は"
+    },
+    {
+      "type": "p",
+      "html": "<strong>付与された番号(9桁)＋任意の番号（3桁）＋チェックサム（確認用番号1桁）の合計13桁</strong>"
+    },
+    {
+      "type": "p",
+      "html": "例：手登根優貴 Melty Angel/最強！アホ毛伝説の場合\n<br>"
+    },
+    {
+      "type": "p",
+      "html": "<strong>458228389　　201　　　6</strong>"
+    },
+    {
+      "type": "p",
+      "html": "<strong>付与されたメーカー番号 ＋ 自分でつけた3桁　＋ 確認番号</strong>"
+    },
+    {
+      "type": "p",
+      "html": "CDに貼るJANコードはバーコードなので、この番号をバーコードに変換しなくてはなりません。"
+    },
+    {
+      "type": "p",
+      "html": "WindowsならフリーソフトのMiBarcode"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://homepage3.nifty.com/m-and-i/freesoft/mibarcd/mibarcode.htm\" target=\"_blank\" rel=\"noopener noreferrer\">http://homepage3.nifty.com/m-and-i/freesoft/mibarcd/mibarcode.htm</a>"
+    },
+    {
+      "type": "p",
+      "html": "MacならAPPストアで売ってるEANEncoder（200円）"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://itunes.apple.com/jp/app/eanencoder/id458594545?mt=12\" target=\"_blank\" rel=\"noopener noreferrer\">https://itunes.apple.com/jp/app/eanencoder/id458594545?mt=12</a>"
+    },
+    {
+      "type": "p",
+      "html": "このバーコードでAmaozonは商品管理をしますので、CDのどこかに付ける必要があります。CDのインレイや帯に印刷、またはシールに印刷してCDに貼り付けでもOKです。"
+    },
+    {
+      "type": "p",
+      "html": "シールの場合、うちはこれを使用しています。"
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.amazon.co.jp/exec/obidos/ASIN/B0000ACBPY/lisalab-22/ref=nosim/\" target=\"_blank\" rel=\"noopener noreferrer\">エーワン ラベルシール インクジェット 44面 20枚 28943</a>"
+    },
+    {
+      "type": "p",
+      "html": "posted with <a href=\"http://www.amazlet.com/\" target=\"_blank\" rel=\"noopener noreferrer\">amazlet</a> at 15.03.05"
+    },
+    {
+      "type": "p",
+      "html": "エーワン(A-one) (1995-05-22)売り上げランキング: 5,048"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.amazon.co.jp/exec/obidos/ASIN/B0000ACBPY/lisalab-22/ref=nosim/\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon.co.jpで詳細を見る</a>"
+    },
+    {
+      "type": "p",
+      "html": "印刷ソフトはフリーソフトのラベル屋さんからDL。"
+    },
+    {
+      "type": "p",
+      "html": "<strong>ラベル屋さん．ｃｏｍ</strong><a href=\"http://www.labelyasan.com/\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.labelyasan.com/</a>"
+    },
+    {
+      "type": "p",
+      "html": "このシールをCDに貼り付ければOKです。"
+    },
+    {
+      "type": "p",
+      "html": "あとはamazonから来る納入依頼の数のCDを送ればOK。"
+    },
+    {
+      "type": "p",
+      "html": "めでたくAmazonに並びます。"
+    },
+    {
+      "type": "image",
+      "media_index": 2
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.amazon.co.jp/exec/obidos/ASIN/B00NKFU2T6/lisalab-22/ref=nosim/\" target=\"_blank\" rel=\"noopener noreferrer\">Melty Angel / 最強! アホ毛伝説</a>"
+    },
+    {
+      "type": "p",
+      "html": "posted with <a href=\"http://www.amazlet.com/\" target=\"_blank\" rel=\"noopener noreferrer\">amazlet</a> at 15.03.05"
+    },
+    {
+      "type": "p",
+      "html": "手登根優貴Transistar (2014-10-29)売り上げランキング: 419,561"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.amazon.co.jp/exec/obidos/ASIN/B00NKFU2T6/lisalab-22/ref=nosim/\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon.co.jpで詳細を見る</a>"
+    },
+    {
+      "type": "h2",
+      "html": "かかる費用の合計"
+    },
+    {
+      "type": "p",
+      "html": "9,000円（e託年会費）＋1,200円（JANコード申込書）＋10,800円（JANコード3年）＝21,000円"
+    },
+    {
+      "type": "p",
+      "html": "掛率は同人ショップより割の良くない60％、そしてamazonは大量の在庫を置いてくれないので、毎週ちまちま納入依頼してきます。それこそ1枚から。その送料もバカになりません。"
+    },
+    {
+      "type": "p",
+      "html": "とはいえ、即売会1回出るのにもそこそこお金かかるわけですから、すこしお金かけても、自分の作った作品を多くの人に手にとってもらいやすいamazonで販売する価値は大きいと思います。"
+    },
+    {
+      "type": "p",
+      "html": "ちなみに、版権元の許可を得ずに2次創作物を売るのはやめておいたほうが良いです。"
+    },
+    {
+      "type": "p",
+      "html": "ざっと紹介してみましたが、実際にやってみよう！と思った方はしっかりamazonの説明を読んでやってみてください。それほど難しくはないです。"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_5f8766eac39747a69b11350d1cb547cb~mv2.jpg",
+      "alt": "バーコード利用の手引き GS1事業者コード(JAN企業コード)登録申請書付",
+      "caption": "",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_365b8466c8e747ad8e231de982916492~mv2.jpg",
+      "alt": "エーワン ラベルシール インクジェット 44面 20枚 28943",
+      "caption": "",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_aa4fe79d49fc496394ddcd430f1a78dc~mv2.jpg",
+      "alt": "Melty Angel / 最強! アホ毛伝説",
+      "caption": "",
+      "width": 480,
+      "height": 640
+    }
+  ]
+}

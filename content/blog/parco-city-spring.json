@@ -1,0 +1,24 @@
+{
+  "source": "https://www.lisa-rec.net/post/parco-city-spring",
+  "slug": "parco-city-spring",
+  "title": "PARCO CITY SPRING",
+  "description": "サンエー　パルコシティ様「PARCO CITY SPRING」の音楽とナレーションをリサレコが担当しました。ピクセルアートデザインに8bitサウンドを合わせました。 https://vimeo.com/922754190 https://www.parcocity.jp",
+  "published": "2024-03-15T16:06:53.000Z",
+  "modified": "2024-03-15T16:06:53.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "サンエー　パルコシティ様「PARCO CITY SPRING」の音楽とナレーションをリサレコが担当しました。\nピクセルアートデザインに8bitサウンドを合わせました。"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://www.parcocity.jp\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.parcocity.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://vimeo.com/922754190\" target=\"_blank\" rel=\"noopener noreferrer\">https://vimeo.com/922754190</a>"
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,24 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91mr-kinjo",
+  "slug": "【cm】mr-kinjo",
+  "title": "【CM】Mr.KINJO",
+  "description": "Mr.KINJO様のCMソング編曲を担当しました。 ＠広告主 Mr.KINJO様 ＠広告代理店 沖縄テレビ放送株式会社 様",
+  "published": "2017-01-20T04:02:45.000Z",
+  "modified": "2017-01-20T04:02:45.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "Mr.KINJO様のCMソング編曲を担当しました。"
+    },
+    {
+      "type": "p",
+      "html": "＠広告主\n<a href=\"http://mrkinjo.com\" target=\"_blank\" rel=\"noopener noreferrer\">Mr.KINJO様</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n<a href=\"http://www.otv.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">沖縄テレビ放送株式会社 様</a>"
+    }
+  ],
+  "media": []
+}

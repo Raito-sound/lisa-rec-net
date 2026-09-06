@@ -1,0 +1,24 @@
+{
+  "source": "https://www.lisa-rec.net/post/youtuber%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F",
+  "slug": "youtuber始めました",
+  "title": "YouTuber始めました",
+  "description": "https://youtu.be/PnroqxzBBMQ 来兎がYouTuber始めました。 前からちょいちょい動画はアップしてましたが、今後は割と本気でYouTuberやってみたなと思います。",
+  "published": "2020-06-20T16:25:11.000Z",
+  "modified": "2020-06-20T16:25:11.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "来兎がYouTuber始めました。"
+    },
+    {
+      "type": "p",
+      "html": "前からちょいちょい動画はアップしてましたが、今後は割と本気でYouTuberやってみたなと思います。\n<br>"
+    },
+    {
+      "type": "youtube",
+      "id": "PnroqxzBBMQ"
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,47 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90ns%E3%80%91%E3%83%96%E3%83%AC%E3%82%A4%E3%83%96%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%92%E8%81%96%E5%A5%88%E3%81%8C%E6%8B%85%E5%BD%93",
+  "slug": "【ns】ブレイブダンジョンの主題歌を聖奈が担当",
+  "title": "【NS】ブレイブダンジョンの主題歌を聖奈が担当",
+  "description": "INSIDE SYSTEM様の「ブレイブダンジョン＋魔神少女COMBAT」の主題歌を弊社聖奈が歌唱しました。 INSIDE SYSTEMオフィシャルサイト http://insidesystem.heteml.jp/combat/ 聖奈オフィシャルサイト http://lisa-rec.net/sena/",
+  "published": "2017-10-19T18:42:45.000Z",
+  "modified": "2017-10-19T18:42:45.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "INSIDE SYSTEM様の「ブレイブダンジョン＋魔神少女COMBAT」の主題歌を弊社聖奈が歌唱しました。"
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "p",
+      "html": "INSIDE SYSTEMオフィシャルサイト\n<a href=\"http://insidesystem.heteml.jp/combat/\" target=\"_blank\" rel=\"noopener noreferrer\">http://insidesystem.heteml.jp/combat/</a>"
+    },
+    {
+      "type": "p",
+      "html": "聖奈オフィシャルサイト\n<a href=\"http://lisa-rec.net/sena/\" target=\"_blank\" rel=\"noopener noreferrer\">http://lisa-rec.net/sena/</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_ac7b8e5929bd4fb1992f501ad7f40aa0~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1000,
+      "height": 656
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_a1062a4451ee4c9da1cb18c7b84019af~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 730,
+      "height": 667
+    }
+  ]
+}

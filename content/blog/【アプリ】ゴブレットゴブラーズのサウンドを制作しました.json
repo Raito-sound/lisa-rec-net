@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90%E3%82%A2%E3%83%97%E3%83%AA%E3%80%91%E3%82%B4%E3%83%96%E3%83%AC%E3%83%83%E3%83%88%E3%82%B4%E3%83%96%E3%83%A9%E3%83%BC%E3%82%BA%E3%81%AE%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%82%92%E5%88%B6%E4%BD%9C%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F",
+  "slug": "【アプリ】ゴブレットゴブラーズのサウンドを制作しました",
+  "title": "【アプリ】ゴブレットゴブラーズのサウンドを制作しました",
+  "description": "ボードゲーム『ゴブレットゴブラーズ』アプリ版のBGMと効果音をリサレコが制作しました。 ゲーム内容は進化した◯✕ゲームのようなもので、シンプルなシステムながらとても奥が深いです。ぜひ遊んでみてください。 すごろくや　公式ページhttps://sugorokuya.jp/c/gobblers-app",
+  "published": "2022-05-12T00:14:24.000Z",
+  "modified": "2022-05-12T00:14:24.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "ボードゲーム『ゴブレットゴブラーズ』アプリ版のBGMと効果音をリサレコが制作しました。"
+    },
+    {
+      "type": "p",
+      "html": "ゲーム内容は進化した◯✕ゲームのようなもので、シンプルなシステムながらとても奥が深いです。ぜひ遊んでみてください。"
+    },
+    {
+      "type": "p",
+      "html": "すごろくや　公式ページ\n<a href=\"https://sugorokuya.jp/c/gobblers-app\" target=\"_blank\" rel=\"noopener noreferrer\">https://sugorokuya.jp/c/gobblers-app</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_0b6d3934e34a4c6db3906f2ee33018e6~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 320,
+      "height": 569
+    }
+  ]
+}

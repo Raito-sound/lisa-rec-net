@@ -1,0 +1,24 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E6%B2%96%E7%B8%84%E5%A4%A7%E5%AD%A6-cm%E3%82%BD%E3%83%B3%E3%82%B0",
+  "slug": "【cm】沖縄大学-cmソング",
+  "title": "【CM】沖縄大学 CMソング",
+  "description": "沖縄大学様のCMソングをリサレコにて制作いたしました。これまでのCMソングのダンスリミックス的手法で作ってみました。 https://www.youtube.com/watch?v=QdsWDQkWYpo 沖縄大学オフィシャルサイトhttp://www.okinawa-u.ac.jp",
+  "published": "2019-07-29T15:23:24.000Z",
+  "modified": "2019-07-29T15:23:24.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "沖縄大学様のCMソングをリサレコにて制作いたしました。\nこれまでのCMソングのダンスリミックス的手法で作ってみました。\n<br>"
+    },
+    {
+      "type": "p",
+      "html": "沖縄大学オフィシャルサイト\n<a href=\"http://www.okinawa-u.ac.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.okinawa-u.ac.jp</a>"
+    },
+    {
+      "type": "youtube",
+      "id": "QdsWDQkWYpo"
+    }
+  ],
+  "media": []
+}

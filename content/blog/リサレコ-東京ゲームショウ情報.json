@@ -1,0 +1,79 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%83%AA%E3%82%B5%E3%83%AC%E3%82%B3-%E6%9D%B1%E4%BA%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B7%E3%83%A7%E3%82%A6%E6%83%85%E5%A0%B1",
+  "slug": "リサレコ-東京ゲームショウ情報",
+  "title": "リサレコ 東京ゲームショウ情報",
+  "description": "弊社が制作に関わっているゲームが東京ゲームショウに出店されます。 ・株式会社セガゲームス様 『電撃文庫 FIGHTING CLIMAX IGNITION』 http://climax.sega.jp/ 効果音を担当。 ・株式会社トイディア様 『ドラゴンファング』 http://dragon-fang.com 主題歌制作　弊社声優 手登根優貴が「妖精さん」の声を担当。 ・フライハイワークス株式会社様 『魔神少女エピソード２ -願いへの代価-』 http://insidesystem.heteml.jp/mjsj2/ 音楽を担当。弊社声優 手登根優貴が「クリンスィー」の声を担当。 よろしくお願いいたします。",
+  "published": "2015-09-11T16:00:22.000Z",
+  "modified": "2015-09-11T16:00:22.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "弊社が制作に関わっているゲームが東京ゲームショウに出店されます。"
+    },
+    {
+      "type": "h3",
+      "html": "・株式会社セガゲームス様『電撃文庫 FIGHTING CLIMAX IGNITION』"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://climax.sega.jp/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">http://climax.sega.jp/</a>"
+    },
+    {
+      "type": "p",
+      "html": "効果音を担当。\n<br>"
+    },
+    {
+      "type": "h3",
+      "html": "・株式会社トイディア様『ドラゴンファング』"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://dragon-fang.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://dragon-fang.com</a>"
+    },
+    {
+      "type": "p",
+      "html": "主題歌制作　弊社声優 手登根優貴が「妖精さん」の声を担当。\n<br>"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "h3",
+      "html": "・フライハイワークス株式会社様『魔神少女エピソード２ -願いへの代価-』"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://insidesystem.heteml.jp/mjsj2/\" target=\"_blank\" rel=\"noopener noreferrer\">http://insidesystem.heteml.jp/mjsj2/</a>"
+    },
+    {
+      "type": "p",
+      "html": "音楽を担当。弊社声優 手登根優貴が「クリンスィー」の声を担当。\n<br>"
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "p",
+      "html": "よろしくお願いいたします。"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_a7d36203d88340d3abd81d9707de8146~mv2.jpg",
+      "alt": "dorafan",
+      "caption": "",
+      "width": 1102,
+      "height": 499
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_146fa17931a5417fa01d9ca7e8604730~mv2.png",
+      "alt": "554221c6b85dbbab5147abe1ff304312",
+      "caption": "",
+      "width": 640,
+      "height": 410
+    }
+  ]
+}

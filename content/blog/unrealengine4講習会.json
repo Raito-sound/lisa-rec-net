@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/unrealengine4%E8%AC%9B%E7%BF%92%E4%BC%9A",
+  "slug": "unrealengine4講習会",
+  "title": "UnrealEngine4講習会",
+  "description": "UnrealEngine4講習会がKBC学園でありました。 UnrealEngineっていうのは、描画や入力などゲームプログラムの基本的な部分を担ってくれるゲームエンジンと呼ばれるものです。最近だとGUILTY GEAR Xrd-SIGN-や鉄拳7がUEを採用しています。 UE4の初歩的な操作など教えてくれたのですが実に良く出来ていて、いわゆるプログラムが出来なくても、かなり素早くイメージに近いモノを作れるんじゃなかと思いました。 開発環境はある程度パワフルなビデオカードを用意する必要はありますが、それでも3万程度のものでいいみたいです。 費用はツールが月19ドルみたいです。 ゲーム公開時にも費用がかかりますが、小規模の制作でここま&hellip;",
+  "published": "2014-11-09T00:23:59.000Z",
+  "modified": "2014-11-09T00:23:59.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "UnrealEngine4講習会がKBC学園でありました。"
+    },
+    {
+      "type": "p",
+      "html": "UnrealEngineっていうのは、描画や入力などゲームプログラムの基本的な部分を担ってくれるゲームエンジンと呼ばれるものです。最近だとGUILTY GEAR Xrd-SIGN-や鉄拳7がUEを採用しています。"
+    },
+    {
+      "type": "p",
+      "html": "UE4の初歩的な操作など教えてくれたのですが実に良く出来ていて、いわゆるプログラムが出来なくても、かなり素早くイメージに近いモノを作れるんじゃなかと思いました。"
+    },
+    {
+      "type": "p",
+      "html": "開発環境はある程度パワフルなビデオカードを用意する必要はありますが、それでも3万程度のものでいいみたいです。"
+    },
+    {
+      "type": "p",
+      "html": "費用はツールが月19ドルみたいです。\nゲーム公開時にも費用がかかりますが、小規模の制作でここまでクオリティの高いものを使えるのなら全然安いんじゃないかと思います。"
+    },
+    {
+      "type": "p",
+      "html": "とはいえ、私は始めたばっかりのHSPで簡単なゲームを作ってみなくては…"
+    },
+    {
+      "type": "p",
+      "html": "UnrealEngine4オフィシャル\n<a href=\"https://www.unrealengine.com/blog/welcome-to-unreal-engine-4\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.unrealengine.com/blog/welcome-to-unreal-engine-4</a>"
+    }
+  ],
+  "media": []
+}

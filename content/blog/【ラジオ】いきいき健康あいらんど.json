@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90%E3%83%A9%E3%82%B8%E3%82%AA%E3%80%91%E3%81%84%E3%81%8D%E3%81%84%E3%81%8D%E5%81%A5%E5%BA%B7%E3%81%82%E3%81%84%E3%82%89%E3%82%93%E3%81%A9",
+  "slug": "【ラジオ】いきいき健康あいらんど",
+  "title": "【ラジオ】いきいき健康あいらんど",
+  "description": "ラジオ いきいき健康あいらんどのテーマソング新バージョンを制作しました。 歌は弊社手登根優貴です。 沖縄県内のラジオ局にて放送されます。 財団法人沖縄県保健医療福祉事業団 http://kenkou-island.or.jp/ ＠広告代理店 株式会社エマエンタープライズ様 http://www.ema.co.jp",
+  "published": "2016-10-18T22:26:16.000Z",
+  "modified": "2016-10-18T22:26:16.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "ラジオ いきいき健康あいらんどのテーマソング新バージョンを制作しました。\n歌は弊社手登根優貴です。"
+    },
+    {
+      "type": "p",
+      "html": "沖縄県内のラジオ局にて放送されます。"
+    },
+    {
+      "type": "p",
+      "html": "財団法人沖縄県保健医療福祉事業団\n<a href=\"http://kenkou-island.or.jp/\" target=\"_blank\" rel=\"noopener noreferrer\">http://kenkou-island.or.jp/</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n株式会社エマエンタープライズ様\n<a href=\"http://www.ema.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.ema.co.jp</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_d075d3a5eda440e1a5ef6fc1c4e966e2~mv2.jpg",
+      "alt": "20160722161215-1",
+      "caption": "",
+      "width": 500,
+      "height": 703
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%8E%E9%AD%94%E7%A5%9E%E5%B0%91%E5%A5%B3%EF%BC%94-%E5%B1%8A%E3%81%91%E3%82%8B%E6%83%B3%E3%81%84%E3%80%8F",
+  "slug": "『魔神少女４-届ける想い』",
+  "title": "『魔神少女４ 届ける想い』",
+  "description": "インサイドシステム様の魔神少女シリーズ最新作『魔神少女４ 届ける想い』が発表されました。音楽を来兎が担当しております。 この魔神少女4が東京ゲームショウに出店予定です。試遊も可能だそうなので、ぜひ体験してください。 https://www.youtube.com/watch?v=PRMOA7bkYCU https://insidesystem.heteml.net/ep4/",
+  "published": "2024-09-21T16:49:02.000Z",
+  "modified": "2025-03-29T08:28:13.635Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "インサイドシステム様の魔神少女シリーズ最新作『魔神少女４ 届ける想い』が発表されました。音楽を来兎が担当しております。"
+    },
+    {
+      "type": "p",
+      "html": "この魔神少女4が東京ゲームショウに出店予定です。試遊も可能だそうなので、ぜひ体験してください。"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://insidesystem.heteml.net/ep4/\" target=\"_blank\" rel=\"noopener noreferrer\">https://insidesystem.heteml.net/ep4/</a>"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "youtube",
+      "id": "PRMOA7bkYCU"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_35ce4c221ec64978be4dba0954f01655~mv2.jpeg",
+      "alt": "",
+      "caption": "",
+      "width": 710,
+      "height": 921
+    }
+  ]
+}

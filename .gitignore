@@ -12,3 +12,5 @@
 # 作業用の下書き・退避
 *.bak
 _to_delete/
+__pycache__/
+*.pyc

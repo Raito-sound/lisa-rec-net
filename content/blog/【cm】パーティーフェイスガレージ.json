@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9%E3%82%AC%E3%83%AC%E3%83%BC%E3%82%B8",
+  "slug": "【cm】パーティーフェイスガレージ",
+  "title": "【CM】パーティーフェイスガレージ",
+  "description": "パーティーフェイスガレージ様のCMソングをリサレコが制作いたしました。 天気予報も放送されております。 ＠広告主 パーティーフェイスガレージ様 ＠広告代理店 有限会社アド・バ様",
+  "published": "2017-02-05T13:17:28.000Z",
+  "modified": "2017-02-05T13:17:28.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "パーティーフェイスガレージ様のCMソングをリサレコが制作いたしました。\n天気予報も放送されております。"
+    },
+    {
+      "type": "p",
+      "html": "＠広告主\nパーティーフェイスガレージ様"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n有限会社アド・バ様"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_51834d71bdaf48ed92faaf69ad7fcd7d~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1000,
+      "height": 565
+    }
+  ]
+}

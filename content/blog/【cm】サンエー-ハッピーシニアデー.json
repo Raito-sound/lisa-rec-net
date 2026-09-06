@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E3%82%B5%E3%83%B3%E3%82%A8%E3%83%BC-%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%B7%E3%83%8B%E3%82%A2%E3%83%87%E3%83%BC",
+  "slug": "【cm】サンエー-ハッピーシニアデー",
+  "title": "【CM】サンエー ハッピーシニアデー",
+  "description": "サンエー ハッピーシニアデーのCMソングを制作いたしました。 ＠広告主 株式会社サンエー様 ＠広告代理店 株式会社ワンダーリューキュー様",
+  "published": "2017-10-19T18:25:52.000Z",
+  "modified": "2017-10-19T18:25:52.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "サンエー ハッピーシニアデーのCMソングを制作いたしました。"
+    },
+    {
+      "type": "p",
+      "html": "＠広告主\n<a href=\"http://www.san-a.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">株式会社サンエー様</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n<a href=\"http://wonder-ryukyu.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">株式会社ワンダーリューキュー様</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_b3b207b7eca44e45bc26e707c85e3179~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 788,
+      "height": 463
+    }
+  ]
+}

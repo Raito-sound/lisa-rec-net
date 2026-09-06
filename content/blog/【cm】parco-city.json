@@ -1,0 +1,24 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91parco-city",
+  "slug": "【cm】parco-city",
+  "title": "【CM】PARCO CITY",
+  "description": "PARCO CITY様のサウンドロゴを制作いたしました。 https://youtu.be/QaxgoKZ9Yjw 広告主：株式会社サンエーパルコ様広告代理店：株式会社ワンダーリューキュー様",
+  "published": "2020-11-16T21:11:27.000Z",
+  "modified": "2020-11-16T21:11:27.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "PARCO CITY様のサウンドロゴを制作いたしました。\n<br>"
+    },
+    {
+      "type": "p",
+      "html": "広告主：<a href=\"https://www.parcocity.jp/\" target=\"_blank\" rel=\"noopener noreferrer\">株式会社サンエーパルコ</a>様\n広告代理店：<a href=\"https://wonder-ryukyu.co.jp/\" target=\"_blank\" rel=\"noopener noreferrer\">株式会社ワンダーリューキュー</a>様"
+    },
+    {
+      "type": "youtube",
+      "id": "QaxgoKZ9Yjw"
+    }
+  ],
+  "media": []
+}

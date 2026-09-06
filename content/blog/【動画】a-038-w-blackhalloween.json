@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90%E5%8B%95%E7%94%BB%E3%80%91a-038-w-blackhalloween",
+  "slug": "【動画】a-038-w-blackhalloween",
+  "title": "【動画】A&#038;W blackhalloween",
+  "description": "A&#038;W様のハロウィンCM動画の音楽をリサレコが担当しました。 A&#038;W WEBサイト http://www.awok.co.jp ＠広告代理店 株式会社エマエンタープライズ様 WEBサイト http://www.ema.co.jp",
+  "published": "2016-10-07T17:31:00.000Z",
+  "modified": "2016-10-07T17:31:00.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "A&amp;W様のハロウィンCM動画の音楽をリサレコが担当しました。"
+    },
+    {
+      "type": "p",
+      "html": "A&amp;W WEBサイト\n<a href=\"http://www.awok.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.awok.co.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n株式会社エマエンタープライズ様 WEBサイト"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.ema.co.jp/\" target=\"_blank\" rel=\"noopener noreferrer\">toppage</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_56915f34925941739d7279733cc9eda1~mv2.jpg",
+      "alt": "halloween_borad",
+      "caption": "",
+      "width": 1000,
+      "height": 562
+    }
+  ]
+}

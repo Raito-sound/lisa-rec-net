@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%82%BD%E3%83%8B%E3%83%BC%E5%85%83%E7%A4%BE%E9%95%B7%E3%81%AE%E3%83%88%E3%83%BC%E3%82%AF%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88",
+  "slug": "ソニー元社長のトークイベント",
+  "title": "ソニー元社長のトークイベント",
+  "description": "ジュンク堂書店に行ったところ、ソニーの元社長である平井一夫氏の講演を偶然見かけ、聞いてきました。 私の人生を大きく支えてくれた技術と言えば、Windows 95とPlayStationです。Windows 95がなければ、私たちはゲームを作ることができなかったでしょうし、PlayStation 2がなければ『メルティブラッド』が海外に出ることもなかったかもしれません。 この講演を行った平井氏は、間違いなく私の人生を変えてくれた人の一人です。 https://amzn.to/3Z99XQJ",
+  "published": "2024-11-09T13:56:15.000Z",
+  "modified": "2024-11-09T13:56:15.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "ジュンク堂書店に行ったところ、ソニーの元社長である平井一夫氏の講演を偶然見かけ、聞いてきました。"
+    },
+    {
+      "type": "p",
+      "html": "私の人生を大きく支えてくれた技術と言えば、Windows 95とPlayStationです。Windows 95がなければ、私たちはゲームを作ることができなかったでしょうし、PlayStation 2がなければ『メルティブラッド』が海外に出ることもなかったかもしれません。"
+    },
+    {
+      "type": "p",
+      "html": "この講演を行った平井氏は、間違いなく私の人生を変えてくれた人の一人です。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://amzn.to/3Z99XQJ\" target=\"_blank\" rel=\"noopener noreferrer\">https://amzn.to/3Z99XQJ</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_c00fc8b8677d49bab18500d3a9b20bcd~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 663,
+      "height": 1024
+    }
+  ]
+}

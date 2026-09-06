@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E6%B2%96%E7%B8%84%E9%9B%BB%E5%8A%9Bcm%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB",
+  "slug": "沖縄電力cmジングル",
+  "title": "沖縄電力CMジングル",
+  "description": "沖縄電力様のCMソングジングルを制作しました。CMおわりのリコーダーの音です。 https://www.youtube.com/watch?v=_H8fN6sfx2k 沖縄電力様サイトhttps://www.okiden.co.jp",
+  "published": "2024-04-06T14:46:23.000Z",
+  "modified": "2024-04-06T14:46:23.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "沖縄電力様のCMソングジングルを制作しました。\nCMおわりのリコーダーの音です。"
+    },
+    {
+      "type": "p",
+      "html": "沖縄電力様サイト\n<a href=\"https://www.okiden.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.okiden.co.jp</a>"
+    },
+    {
+      "type": "youtube",
+      "id": "_H8fN6sfx2k"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_3a944e5b67114e51aaa418a9ff225dcd~mv2.png",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    }
+  ]
+}

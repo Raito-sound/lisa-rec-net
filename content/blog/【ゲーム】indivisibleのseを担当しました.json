@@ -1,0 +1,43 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%91indivisible%E3%81%AEse%E3%82%92%E6%8B%85%E5%BD%93%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F",
+  "slug": "【ゲーム】indivisibleのseを担当しました",
+  "title": "【ゲーム】IndivisibleのSEを担当しました",
+  "description": "「スカルガールズ」の開発元であるLab Zero Gamesの新作RPG「Indivisible」のSEを弊社にて制作いたしました。 日本国内ではSteam/GOG.comにてPC版が購入可能です。ぜひ遊んでみてくださいませ！Steam: https://store.steampowered.com/app/421170/Indivisible/?l=japanese GOG.com: https://www.gog.com/game/indivisible",
+  "published": "2019-11-08T02:41:03.000Z",
+  "modified": "2019-11-08T02:41:03.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "「スカルガールズ」の開発元であるLab Zero Gamesの新作RPG「Indivisible」のSEを弊社にて制作いたしました。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "p",
+      "html": "日本国内ではSteam/GOG.comにてPC版が購入可能です。\nぜひ遊んでみてくださいませ！\n\nSteam: <a href=\"https://store.steampowered.com/app/421170/Indivisible/?l=japanese\" target=\"_blank\" rel=\"noopener noreferrer\">https://store.steampowered.com/app/421170/Indivisible/?l=japanese</a> \nGOG.com: <a href=\"https://www.gog.com/game/indivisible\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gog.com/game/indivisible</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_bf659703190c4fc6b5984cdc2bd8d097~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 600,
+      "height": 337
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_aa4fbc75959246e7b4daf9af69dc4921~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 595,
+      "height": 338
+    }
+  ]
+}

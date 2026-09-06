@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/au%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97cm%E3%82%BD%E3%83%B3%E3%82%B0",
+  "slug": "auショップcmソング",
+  "title": "auショップCMソング",
+  "description": "au沖縄セルラー様のCMソング作編曲・レコーディングを担当しました。 https://www.youtube.com/watch?v=zwqbygFKcOk auショップCM動画 沖縄セルラー様オフィシャルサイトhttps://okinawa-cellular.jp",
+  "published": "2024-04-06T14:43:27.000Z",
+  "modified": "2024-04-06T14:43:27.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "au沖縄セルラー様のCMソング作編曲・レコーディングを担当しました。"
+    },
+    {
+      "type": "p",
+      "html": "沖縄セルラー様オフィシャルサイト\n<a href=\"https://okinawa-cellular.jp\" target=\"_blank\" rel=\"noopener noreferrer\">https://okinawa-cellular.jp</a>"
+    },
+    {
+      "type": "youtube",
+      "id": "zwqbygFKcOk"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_e46cee4a54d44044bf046684d9e882f5~mv2.png",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    }
+  ]
+}

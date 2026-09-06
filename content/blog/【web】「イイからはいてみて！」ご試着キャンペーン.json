@@ -1,0 +1,32 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90web%E3%80%91%E3%80%8C%E3%82%A4%E3%82%A4%E3%81%8B%E3%82%89%E3%81%AF%E3%81%84%E3%81%A6%E3%81%BF%E3%81%A6%EF%BC%81%E3%80%8D%E3%81%94%E8%A9%A6%E7%9D%80%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3",
+  "slug": "【web】「イイからはいてみて！」ご試着キャンペーン",
+  "title": "【web】「イイからはいてみて！」ご試着キャンペーン",
+  "description": "WING様の「イイからはいてみて！」ご試着キャンペーンの動画の音楽を制作しました。 イイからはいてみて！ご試着キャンペーン | ウイングオフィシャルサイト http://www.w-wing.jp/bottom/campaign/",
+  "published": "2016-08-02T17:55:07.000Z",
+  "modified": "2016-08-02T17:55:07.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "WING様の「イイからはいてみて！」ご試着キャンペーンの動画の音楽を制作しました。"
+    },
+    {
+      "type": "p",
+      "html": "イイからはいてみて！ご試着キャンペーン | ウイングオフィシャルサイト\n<a href=\"http://www.w-wing.jp/bottom/campaign/\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.w-wing.jp/bottom/campaign/</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_64440fb0ea274bf1938620226af10c8d~mv2.jpg",
+      "alt": "wing_page",
+      "caption": "",
+      "width": 1000,
+      "height": 562
+    }
+  ]
+}

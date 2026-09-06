@@ -1,0 +1,58 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E8%82%89%E3%83%95%E3%82%A7%E3%82%B9%E3%82%BFinnaha%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81",
+  "slug": "肉フェスタinnahaに行ってきました！",
+  "title": "肉フェスタinNAHAに行ってきました！",
+  "description": "4月30日に開催された肉フェスタinNAHAに行ってきました。 肉とビールのタッグは最強。 なによりこの手のイベントは買い物はチケットを購入することがおおいのですが、現金OK、auPAYで支払うと20％キャッシュバックというのがお得でした。お祭りほど電子決済が良いですね！",
+  "published": "2023-05-03T01:00:18.000Z",
+  "modified": "2023-05-03T01:00:18.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "4月30日に開催された肉フェスタinNAHAに行ってきました。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "肉とビールのタッグは最強。"
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "image",
+      "media_index": 2
+    },
+    {
+      "type": "p",
+      "html": "なによりこの手のイベントは買い物はチケットを購入することがおおいのですが、現金OK、auPAYで支払うと20％キャッシュバックというのがお得でした。お祭りほど電子決済が良いですね！"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_23d1496f28c54d62883240de7ce85c8f~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_4cfb52478d5b43c18a4f478c94513062~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_1b7d6f8b205a485f9bc2c70eedc8c311~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    }
+  ]
+}

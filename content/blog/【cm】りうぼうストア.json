@@ -1,0 +1,28 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E3%82%8A%E3%81%86%E3%81%BC%E3%81%86%E3%82%B9%E3%83%88%E3%82%A2",
+  "slug": "【cm】りうぼうストア",
+  "title": "【CM】りうぼうストア",
+  "description": "りうぼうストア様のCMソングのアレンジバージョンを制作いたしました。作曲は紀々さんです。 https://www.youtube.com/watch?v=ZmuPxC-b30E オリジナルは古き良き銀座を思わせるような歌です。今回はりうぼうストアということで、カジュアルにアレンジさせていただきました。 広告主：りうぼうストア様広告代理店：株式会社宣伝様",
+  "published": "2020-06-13T16:43:41.000Z",
+  "modified": "2020-06-13T16:43:41.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "りうぼうストア様のCMソングのアレンジバージョンを制作いたしました。\n作曲は紀々さんです。"
+    },
+    {
+      "type": "p",
+      "html": "オリジナルは古き良き銀座を思わせるような歌です。\n今回はりうぼうストアということで、カジュアルにアレンジさせていただきました。"
+    },
+    {
+      "type": "p",
+      "html": "広告主：<a href=\"https://ryubo.jp\" target=\"_blank\" rel=\"noopener noreferrer\">りうぼうストア</a>様\n広告代理店：<a href=\"http://senden.symba.jp\" target=\"_blank\" rel=\"noopener noreferrer\">株式会社宣伝</a>様"
+    },
+    {
+      "type": "youtube",
+      "id": "ZmuPxC-b30E"
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E5%A4%A7%E7%9F%A5%E5%BB%BA%E8%A8%AD",
+  "slug": "【cm】大知建設",
+  "title": "【CM】大知建設",
+  "description": "大知建設様のCMソングを制作しました。 歌は弊社アーティスト聖奈です。 ＠広告主 大知建設様 ウェブサイト http://daichi21.jp ＠広告代理店 モグラフィクション様 オフィシャルWEB http://mogra.jp",
+  "published": "2017-01-02T19:05:24.000Z",
+  "modified": "2017-01-02T19:05:24.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "大知建設様のCMソングを制作しました。\n歌は弊社アーティスト聖奈です。"
+    },
+    {
+      "type": "p",
+      "html": "＠広告主\n大知建設様 ウェブサイト\n<a href=\"http://daichi21.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://daichi21.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\nモグラフィクション様 オフィシャルWEB\n<a href=\"http://mogra.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://mogra.jp</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_979df221b90e403283f84571c2d4be74~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1000,
+      "height": 562
+    }
+  ]
+}

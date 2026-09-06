@@ -1,0 +1,55 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%8C%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%91%E3%83%B3%E3%81%A8%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%AB%E8%A1%8C%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F",
+  "slug": "「おいしいパンとコーヒー」というイベントに行きました",
+  "title": "「おいしいパンとコーヒー」というイベントに行きました",
+  "description": "パレットくもじ6階で「おいしいパンとコーヒー」というイベントが開催されていたのでいってきました。 たくさんのパン屋さんとコーヒー屋さんが出店しています。 私もうさぎのパンを買いました。 29日までの開催です。 リウボウオフィシャルサイト",
+  "published": "2023-05-24T23:32:57.000Z",
+  "modified": "2023-05-24T23:32:57.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "パレットくもじ6階で「おいしいパンとコーヒー」というイベントが開催されていたのでいってきました。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "たくさんのパン屋さんとコーヒー屋さんが出店しています。"
+    },
+    {
+      "type": "p",
+      "html": "私もうさぎのパンを買いました。"
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "p",
+      "html": "29日までの開催です。"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"https://ryubo.jp\" target=\"_blank\" rel=\"noopener noreferrer\">リウボウオフィシャルサイト</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_6c4901cdc84945f8bf10e55310b59b5f~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_86d81e03345047af9f1616a201878363~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    }
+  ]
+}

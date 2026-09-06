@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E8%87%AA%E8%B2%A9%E6%A9%9F%E3%81%AE%E3%83%9F%E3%83%AA%E3%82%AA%E3%83%B3",
+  "slug": "【cm】自販機のミリオン",
+  "title": "【CM】自販機のミリオン",
+  "description": "株式会社ミリオン様のCMナレーションを担当しました。 ＠広告主 株式会社ミリオン様 http://milion-okinawa.jp ＠広告代理店 株式会社ポケット様 http://www.pocket-okinawa.co.jp ＠CM放送中の番組 闘牛戦士ワイドー http://waido.net",
+  "published": "2018-04-08T19:05:14.000Z",
+  "modified": "2018-04-08T19:05:14.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "株式会社ミリオン様のCMナレーションを担当しました。"
+    },
+    {
+      "type": "p",
+      "html": "＠広告主\n株式会社ミリオン様\n<a href=\"http://milion-okinawa.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://milion-okinawa.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n株式会社ポケット様\n<a href=\"http://www.pocket-okinawa.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.pocket-okinawa.co.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠CM放送中の番組\n闘牛戦士ワイドー\n<a href=\"http://waido.net\" target=\"_blank\" rel=\"noopener noreferrer\">http://waido.net</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_400ffe31f9c5492bb67cfec81557e519~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1150,
+      "height": 644
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90html5%E3%80%91%E3%81%8A%E3%81%9D%E6%9D%BE%E3%81%95%E3%82%93%E3%81%AE%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E5%B7%A5%E5%A0%B4",
+  "slug": "【html5】おそ松さんのブラック工場",
+  "title": "【HTML5】おそ松さんのブラック工場",
+  "description": "Yahoo!ゲームにて「おそ松さんのブラック工場」がリリースされました。 音楽をTransistarが担当しております。 おそ松さんのへそくりウォーズの音楽をアレンジした、ブラック感あふれる音楽になっております。 Yahoo!ゲーム　おそ松さん特設ページ http://games.yahoo.co.jp/play/promo/osomatsu 企画・製作　エイベックス・ピクチャーズ / ディー・エル・イー 開発　ちゅらっぷす ©赤塚不二夫 / おそ松さん製作委員会",
+  "published": "2016-04-06T21:34:11.000Z",
+  "modified": "2016-04-06T21:34:11.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "Yahoo!ゲームにて「おそ松さんのブラック工場」がリリースされました。\n音楽をTransistarが担当しております。"
+    },
+    {
+      "type": "p",
+      "html": "おそ松さんのへそくりウォーズの音楽をアレンジした、ブラック感あふれる音楽になっております。"
+    },
+    {
+      "type": "p",
+      "html": "Yahoo!ゲーム　おそ松さん特設ページ\n<a href=\"http://games.yahoo.co.jp/play/promo/osomatsu\" target=\"_blank\" rel=\"noopener noreferrer\">http://games.yahoo.co.jp/play/promo/osomatsu</a>"
+    },
+    {
+      "type": "p",
+      "html": "企画・製作　エイベックス・ピクチャーズ / ディー・エル・イー\n開発　ちゅらっぷす"
+    },
+    {
+      "type": "p",
+      "html": "©赤塚不二夫 / おそ松さん製作委員会"
+    }
+  ],
+  "media": []
+}

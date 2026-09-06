@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E3%82%B5%E3%83%B3%E3%82%A8%E3%83%BCedy%E3%82%AB%E3%83%BC%E3%83%89",
+  "slug": "【cm】サンエーedyカード",
+  "title": "【CM】サンエーEdyカード",
+  "description": "サンエー様のサンエーEdyカードCMソングを弊社にて制作いたしました。 株式会社サンエー様 オフィシャルWEB http://www.san-a.co.jp ＠広告代理店 株式会社ワンダーリューキュー様 オフィシャルWEB http://wonder-ryukyu.co.jp",
+  "published": "2016-07-13T08:01:54.000Z",
+  "modified": "2016-07-13T08:01:54.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "サンエー様のサンエーEdyカードCMソングを弊社にて制作いたしました。"
+    },
+    {
+      "type": "p",
+      "html": "株式会社サンエー様 オフィシャルWEB\n<a href=\"http://www.san-a.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.san-a.co.jp</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n株式会社ワンダーリューキュー様 オフィシャルWEB\n<a href=\"http://wonder-ryukyu.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://wonder-ryukyu.co.jp</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_b8ed5c3b1f8f45088e73f1da456515ec~mv2.jpg",
+      "alt": "san-a_edy",
+      "caption": "",
+      "width": 1000,
+      "height": 562
+    }
+  ]
+}

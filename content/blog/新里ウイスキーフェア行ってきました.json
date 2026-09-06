@@ -1,0 +1,47 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E6%96%B0%E9%87%8C%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A2%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F",
+  "slug": "新里ウイスキーフェア行ってきました",
+  "title": "新里ウイスキーフェア行ってきました",
+  "description": "沖縄タイムスビルで「新里ウイスキーフェア」をやってたので行ってきました。ライブもあって大盛況。 新里酒造さんはウイスキーも作ってるんですね。ハイボールで飲んでみましたが、不思議と泡盛みたいな風味を感じます。 新里酒造オフィシャルサイトhttps://shinzato-shuzo.co.jp",
+  "published": "2023-04-29T19:57:33.000Z",
+  "modified": "2023-04-29T19:57:33.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "沖縄タイムスビルで「新里ウイスキーフェア」をやってたので行ってきました。ライブもあって大盛況。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "image",
+      "media_index": 1
+    },
+    {
+      "type": "p",
+      "html": "新里酒造さんはウイスキーも作ってるんですね。ハイボールで飲んでみましたが、不思議と泡盛みたいな風味を感じます。"
+    },
+    {
+      "type": "p",
+      "html": "新里酒造オフィシャルサイト\n<a href=\"https://shinzato-shuzo.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">https://shinzato-shuzo.co.jp</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_1c29e7231db044258798dc17eb15a63e~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_9792967ce0114bc0b95142f6bbdf76ac~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 960,
+      "height": 662
+    }
+  ]
+}

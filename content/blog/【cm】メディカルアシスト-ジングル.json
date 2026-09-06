@@ -1,0 +1,32 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%88-%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB",
+  "slug": "【cm】メディカルアシスト-ジングル",
+  "title": "【CM】メディカルアシスト ジングル",
+  "description": "メディカルアシスト様のラジオ用ジングルを弊社にて制作しました。ラジオ沖縄で放送しております。 メディカルアシスト様 オフィシャルWEB http://medical-assist.co.jp",
+  "published": "2016-06-30T22:03:00.000Z",
+  "modified": "2016-06-30T22:03:00.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "メディカルアシスト様のラジオ用ジングルを弊社にて制作しました。ラジオ沖縄で放送しております。"
+    },
+    {
+      "type": "p",
+      "html": "メディカルアシスト様 オフィシャルWEB\n<a href=\"http://medical-assist.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">http://medical-assist.co.jp</a>"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_31e966f7883f4445972106b06996de6c~mv2.jpg",
+      "alt": "medicalassist",
+      "caption": "",
+      "width": 1029,
+      "height": 660
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cm%E3%80%91petbox%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97",
+  "slug": "【cm】petboxグループ",
+  "title": "【CM】PETBOXグループ",
+  "description": "PETBOXグループのCMソング作編曲を担当いたしました。 歌は、加藤はるかさんです。 PETBOXグループ https://youtu.be/HeZe4S5cvis ＠広告主 オム・ファム株式会社様 ＠広告代理店 株式会社ワンダーリューキュー様",
+  "published": "2018-11-02T16:25:16.000Z",
+  "modified": "2018-11-02T16:25:16.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "PETBOXグループのCMソング作編曲を担当いたしました。"
+    },
+    {
+      "type": "p",
+      "html": "歌は、加藤はるかさんです。"
+    },
+    {
+      "type": "p",
+      "html": "<a href=\"http://www.petbox.co.jp/\" target=\"_blank\" rel=\"noopener noreferrer\">PETBOXグループ</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告主\n<a href=\"http://www.petbox.co.jp\" target=\"_blank\" rel=\"noopener noreferrer\">オム・ファム株式会社様</a>"
+    },
+    {
+      "type": "p",
+      "html": "＠広告代理店\n<a href=\"http://wonder-ryukyu.co.jp/\" target=\"_blank\" rel=\"noopener noreferrer\">株式会社ワンダーリューキュー様</a>"
+    },
+    {
+      "type": "youtube",
+      "id": "HeZe4S5cvis"
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,40 @@
+{
+  "source": "https://www.lisa-rec.net/post/%E3%80%90cd%E3%80%91%E5%B2%A1%E6%9D%91%E8%81%A1%E5%A3%AB%E3%80%8E%E3%83%81%E3%83%B3%E3%82%AF%E3%83%AE%E3%83%BC%E3%83%9E%E3%82%B8%E3%83%A0%E3%83%B3%E3%80%8F",
+  "slug": "【cd】岡村聡士『チンクヮーマジムン』",
+  "title": "【CD】岡村聡士『チンクヮーマジムン』",
+  "description": "岡村聡士さんのCD『S・T・E・P 2』に収録の『チンクヮーマジムン』の編曲を来兎が担当しました。 動画コンテストを開催中です。 岡村聡士オフィシャルサイトhttp://satoshiokamura.ryukyu https://www.youtube.com/watch?v=FQE6ENh5lhQ",
+  "published": "2019-10-15T19:17:45.000Z",
+  "modified": "2019-10-15T19:17:45.000Z",
+  "author": "Masaru Kuba",
+  "blocks": [
+    {
+      "type": "p",
+      "html": "岡村聡士さんのCD『S・T・E・P 2』に収録の『チンクヮーマジムン』の編曲を来兎が担当しました。"
+    },
+    {
+      "type": "image",
+      "media_index": 0
+    },
+    {
+      "type": "p",
+      "html": "動画コンテストを開催中です。"
+    },
+    {
+      "type": "p",
+      "html": "岡村聡士オフィシャルサイト\n<a href=\"http://satoshiokamura.ryukyu\" target=\"_blank\" rel=\"noopener noreferrer\">http://satoshiokamura.ryukyu</a>"
+    },
+    {
+      "type": "youtube",
+      "id": "FQE6ENh5lhQ"
+    }
+  ],
+  "media": [
+    {
+      "uri": "https://static.wixstatic.com/media/53820c_09324df8c92348db831f45299095cb3e~mv2.jpg",
+      "alt": "",
+      "caption": "",
+      "width": 679,
+      "height": 960
+    }
+  ]
+}
