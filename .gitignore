@@ -14,3 +14,6 @@
 _to_delete/
 __pycache__/
 *.pyc
+
+# generated hosting output
+_site/
