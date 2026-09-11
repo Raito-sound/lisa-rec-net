@@ -15,6 +15,17 @@
    "lisarec_title": "Double Dragon Revive"
   },
   {
+   "slug": "zeroranger-the-sea-has-returned",
+   "url": "https://raito.studio/ja/works/zeroranger-the-sea-has-returned/",
+   "title_ja": "ZeroRanger アレンジアルバム「The Sea Has Returned」",
+   "roles_ja": "編曲",
+   "year": "2024",
+   "keywords": [
+    "ZeroRanger"
+   ],
+   "lisarec_title": ""
+  },
+  {
    "slug": "raiden-iii-mikado-maniax",
    "url": "https://raito.studio/ja/works/raiden-iii-mikado-maniax/",
    "title_ja": "雷電III x MIKADO MANIAX",
@@ -27,10 +38,43 @@
    "lisarec_title": ""
   },
   {
+   "slug": "yagate-chiriyuku-kagami-no-hana-e",
+   "url": "https://raito.studio/ja/works/yagate-chiriyuku-kagami-no-hana-e/",
+   "title_ja": "やがて散りゆく鏡の花へ",
+   "roles_ja": "作曲・編曲・作詞・ディレクション",
+   "year": "2023",
+   "keywords": [
+    "やがて散りゆく鏡の花へ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "blackjack-gear",
+   "url": "https://raito.studio/ja/works/blackjack-gear/",
+   "title_ja": "ブラックジャックギア",
+   "roles_ja": "作曲・サウンド制作",
+   "year": "2023",
+   "keywords": [
+    "ブラックジャックギア"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "gobblet-gobblers",
+   "url": "https://raito.studio/ja/works/gobblet-gobblers/",
+   "title_ja": "ゴブレットゴブラーズ",
+   "roles_ja": "作曲・効果音",
+   "year": "2022",
+   "keywords": [
+    "ゴブレットゴブラーズ"
+   ],
+   "lisarec_title": ""
+  },
+  {
    "slug": "fate-grand-order",
    "url": "https://raito.studio/ja/works/fate-grand-order/",
    "title_ja": "Fate/Grand Order",
-   "roles_ja": "編曲",
+   "roles_ja": "編曲・ギター／シンセアレンジ",
    "year": "2021",
    "keywords": [
     "Fate/Grand Order",
@@ -42,7 +86,7 @@
    "slug": "sk8-the-infinity",
    "url": "https://raito.studio/ja/works/sk8-the-infinity/",
    "title_ja": "SK∞ エスケーエイト",
-   "roles_ja": "作曲・編曲",
+   "roles_ja": "作曲・編曲（MEGと共作）",
    "year": "2021",
    "keywords": [
     "SK∞",
@@ -52,11 +96,23 @@
    "lisarec_title": "SK∞ エスケーエイト"
   },
   {
+   "slug": "skullgirls-umbrella",
+   "url": "https://raito.studio/ja/works/skullgirls-umbrella/",
+   "title_ja": "スカルガールズ 2ndアンコール／Skullgirls Mobile（アンブレラのテーマ曲「Ice Cream Headache」）",
+   "roles_ja": "作曲",
+   "year": "2021",
+   "keywords": [
+    "スカルガールズ",
+    "Skullgirls"
+   ],
+   "lisarec_title": ""
+  },
+  {
    "slug": "kingdom-dash",
    "url": "https://raito.studio/ja/works/kingdom-dash/",
    "title_ja": "キングダム DASH!!",
    "roles_ja": "作曲（BGM）・効果音",
-   "year": "2021",
+   "year": "2020",
    "keywords": [
     "キングダム DASH",
     "キングダムDASH"
@@ -77,41 +133,62 @@
    "lisarec_title": "痛いのは嫌なので防御力に極振りしたいと思います。～らいんうぉーず！～"
   },
   {
-   "slug": "indivisible",
-   "url": "https://raito.studio/ja/works/indivisible/",
-   "title_ja": "Indivisible",
-   "roles_ja": "効果音",
+   "slug": "kasukabe-runner-z",
+   "url": "https://raito.studio/ja/works/kasukabe-runner-z/",
+   "title_ja": "クレヨンしんちゃん カスカベランナーZ",
+   "roles_ja": "作曲・効果音",
    "year": "2019",
    "keywords": [
-    "Indivisible"
+    "カスカベランナーZ"
    ],
-   "lisarec_title": "Indivisible"
+   "lisarec_title": ""
   },
   {
-   "slug": "osomatsu-san-hesokuri-wars",
-   "url": "https://raito.studio/ja/works/osomatsu-san-hesokuri-wars/",
-   "title_ja": "おそ松さんのへそくりウォーズ 〜ニートの攻防〜",
-   "roles_ja": "作曲・編曲",
+   "slug": "asuka-120-burning-remixes",
+   "url": "https://raito.studio/ja/works/asuka-120-burning-remixes/",
+   "title_ja": "あすか120%「BURNING Remixes」",
+   "roles_ja": "リミックス",
    "year": "2019",
    "keywords": [
-    "へそくりウォーズ",
-    "おそ松さん"
+    "あすか120"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "poptepipic-plus-plus",
+   "url": "https://raito.studio/ja/works/poptepipic-plus-plus/",
+   "title_ja": "ポプテピピック＋＋〜ポプ子ピピ美の友情大作戦〜",
+   "roles_ja": "作曲・効果音",
+   "year": "2019",
+   "keywords": [
+    "ポプテピピック"
    ],
    "lisarec_title": ""
   },
   {
    "slug": "bokuben-study",
    "url": "https://raito.studio/ja/works/bokuben-study/",
-   "title_ja": "ぼくたちは勉強ができない（Study 主題歌）",
+   "title_ja": "ぼくたちは勉強ができない（Study「ready STUDY go!」）",
    "roles_ja": "作曲・編曲",
    "year": "2019",
    "keywords": [
     "ぼくたちは勉強ができない",
     "ぼく勉",
     "PROGRESSIVE",
-    "Can now"
+    "ready STUDY go"
    ],
    "lisarec_title": "ぼくたちは勉強ができない（Study 主題歌）"
+  },
+  {
+   "slug": "kakegurui-app",
+   "url": "https://raito.studio/ja/works/kakegurui-app/",
+   "title_ja": "賭ケグルイ（スマートフォンゲーム）",
+   "roles_ja": "作曲・サウンド制作",
+   "year": "2018",
+   "keywords": [
+    "賭ケグルイ"
+   ],
+   "lisarec_title": ""
   },
   {
    "slug": "blazblue-cross-tag-battle",
@@ -151,10 +228,44 @@
    "lisarec_title": "斉木楠雄のΨ難 妄想暴走!Ψキックバトル"
   },
   {
+   "slug": "indivisible",
+   "url": "https://raito.studio/ja/works/indivisible/",
+   "title_ja": "Indivisible",
+   "roles_ja": "効果音",
+   "year": "2017",
+   "keywords": [
+    "Indivisible"
+   ],
+   "lisarec_title": "Indivisible"
+  },
+  {
+   "slug": "kemono-friends-pavilion",
+   "url": "https://raito.studio/ja/works/kemono-friends-pavilion/",
+   "title_ja": "けものフレンズぱびりおん",
+   "roles_ja": "作曲・サウンド制作",
+   "year": "2017",
+   "keywords": [
+    "けものフレンズぱびりおん",
+    "けもフレ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "saiki-k-dark-reunion",
+   "url": "https://raito.studio/ja/works/saiki-k-dark-reunion/",
+   "title_ja": "斉木楠雄のΨ難 ダークリユニオンの逆襲",
+   "roles_ja": "作曲",
+   "year": "2017",
+   "keywords": [
+    "ダークリユニオン"
+   ],
+   "lisarec_title": ""
+  },
+  {
    "slug": "voez",
    "url": "https://raito.studio/ja/works/voez/",
    "title_ja": "VOEZ",
-   "roles_ja": "編曲",
+   "roles_ja": "作曲・編曲",
    "year": "2017",
    "keywords": [
     "VOEZ"
@@ -174,10 +285,22 @@
    "lisarec_title": "オキナワノコワイハナシ 劇伴（TVドラマシリーズ）"
   },
   {
+   "slug": "osomatsu-san-hesokuri-wars",
+   "url": "https://raito.studio/ja/works/osomatsu-san-hesokuri-wars/",
+   "title_ja": "おそ松さんのへそくりウォーズ 〜ニートの攻防〜",
+   "roles_ja": "作曲・編曲",
+   "year": "2015",
+   "keywords": [
+    "へそくりウォーズ",
+    "おそ松さん"
+   ],
+   "lisarec_title": ""
+  },
+  {
    "slug": "dragonfang",
    "url": "https://raito.studio/ja/works/dragonfang/",
    "title_ja": "ドラゴンファング",
-   "roles_ja": "作曲（OP主題歌）・声優収録ディレクション",
+   "roles_ja": "作曲（OP主題歌）・声優キャスティング・収録ディレクション",
    "year": "2015",
    "keywords": [
     "ドラゴンファング",
@@ -189,7 +312,7 @@
    "slug": "crayon-shin-chan-kasukabe-runner",
    "url": "https://raito.studio/ja/works/crayon-shin-chan-kasukabe-runner/",
    "title_ja": "クレヨンしんちゃん 嵐を呼ぶ炎のカスカベランナー!!",
-   "roles_ja": "サウンド制作",
+   "roles_ja": "作曲（BGM・ジングル）・効果音",
    "year": "2014",
    "keywords": [
     "カスカベランナー"
@@ -212,12 +335,45 @@
    "slug": "legend-of-dark-witch",
    "url": "https://raito.studio/ja/works/legend-of-dark-witch/",
    "title_ja": "魔神少女シリーズ / Brave Dungeon",
-   "roles_ja": "作曲・編曲",
+   "roles_ja": "作曲・編曲・効果音",
    "year": "2014",
    "keywords": [
     "魔神少女",
     "Brave Dungeon",
     "Dark Witch"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "darpan-zombie-factory",
+   "url": "https://raito.studio/ja/works/darpan-zombie-factory/",
+   "title_ja": "だーぱんゾンビ工場",
+   "roles_ja": "作曲・効果音",
+   "year": "2014",
+   "keywords": [
+    "だーぱん"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "various-monsters",
+   "url": "https://raito.studio/ja/works/various-monsters/",
+   "title_ja": "ヴァリアスモンスターズ",
+   "roles_ja": "作曲・効果音",
+   "year": "2013",
+   "keywords": [
+    "ヴァリアスモンスターズ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "yuimaru-world",
+   "url": "https://raito.studio/ja/works/yuimaru-world/",
+   "title_ja": "ゆいまーる☆わーるど",
+   "roles_ja": "作曲",
+   "year": "2013",
+   "keywords": [
+    "ゆいまーる"
    ],
    "lisarec_title": ""
   },
@@ -246,6 +402,51 @@
    "keywords": [
     "東方Project",
     "東方アレンジ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "bitter-and-sweet",
+   "url": "https://raito.studio/ja/works/bitter-and-sweet/",
+   "title_ja": "Bitter & Sweet",
+   "roles_ja": "作曲（OP・BGM）・効果音",
+   "year": "2012",
+   "keywords": [
+    "Bitter & Sweet"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "makki-shoujobyou",
+   "url": "https://raito.studio/ja/works/makki-shoujobyou/",
+   "title_ja": "末期、少女病 BGM「raison d'être」",
+   "roles_ja": "作曲",
+   "year": "2012",
+   "keywords": [
+    "末期、少女病"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "key-visualarts-anniversary-arrangements",
+   "url": "https://raito.studio/ja/works/key-visualarts-anniversary-arrangements/",
+   "title_ja": "ビジュアルアーツ／Key 記念CD アレンジ",
+   "roles_ja": "編曲",
+   "year": "2012",
+   "keywords": [
+    "ビジュアルアーツ",
+    "Fertilizer"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "haitai-nanafa",
+   "url": "https://raito.studio/ja/works/haitai-nanafa/",
+   "title_ja": "はいたい七葉 主題歌",
+   "roles_ja": "作曲・編曲",
+   "year": "2012",
+   "keywords": [
+    "はいたい七葉"
    ],
    "lisarec_title": ""
   },
@@ -333,7 +534,7 @@
    "slug": "melty-blood",
    "url": "https://raito.studio/ja/works/melty-blood/",
    "title_ja": "MELTY BLOOD シリーズ",
-   "roles_ja": "作曲・編曲",
+   "roles_ja": "作曲・編曲・効果音",
    "year": "2003",
    "keywords": [
     "MELTY BLOOD",
