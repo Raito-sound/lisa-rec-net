@@ -10,7 +10,12 @@
 
 | ファイル | 役割 |
 |---|---|
-| `index.html` | サイト本体。会社情報・実績・構造化データを静的HTMLで掲載 |
+| `index.html` | サイト本体（日本語）。`templates/home.html` + `content/i18n/home.ja.json` から生成 |
+| `en/index.html` | 英語版トップ。同じテンプレート + `content/i18n/home.en.json` から生成 |
+| `templates/home.html`, `templates/works-list.html` | トップのテンプレートと実績一覧の共通断片 |
+| `content/i18n/home.{ja,en}.json` | トップの全文面（FAQ 含む）。文面はここを直す |
+| `_tools/build_home.py` | `index.html` と `en/index.html` を再生成する |
+| `lang.js` | 初回訪問のブラウザ言語による `/` ↔ `/en/` の振り分けと、ヘッダー切替の選択保存 |
 | `site-refresh.css` | コーポレートカラーと可読性を定義するサイトデザイン |
 | `404.html` | 存在しないURLに来たとき用 |
 | `ogp-v3.png` | SNS共有時のカード画像（1200×630） |
@@ -47,6 +52,14 @@
 ## Wixブログ移行
 
 現在は390記事を移行済み。旧URLの `/post/<slug>/`、本文、画像、外部リンク、YouTube、公開日、OGP、BlogPosting構造化データを維持する。記事画像はEXIFを除去し、長辺1920px以内に最適化してから `assets/blog/` で配信する。一覧は12記事ずつに分割し、年別アーカイブ、RSS、前後の記事リンクを自動生成する。
+
+トップの文面を直したとき（日英とも）:
+
+```sh
+python3 _tools/build_home.py
+```
+
+生成順は raito 側の `scripts/build-works-pages.py` → `_tools/build_home.py` → `_tools/build_blog.py`。ブログとトップのヘッダーには EN／日本語 切替があり、英語版は `/en/` のみ（記事は日本語のまま）。
 
 通常の再生成と新規Markdown記事の反映:
 
