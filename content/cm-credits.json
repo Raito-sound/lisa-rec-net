@@ -1,0 +1,425 @@
+{
+ "_readme": "CM記事ごとの作曲者クレジット。role: compose=作曲・制作 / arrange=編曲のみ（作曲は別） / partial=一部の音楽。ここにない記事にはクレジット文を出さない（紹介記事・エッセイ・ナレーションのみ・FGO 等）。subject は答えの一文の主語になる。",
+ "sentences": {
+  "compose": "{subject}は、株式会社リサレコの作曲家・来兎（らいと、本名：久場 超）が作曲・制作しました。",
+  "arrange": "{subject}は、株式会社リサレコの作曲家・来兎（らいと、本名：久場 超）が担当しました（作曲は別）。",
+  "partial": "{subject}は、株式会社リサレコの作曲家・来兎（らいと、本名：久場 超）が作曲しました。"
+ },
+ "posts": {
+  "琉球新報cm2014年版『知りたガールが行く！』編": {
+   "title": "琉球新報CM2014年版『知りたガールが行く！』編",
+   "subject": "琉球新報 2014年版CM『知りたガールが行く！』編の音楽（りゅうちゃん体操のオーケストラ風アレンジ）",
+   "role": "arrange"
+  },
+  "サンエーランドセルcmソング": {
+   "title": "サンエーランドセルCMソング",
+   "subject": "サンエー ランドセルCM（2014年）のCMソング",
+   "role": "compose"
+  },
+  "沖縄ファミリーマート-クリスマスcm": {
+   "title": "沖縄ファミリーマート クリスマスCM",
+   "subject": "沖縄ファミリーマート クリスマスCM（2014年）の音楽（編曲）",
+   "role": "arrange"
+  },
+  "沖縄県-衆院選cm": {
+   "title": "沖縄県 衆院選CM",
+   "subject": "沖縄県 衆議院議員総選挙CM（2014年）の音楽",
+   "role": "compose"
+  },
+  "サンエーサウンドロゴ": {
+   "title": "サンエーサウンドロゴ",
+   "subject": "サンエーのCM冒頭のサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】沖縄県自動車税納付cm": {
+   "title": "【CM】沖縄県自動車税納付CM",
+   "subject": "沖縄県 自動車税納付CM（2015年）の音楽",
+   "role": "compose"
+  },
+  "サンエー-母の日cm音楽": {
+   "title": "サンエー 母の日CM音楽",
+   "subject": "サンエー 母の日「お母さんフェスティバル」CMの音楽",
+   "role": "compose"
+  },
+  "コザ信用金庫tvcm": {
+   "title": "コザ信用金庫TVCM",
+   "subject": "コザ信用金庫 テレビCM（2015年）の音楽",
+   "role": "compose"
+  },
+  "プレステージホーム沖縄様サウンドロゴ": {
+   "title": "プレステージホーム沖縄様サウンドロゴ",
+   "subject": "プレステージホーム沖縄のCMサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】サンエー-ランドセルcm2016": {
+   "title": "【CM】サンエー ランドセルCM2016",
+   "subject": "サンエー ランドセルCM2016（男の子版）のBGM",
+   "role": "compose"
+  },
+  "【cm】琉球新報-たまりゅうちゃん": {
+   "title": "【CM】琉球新報 たまりゅうちゃん",
+   "subject": "琉球新報「たまりゅうちゃん」CMの音楽と効果音",
+   "role": "compose"
+  },
+  "【cm紹介】サンエーかりゆし": {
+   "title": "【CM紹介】サンエーかりゆし",
+   "subject": "サンエー「サンエーかりゆし」CMの音楽",
+   "role": "compose"
+  },
+  "【cm】okinawaカクテル": {
+   "title": "【CM】OKINAWAカクテル",
+   "subject": "琉球アジアン「OKINAWAカクテル」CMの音楽",
+   "role": "compose"
+  },
+  "【tv】赤峰家具cmソング": {
+   "title": "【TV】赤峰家具CMソング",
+   "subject": "赤峰家具のCMソング",
+   "role": "compose"
+  },
+  "【cm】a-038-w-スリーフライコンボcm": {
+   "title": "【CM】A&#038;W スリーフライコンボCM",
+   "subject": "A&W「スリーフライコンボ」CMの音楽",
+   "role": "compose"
+  },
+  "【cm】auスーパーカーリーフライ": {
+   "title": "【CM】auスーパーカーリーフライ",
+   "subject": "A&W「auスーパーカーリーフライ」CMの音楽",
+   "role": "compose"
+  },
+  "【cm】コザ信用金庫-きいやま支店長50年住宅ローン": {
+   "title": "【CM】コザ信用金庫 きいやま支店長50年住宅ローン",
+   "subject": "コザ信用金庫「きいやま支店長 50年住宅ローン」CMソングの編曲",
+   "role": "arrange"
+  },
+  "【cm】サンエーベビー館": {
+   "title": "【CM】サンエーベビー館",
+   "subject": "サンエーベビー館のCMソング",
+   "role": "compose"
+  },
+  "【cm】2016年沖縄県自動車税cm": {
+   "title": "【CM】2016年沖縄県自動車税CM",
+   "subject": "沖縄県 自動車税CM（2016年）の音楽",
+   "role": "compose"
+  },
+  "【cm】サンエー-ワーキングショップ": {
+   "title": "【CM】サンエー ワーキングショップ",
+   "subject": "サンエー ワーキングショップのCMソング",
+   "role": "compose"
+  },
+  "【cm】平成28年-沖縄県議会議員一般選挙": {
+   "title": "【CM】平成28年 沖縄県議会議員一般選挙",
+   "subject": "平成28年 沖縄県議会議員一般選挙のCMソング",
+   "role": "compose"
+  },
+  "【cm】メディカルアシスト-ジングル": {
+   "title": "【CM】メディカルアシスト ジングル",
+   "subject": "メディカルアシストのラジオ用ジングル",
+   "role": "compose"
+  },
+  "【cm】サンエーedyカード": {
+   "title": "【CM】サンエーEdyカード",
+   "subject": "サンエーEdyカードのCMソング",
+   "role": "compose"
+  },
+  "【cm】沖縄ファミリーマート-tポイントキャンペーン": {
+   "title": "【CM】沖縄ファミリーマート Tポイントキャンペーン",
+   "subject": "沖縄ファミリーマート TポイントキャンペーンのCMソング",
+   "role": "compose"
+  },
+  "【cm】サンエー旧盆スペシャル": {
+   "title": "【CM】サンエー旧盆スペシャル",
+   "subject": "サンエー旧盆スペシャルCMの音楽",
+   "role": "compose"
+  },
+  "【cm】ステーキハウス88-求人cm": {
+   "title": "【CM】ステーキハウス88 求人CM",
+   "subject": "ステーキハウス88 求人のCMソング（作詞・作曲）",
+   "role": "compose"
+  },
+  "【cm】琉球新報「沖縄が、私に問いかける。」": {
+   "title": "【CM】琉球新報「沖縄が、私に問いかける。」",
+   "subject": "琉球新報「沖縄が、私に問いかける。」CMの音楽（沖縄民謡「デンサー節」のピアノアレンジ）",
+   "role": "arrange"
+  },
+  "【ラジオcm】カーサポートhide": {
+   "title": "【ラジオCM】カーサポートHIDE",
+   "subject": "カーサポートHIDEのラジオCMソング",
+   "role": "compose"
+  },
+  "【cm】第4回-沖縄バーガーフェスタ-in-ぎのざ": {
+   "title": "【CM】第4回 沖縄バーガーフェスタ in ぎのざ",
+   "subject": "第4回 沖縄バーガーフェスタ in ぎのざ のラジオCM音楽",
+   "role": "compose"
+  },
+  "【cm】大知建設": {
+   "title": "【CM】大知建設",
+   "subject": "大知建設のCMソング",
+   "role": "compose"
+  },
+  "【cm】mr-kinjo": {
+   "title": "【CM】Mr.KINJO",
+   "subject": "Mr.KINJOのCMソングの編曲",
+   "role": "arrange"
+  },
+  "【cm】ジムキ文明堂": {
+   "title": "【CM】ジムキ文明堂",
+   "subject": "ジムキ文明堂のCMソング",
+   "role": "compose"
+  },
+  "【cm】パーティーフェイスガレージ": {
+   "title": "【CM】パーティーフェイスガレージ",
+   "subject": "パーティーフェイスガレージのCMソング",
+   "role": "compose"
+  },
+  "【cm】沖縄ろうきん-ideco": {
+   "title": "【CM】沖縄ろうきん iDeCo",
+   "subject": "沖縄ろうきん iDeCo（イデコ）ラジオのCMソング",
+   "role": "compose"
+  },
+  "【cm】honda-まるまるセット": {
+   "title": "【CM】HONDA まるまるセット",
+   "subject": "沖縄ホンダ「まるまるセット」CMの音楽",
+   "role": "compose"
+  },
+  "【cm】サンエーかりゆしウェア2017": {
+   "title": "【CM】サンエーかりゆしウェア2017",
+   "subject": "サンエー かりゆしウェアCM 2017年版の音楽",
+   "role": "compose"
+  },
+  "【cm】財全groupサウンドロゴ": {
+   "title": "【CM】財全GROUPサウンドロゴ",
+   "subject": "財全グループのサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】タカラ住建-バーチャル住宅": {
+   "title": "【CM】タカラ住建 バーチャル住宅",
+   "subject": "タカラ住建「バーチャル住宅」のCMソング",
+   "role": "compose"
+  },
+  "【cm】2017年度沖縄県自動車税cm": {
+   "title": "【CM】2017年度沖縄県自動車税CM",
+   "subject": "沖縄県 自動車税CM（2017年度）のCMソング",
+   "role": "compose"
+  },
+  "【cm】沖縄銀行-キャッシュカード即時発行サービス": {
+   "title": "【CM】沖縄銀行 キャッシュカード即時発行サービス",
+   "subject": "沖縄銀行 キャッシュカード即時発行サービスCMの音楽（BEGIN「苗」のCM用アレンジ）",
+   "role": "arrange"
+  },
+  "【cm】あにまる健康倶楽部-anic（アニック）": {
+   "title": "【CM】あにまる健康倶楽部 aniC（アニック）",
+   "subject": "あにまる健康倶楽部 aniC（アニック）CMの音楽",
+   "role": "compose"
+  },
+  "【cm】hot沖縄": {
+   "title": "【CM】HOT沖縄",
+   "subject": "HOT沖縄のCMソング",
+   "role": "compose"
+  },
+  "【cm】サンエー-ハッピーシニアデー": {
+   "title": "【CM】サンエー ハッピーシニアデー",
+   "subject": "サンエー ハッピーシニアデーのCMソング",
+   "role": "compose"
+  },
+  "【cm】big1「安納芋」": {
+   "title": "【CM】big1「安納芋」",
+   "subject": "big1「安納芋」CMソング（ロック編・ラップ編）",
+   "role": "compose"
+  },
+  "【サウンドロゴ】企業福祉共済会": {
+   "title": "【サウンドロゴ】企業福祉共済会",
+   "subject": "協同組合企業福祉共済会のサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】サンエー-大感謝祭": {
+   "title": "【CM】サンエー 大感謝祭",
+   "subject": "サンエー 大感謝祭のCMソング",
+   "role": "compose"
+  },
+  "【cm】サンエー-にこにこデー": {
+   "title": "【CM】サンエー にこにこデー",
+   "subject": "サンエー にこにこデーのCMソング",
+   "role": "compose"
+  },
+  "【cm】サンエー2018レディースかりゆしウェア": {
+   "title": "【CM】サンエー2018レディースかりゆしウェア",
+   "subject": "サンエー 2018 レディースかりゆしウェアのCMソング",
+   "role": "compose"
+  },
+  "サンエー様の新かりゆしウェアcm放送開始です": {
+   "title": "サンエー様の新かりゆしウェアCM放送開始です",
+   "subject": "サンエー かりゆしウェアCM（2018年）の音楽",
+   "role": "compose"
+  },
+  "【cm】沖縄ろうきん新テレビcm": {
+   "title": "【CM】沖縄ろうきん新テレビCM",
+   "subject": "沖縄ろうきん 新テレビCM（2018年）CMソングの編曲",
+   "role": "arrange"
+  },
+  "【cm】big1-こだわりの自家製米": {
+   "title": "【CM】Big1 こだわりの自家製米",
+   "subject": "ビッグワン「こだわりの自家製米」CMソング",
+   "role": "compose"
+  },
+  "【cm】big1-唐船峡": {
+   "title": "【CM】Big1　唐船峡",
+   "subject": "Big1「唐船峡」CM 2種の音楽",
+   "role": "compose"
+  },
+  "【cm】とまとハウジング": {
+   "title": "【CM】とまとハウジング",
+   "subject": "とまとハウジングのラジオCM 6種の音楽",
+   "role": "compose"
+  },
+  "【cm】auかんたん予約-cm": {
+   "title": "【CM】auかんたん予約 CM",
+   "subject": "au沖縄セルラー「auショップ かんたん予約」ラジオCMの音楽",
+   "role": "compose"
+  },
+  "【cm】ジョブカロリ-cm": {
+   "title": "【CM】ジョブカロリ CM",
+   "subject": "びねつ・沖縄タイムス「ジョブカロリ」CMの音楽",
+   "role": "compose"
+  },
+  "【cm】petboxグループ": {
+   "title": "【CM】PETBOXグループ",
+   "subject": "PETBOXグループのCMソング",
+   "role": "compose"
+  },
+  "【cm】沖縄県立博物館・美術館-おきみゅー": {
+   "title": "【CM】沖縄県立博物館・美術館 おきみゅー",
+   "subject": "沖縄県立博物館・美術館「縄文と沖縄」展のCMソング",
+   "role": "compose"
+  },
+  "【サウンドロゴ】株式会社ツーワン": {
+   "title": "【サウンドロゴ】株式会社ツーワン",
+   "subject": "株式会社ツーワンのサウンドロゴ",
+   "role": "compose"
+  },
+  "【サウンドロゴ】rcワークス": {
+   "title": "【サウンドロゴ】RCワークス",
+   "subject": "株式会社RCワークスのサウンドロゴ",
+   "role": "compose"
+  },
+  "【サウンドロゴ】大知建設": {
+   "title": "【サウンドロゴ】大知建設",
+   "subject": "大知建設「遮熱の大知」のサウンドロゴ",
+   "role": "compose"
+  },
+  "【サウンドロゴ】テラ・ウェブクリエイト": {
+   "title": "【サウンドロゴ】テラ・ウェブクリエイト",
+   "subject": "テラ・ウェブクリエイトのサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】total-beauty-salon-cell-cm": {
+   "title": "【CM】Total Beauty Salon CELL　CM",
+   "subject": "Total Beauty Salon CELLのCMソング",
+   "role": "compose"
+  },
+  "【cm】株式会社麩久寿": {
+   "title": "【CM】株式会社麩久寿",
+   "subject": "株式会社麩久寿のラジオCMソング",
+   "role": "compose"
+  },
+  "【cm】2019年沖縄県自動車税cm": {
+   "title": "【CM】2019年沖縄県自動車税CM",
+   "subject": "沖縄県 自動車税CM（2019年）のCMソング",
+   "role": "compose"
+  },
+  "【cm】さかえ塗装": {
+   "title": "【CM】さかえ塗装",
+   "subject": "さかえ塗装のCMソング",
+   "role": "compose"
+  },
+  "【cm】沖縄大学-cmソング": {
+   "title": "【CM】沖縄大学 CMソング",
+   "subject": "沖縄大学のCMソング",
+   "role": "compose"
+  },
+  "【cm】さくらメディネス整骨院": {
+   "title": "【CM】さくらメディネス整骨院",
+   "subject": "さくらメディネス整骨院のCMソング",
+   "role": "compose"
+  },
+  "【cm】りうぼうストア": {
+   "title": "【CM】りうぼうストア",
+   "subject": "りうぼうストア CMソングのアレンジバージョン",
+   "role": "arrange"
+  },
+  "【cm】parco-city": {
+   "title": "【CM】PARCO CITY",
+   "subject": "PARCO CITY（サンエー浦添西海岸 PARCO CITY）のサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】イーアス沖縄豊崎-サウンドロゴ": {
+   "title": "【CM】イーアス沖縄豊崎　サウンドロゴ",
+   "subject": "イーアス沖縄豊崎のサウンドロゴ",
+   "role": "compose"
+  },
+  "【cm】やっぱりhonda": {
+   "title": "【CM】やっぱりHONDA",
+   "subject": "Honda Cars 沖縄 × やっぱりステーキ コラボキャンペーンCMの音楽",
+   "role": "compose"
+  },
+  "【cm】ぐしけんパン「パングリー」": {
+   "title": "【CM】ぐしけんパン「パングリー」",
+   "subject": "ぐしけんパン「パングリー」のCMソング",
+   "role": "compose"
+  },
+  "【cm】jaおきなわ「パインアップル」": {
+   "title": "【CM】JAおきなわ「パインアップル」",
+   "subject": "JAおきなわ「パインアップル」のCMソング",
+   "role": "compose"
+  },
+  "【cm】ハドム「ジーマーミ豆腐」": {
+   "title": "【CM】ハドム「ジーマーミ豆腐」",
+   "subject": "ハドムフードサービス「じーまーみとうふ」のCMソング",
+   "role": "compose"
+  },
+  "ぐしけんパン『パングリー』cmが第40回沖縄広告協会広告賞テレビ15秒cm-部門の銅賞受賞": {
+   "title": "ぐしけんパン『パングリー』CMが第40回沖縄広告協会広告賞テレビ15秒CM 部門の銅賞受賞",
+   "subject": "ぐしけんパン「パングリー」CM（第40回沖縄広告協会広告賞 テレビ15秒CM部門 銅賞）の音楽",
+   "role": "compose"
+  },
+  "りゅうせき都市ガスcm": {
+   "title": "りゅうせき都市ガスCM",
+   "subject": "りゅうせき 都市ガスCMの音楽の一部",
+   "role": "partial"
+  },
+  "とまとハウジング-サウンドロゴ": {
+   "title": "とまとハウジング サウンドロゴ",
+   "subject": "とまとハウジングの新サウンドロゴ（2022年）",
+   "role": "compose"
+  },
+  "沖縄ユーポス-cmソング": {
+   "title": "沖縄ユーポス CMソング",
+   "subject": "沖縄ユーポス CMソング（歌：護得久栄昇）の編曲",
+   "role": "arrange"
+  },
+  "【cm】オキハム推しポキ総選挙キャンペーン": {
+   "title": "【CM】オキハム推しポキ総選挙キャンペーン",
+   "subject": "オキハム「推しポキ総選挙」キャンペーンのCMソング",
+   "role": "compose"
+  },
+  "auショップcmソング": {
+   "title": "auショップCMソング",
+   "subject": "au沖縄セルラー auショップのCMソング（2024年）",
+   "role": "compose"
+  },
+  "沖縄電力cmジングル": {
+   "title": "沖縄電力CMジングル",
+   "subject": "沖縄電力のCMソング・ジングル",
+   "role": "compose"
+  },
+  "parco-city-new-shop-open-cm": {
+   "title": "PARCO CITY NEW SHOP OPEN CM",
+   "subject": "PARCO CITY ニューショップオープンCM（2024年）の音楽",
+   "role": "compose"
+  },
+  "nice不動産のcmソングを制作": {
+   "title": "Nice不動産のCMソングを制作",
+   "subject": "Nice不動産のCMソング（2026年）",
+   "role": "compose"
+  }
+ }
+}

@@ -437,6 +437,48 @@ def plain_post_text(post: Post) -> str:
 
 WORK_LINKS_FILE = Path(__file__).resolve().parent.parent / "content" / "work-links.json"
 _WORK_LINKS: list[dict] | None = None
+CM_CREDITS_FILE = Path(__file__).resolve().parent.parent / "content" / "cm-credits.json"
+_CM_CREDITS: dict | None = None
+PERSON_ID = "https://raito.studio/#person"
+
+
+def load_cm_credits() -> dict:
+    """Per-post composer credit for CM articles (content/cm-credits.json)."""
+    global _CM_CREDITS
+    if _CM_CREDITS is None:
+        _CM_CREDITS = {"sentences": {}, "posts": {}}
+        if CM_CREDITS_FILE.is_file():
+            _CM_CREDITS = json.loads(CM_CREDITS_FILE.read_text(encoding="utf-8"))
+    return _CM_CREDITS
+
+
+def cm_credit(post: Post) -> dict | None:
+    """Answer-first credit for a CM post: {'sentence','role','subject'} or None."""
+    credits = load_cm_credits()
+    entry = credits["posts"].get(post.slug)
+    if not entry:
+        return None
+    sentence = credits["sentences"][entry["role"]].format(subject=entry["subject"])
+    return {"sentence": sentence, "role": entry["role"], "subject": entry["subject"]}
+
+
+def meta_description(post: Post) -> str:
+    """Search/AI description: composer credit first, then the post's own summary."""
+    credit = cm_credit(post)
+    if not credit:
+        return post.description[:180]
+    return (credit["sentence"] + " " + post.description)[:220]
+
+
+def render_cm_credit(post: Post) -> str:
+    credit = cm_credit(post)
+    if not credit:
+        return ""
+    text = html.escape(credit["sentence"])
+    text = text.replace("来兎（らいと、本名：久場 超）", '<a href="https://raito.studio/ja/" hreflang="ja">来兎（らいと、本名：久場 超）</a>', 1)
+    return f'<p class="cm-credit">{text}</p>\n'
+
+
 
 
 def _keyword_pattern(keyword: str) -> re.Pattern[str]:
@@ -475,7 +517,7 @@ def render_related_works(post: Post) -> str:
 
 def page_head(post: Post) -> str:
     title = html.escape(f"{post.title}｜リサレコブログ")
-    description = html.escape(post.description[:180], quote=True)
+    description = html.escape(meta_description(post), quote=True)
     image = f"{SITE_URL}/ogp-v3.png"
     if post.hero:
         image = f"{SITE_URL}/assets/blog/{quote(post.slug, safe='-._~')}/{quote(post.hero.filename)}"
@@ -483,7 +525,7 @@ def page_head(post: Post) -> str:
         "@type": "BlogPosting",
         "@id": f"{post.canonical}#article",
         "headline": post.title,
-        "description": post.description,
+        "description": meta_description(post),
         "datePublished": post.published,
         "dateModified": post.modified,
         "mainEntityOfPage": post.canonical,
@@ -498,6 +540,16 @@ def page_head(post: Post) -> str:
         schema["articleSection"] = post.tags[0]
     if post.hero:
         schema["image"] = image
+    credit = cm_credit(post)
+    if credit:
+        person = {"@type": "Person", "@id": PERSON_ID, "name": "来兎（久場 超）", "alternateName": ["Raito", "Masaru Kuba"]}
+        about = {"@type": "MusicComposition", "name": credit["subject"], "inLanguage": "ja"}
+        if credit["role"] == "arrange":
+            about["contributor"] = {"@type": "Role", "roleName": "編曲", "contributor": person}
+        else:
+            about["composer"] = person
+            about["producer"] = {"@type": "Organization", "@id": f"{SITE_URL}/#org", "name": "株式会社リサレコ"}
+        schema["about"] = about
     mentioned = related_works(post)
     if mentioned:
         schema["mentions"] = [{"@type": "CreativeWork", "@id": f"{w['url'].replace('/ja/works/', '/works/')}#work", "name": w["title_ja"], "url": w["url"]} for w in mentioned]
@@ -531,7 +583,7 @@ def page_head(post: Post) -> str:
 <meta property="article:modified_time" content="{html.escape(post.modified)}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="リサレコブログ RSS" href="../../blog/feed.xml">
-<link rel="stylesheet" href="../../blog.css">
+<link rel="stylesheet" href="../../blog.css?v=20260911b">
 <script src="../../lang.js" defer></script>
 <script type="application/ld+json">{schema_json}</script>"""
 
@@ -601,7 +653,7 @@ def render_post(post: Post, newer: Post | None = None, older: Post | None = None
       <h1>{html.escape(post.title)}</h1>
       <div class="post-meta"><span>来兎（久場 超）</span><time datetime="{post.published}">{post.published_jp}</time></div>
     </header>
-    <div class="post-content">
+    {render_cm_credit(post)}<div class="post-content">
 {render_blocks(post)}
     </div>
   </article>
@@ -710,7 +762,7 @@ def render_blog_head(title: str, description: str, canonical: str, root_prefix: 
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{SITE_URL}/ogp-v3.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{root_prefix}blog.css">
+<link rel="stylesheet" href="{root_prefix}blog.css?v=20260911b">
 <script src="{root_prefix}lang.js" defer></script>"""
 
 
