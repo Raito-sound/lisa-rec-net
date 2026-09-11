@@ -121,3 +121,12 @@ footer a { font-size: .875rem; }
 .related-works a:hover { color: var(--blue); }
 .related-works strong { font-size: 1rem; font-weight: 500; line-height: 1.6; overflow-wrap: anywhere; }
 .related-works span { color: var(--muted); font-size: .75rem; letter-spacing: .04em; }
+
+/* Language switch in the header */
+.lang-switch { display: flex; align-items: center; gap: 8px; margin-left: auto; font-size: .8125rem; letter-spacing: .04em; white-space: nowrap; flex-shrink: 0; }
+.lang-switch a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted, #6b6b6b); text-decoration: none; }
+.lang-switch a:hover { color: var(--blue); }
+.lang-switch a[aria-current="page"] { color: var(--ink); font-weight: 700; }
+.lang-switch span { color: var(--line); }
+.wordmark + .lang-switch, .site-header nav + .lang-switch { margin-left: 0; }
+@media (max-width: 1000px) { .lang-switch { order: 1; margin-left: auto; font-size: .75rem; } .menu-toggle:not([hidden]) { order: 2; } .site-header nav { order: 3; } }

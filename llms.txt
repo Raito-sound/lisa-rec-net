@@ -52,6 +52,7 @@
 - 音楽配信の累計再生数 1億回以上
 
 ## ページ
+- [English home page](https://lisa-rec.net/en/): 同じ会社情報・実績・FAQを英語で掲載。日本語版が正で、英語版は hreflang で相互に紐づく。海外案件の窓口は https://raito.studio/
 - [トップページ](https://lisa-rec.net/): 会社概要、実績一覧（CM・施設・ゲーム）、代表プロフィール、連絡先
 - [リサレコブログ](https://lisa-rec.net/blog/): 株式会社リサレコと作曲家・来兎の活動、音楽制作、ゲーム、CMに関する公式ブログ。旧Wixブログから移行した記事と今後の新規記事を静的HTMLで掲載
 - [ブログ年別アーカイブ](https://lisa-rec.net/blog/archive/): 公開年ごとの記事一覧

@@ -1,0 +1,129 @@
+{
+ "title": "Lisa-Rec Inc. | Commercial music, sound logos and music for spaces — Naha, Okinawa",
+ "meta_description": "Lisa-Rec Inc. (株式会社リサレコ) is a music production company in Naha, Okinawa, led by composer Raito (来兎). More than 150 commercials and sound logos, music for facilities and spaces, and the game and anime music of MELTY BLOOD and UNDER NIGHT IN-BIRTH.",
+ "site_name": "Lisa-Rec Inc.",
+ "og_description": "A music production company in Naha, Okinawa, led by composer Raito. More than 150 commercials and sound logos, and music for facilities and spaces, with the catchy writing honed in game music.",
+ "skip": "Skip to content",
+ "wordmark_aria": "Lisa-Rec Inc. home",
+ "menu": "Menu <span aria-hidden=\"true\">＋</span>",
+ "nav_aria": "Primary navigation",
+ "nav": "<a href=\"#works\">Okinawa work</a>\n    <a href=\"#awards\">Awards</a>\n    <a href=\"#global\">Worldwide</a>\n    <a href=\"#company\">Company</a>\n    <a href=\"{{root}}blog/index.html\" hreflang=\"ja\">Blog (Japanese)</a>\n    <a class=\"mobile-contact\" href=\"#contact\">Contact ↗</a>",
+ "contact_label": "Contact <span aria-hidden=\"true\">↗</span>",
+ "hero_h1": "<span>Sound that stays</span><br><em>in Okinawa’s memory.</em>",
+ "hero_def": "<span>A music production company in Naha, Okinawa,</span><span>led by composer Raito.</span>",
+ "hero_lead": "Gushiken Pan “Pangry”, Okinawa Honda “Marumaru Set”.<br>Music heard again and again in everyday life, made in Naha, Okinawa.",
+ "hero_actions": "<a class=\"primary\" href=\"#works\">See our work <span aria-hidden=\"true\">↗</span></a><a href=\"#services\">What we do <span aria-hidden=\"true\">↓</span></a>",
+ "panel_aria": "Lisa-Rec. Sound production from Okinawa.",
+ "panel_tag": "We make music. It stays with you.",
+ "stats_aria": "Key figures in Okinawa",
+ "stats_intro": "Sound for everyday life, one piece at a time.",
+ "stat1": "Commercials &amp; sound logos</div>",
+ "stat2": "Companies, organizations &amp; brands</div>",
+ "works_h2": "The sounds<br>Okinawa knows.",
+ "works_p": "Commercial music is not background.<br>It is the face of a brand, remembered together with its name.",
+ "c1_alt": "Frame from the Gushiken Pan “Pangry” TV commercial",
+ "c1_body": "<h3>Pangry <small lang=\"ja\">パングリー</small></h3><div class=\"feature-copy\"><strong>Seen once, heard once, never forgotten.</strong><p>Music for the Gushiken Pan “Minna de Pangry” TV commercial. Bronze award, TV 15-second commercial category, Okinawa Advertising Awards 2022.</p>",
+ "c1_link": "aria-label=\"Read the production story for Pangry (Japanese)\" hreflang=\"ja\">Production story (Japanese) <span aria-hidden=\"true\">↗</span>",
+ "c2_alt": "Frame from the San-A “Kariyushi Wear” TV commercial",
+ "c2_body": "<h3>Kariyushi Wear <small lang=\"ja\">かりゆしウェア</small></h3><div class=\"feature-copy\"><strong>A tune you can hum, for Okinawa’s summer staple.</strong><p>Commercial music for San-A’s Kariyushi Wear campaign. First produced in 2014 and later developed into new arrangements.</p>",
+ "c2_link": "aria-label=\"Read the production story for Kariyushi Wear (Japanese)\" hreflang=\"ja\">Production story (Japanese) <span aria-hidden=\"true\">↗</span>",
+ "c3_alt": "Frame from the Okinawa Honda “Marumaru Set” TV commercial",
+ "c3_body": "<h3>Marumaru Set <small lang=\"ja\">まるまるセット</small></h3><div class=\"feature-copy\"><strong>Hear it once and you want to dance.</strong><p>Featuring TEMPURA KIDZ; produced in full, 60-, 30- and 15-second versions. The song was also featured in a Ryukyu Shimpo newspaper series.</p>",
+ "c3_link": "aria-label=\"Read the production story for Marumaru Set (Japanese)\" hreflang=\"ja\">Production story (Japanese) <span aria-hidden=\"true\">↗</span>",
+ "awards_h2": "Okinawa Advertising Awards,<br>three times.",
+ "awards_p": "More than memorable: sound that raises the value of the idea and the film, and makes the advertising itself stronger.",
+ "aw1": "<strong>Pangry</strong>",
+ "aw2": "<strong>Jomon and Okinawa</strong>",
+ "aw3": "<strong>Ryukyu Shimpo TV commercial music</strong>",
+ "services_label": "<span>What we do</span><small>SERVICES</small>",
+ "services_intro": "The production work Lisa-Rec Inc. takes on. Beyond composition, we handle recording, finishing and mastering in our own studio.",
+ "svc1": "<h3>Commercial music &amp; sound logos</h3>\n      <p>Music for TV, radio and web commercials, commercial songs, and sound logos for companies and products. We handle 15-, 30- and 60-second edits and separate instrumental and karaoke versions.</p>",
+ "svc2": "<h3>Music for facilities &amp; spaces</h3>\n      <p>Permanent background music for commercial and tourist facilities, and music for in-house video and projection. Our credits include multichannel work such as 4.0-channel surround.</p>",
+ "svc3": "<h3>Game &amp; anime music</h3>\n      <p>Music and sound effects for fighting games, scores and theme songs for TV anime. Since 1997 we have worked on titles distributed worldwide, including the MELTY BLOOD and UNDER NIGHT IN-BIRTH series and the TV anime SK8 the Infinity.</p>",
+ "svc4": "<h3>Vocal &amp; narration recording</h3>\n      <p>From selecting and booking vocalists and narrators to recording in our own studio and mixing. We also direct recordings performed by talent and cast members themselves.</p>",
+ "svc5": "<h3>Post-production, mastering &amp; sound effects</h3>\n      <p>Audio post-production for drama, television and corporate video, sound-effect creation and placement, and loudness adjustment. We usually work from your rough cut.</p>",
+ "svc6": "<h3>AI vocals &amp; AI voice</h3>\n      <p>Layering AI vocals with human singing, or producing narration variations with AI voice, with commercials that have actually aired. We propose the right mix of human and AI for each purpose.</p>",
+ "brands_label": "<span>Clients</span><small>BRANDS</small>",
+ "brands_note": "Selected; honorifics omitted",
+ "brands_intro": "Advertisers and operators of the commercials and facilities Lisa-Rec Inc. has scored. Most work comes through advertising agencies and production companies.",
+ "global_h2": "Sound chosen in Okinawa<br>travels the world.",
+ "global_p": "The ability to communicate in one hearing, built on local commercials, and the craft to make work that is loved for years. Both are the strength of Lisa-Rec’s sound.",
+ "global_aria": "Key figures worldwide",
+ "global_proof": "<div><strong>100M<small>+</small></strong><span>Total music streams</span></div><div><strong>29<small> yrs</small></strong><span>Composing</span></div><div><strong class=\"proof-long\">20M<small>+</small></strong><span>Streams of one track</span></div>",
+ "g2_note": "20M+ STREAMS / ONE TRACK",
+ "artist_label": "<span>Founder &amp; composer</span><small>COMPOSER</small>",
+ "artist_alt": "Composer Raito, founder and CEO of Lisa-Rec Inc.",
+ "artist_name": "<h3 class=\"serif fade\">Raito <small lang=\"ja\">来兎</small></h3>",
+ "artist_role": "COMPOSER / Founder &amp; CEO, Lisa-Rec Inc.",
+ "artist_bio": "<p>Composer Raito (来兎, real name Masaru Kuba) was born in Okinawa City. He started making music on a computer in elementary school, founded a game-development circle with friends at a technical college, and began composing game music professionally in 1997 before moving to Tokyo in 2001.</p>\n      <p>He wrote the sound of the fighting-game series <i>MELTY BLOOD</i>, then broadened his work to titles released in Japan and abroad, including the <i>UNDER NIGHT IN-BIRTH</i> series and the TV anime <i>SK8 the Infinity</i>, covering theme songs, scores, sound effects and songs for artists.</p>\n      <p>He returned to Okinawa in 2009 and founded Lisa-Rec Inc. in 2010. Based in Naha, he now brings the pop, catchy writing honed in game music to commercials, sound logos, music for facilities and spaces, and music editing and sound design for VR live events.</p>",
+ "archive_label": "<span>Work</span><small>WORKS</small>",
+ "archive_note": "In no particular order; honorifics omitted. All commercial music, sound logos and music for spaces listed here was composed and produced by Raito (Masaru Kuba).",
+ "wl_cm_title": "Commercial music &amp; sound logos<span class=\"wcount\">150+</span>",
+ "wl_cm_intro": "Sound designed to be remembered in fifteen seconds, worked back from the idea behind the campaign. More than 150 commercials and sound logos from 2010 to 2026. Every piece listed here was composed and produced by our founder, composer Raito (Masaru Kuba). Titles are shown in Japanese as credited.",
+ "wl_more": "Show all commercials",
+ "wl_space_title": "Music for facilities &amp; spaces<span class=\"wcount\">7</span>",
+ "wl_space_intro": "Music for the time people spend in a place: surround music for theatres, outdoor events, and VR and metaverse spaces, designed as an experience.",
+ "wl_game_title": "Game &amp; anime music<span class=\"wcount\">17</span>",
+ "wl_game_intro": "The <span class=\"nowrap\">MELTY BLOOD</span> and <span class=\"nowrap\">UNDER NIGHT IN-BIRTH</span> series, the TV anime <span class=\"nowrap\">SK8 the Infinity</span> and more. Raito’s game and anime music reaches players and fans worldwide.<br><a class=\"ext\" href=\"https://raito.studio/\" target=\"_blank\" rel=\"noopener\">Full works index on Raito.studio ↗</a>",
+ "g_retail": "Retail",
+ "g_food": "Food &amp; beverage",
+ "g_media": "Media &amp; broadcasting",
+ "g_housing": "Housing, real estate &amp; construction",
+ "g_edu": "Education, healthcare &amp; services",
+ "g_public": "Government &amp; public sector",
+ "g_finance": "Finance &amp; insurance",
+ "g_infra": "Telecom &amp; energy",
+ "g_auto": "Automotive",
+ "g_other": "Other",
+ "count_suffix": "",
+ "faq_label": "<span>FAQ</span><small>FAQ</small>",
+ "faq": [
+  {
+   "q": "Who composes the commercial music and sound logos?",
+   "a": "Every one of the 150+ commercials and sound logos produced by Lisa-Rec Inc. from 2010 to 2026 was composed and produced by our founder and CEO, composer Raito (来兎, real name Masaru Kuba), the same Raito known for the game music of MELTY BLOOD and UNDER NIGHT IN-BIRTH."
+  },
+  {
+   "q": "How do you take on work?",
+   "a": "We keep to projects where we are involved from the planning stage. As a rule we do not take part in competitive bids or pitches."
+  },
+  {
+   "q": "Do you work with clients outside Japan?",
+   "a": "International inquiries and work for overseas releases are handled through <a class=\"ext\" href=\"https://raito.studio/\" target=\"_blank\" rel=\"noopener\">Raito.studio</a>, the English site of our founder, composer Raito. He has scored fighting games and TV anime distributed worldwide and works in English. Lisa-Rec Inc. (this site) handles work within Japan."
+  },
+  {
+   "q": "What does a commercial track or sound logo cost?",
+   "a": "Sound logos and commercial tracks start from 300,000 yen. The fee depends on vocalists, recording attendance, additional edits and the scope of use. We quote after hearing about the project."
+  },
+  {
+   "q": "How long does production take?",
+   "a": "Two to three weeks for a sound logo and three weeks to a month for a commercial track are standard. Ask us about rush work. We schedule backwards from the air date."
+  },
+  {
+   "q": "Can we commission you directly, without an agency?",
+   "a": "Yes. We accept work through advertising agencies and video production companies, and directly from businesses. Either way, we start by understanding the intent of the campaign."
+  },
+  {
+   "q": "Do you take work from outside Okinawa?",
+   "a": "Yes. We are based in Naha, Okinawa, and work continuously with game, anime and advertising companies in Tokyo. Everything from meetings to delivery can be done online."
+  },
+  {
+   "q": "Can you arrange singers and narrators?",
+   "a": "Yes. We select and book vocalists and narrators to suit the track, record in our own studio and mix. We also direct recordings sung by talent and cast members themselves."
+  },
+  {
+   "q": "Can you produce with AI vocals or AI voice?",
+   "a": "Yes. Commercials that layer AI vocals with human singing have aired, and we also produce narration variations with AI voice. We propose the right balance between the qualities only a human voice has and the advantages of AI."
+  },
+  {
+   "q": "Can we commission only post-production or sound effects?",
+   "a": "Yes. We handle audio post-production for drama, television and corporate video, the creation and placement of sound effects, and loudness adjustment, usually working from your rough cut."
+  }
+ ],
+ "company_label": "<span>Company</span><small>COMPANY</small>",
+ "company_dl": "<div><dt>Company</dt><dd>Lisa-Rec Inc. (株式会社リサレコ, Lisa-Rec Co.,Ltd)</dd></div>\n    <div><dt>Representative</dt><dd>Masaru Kuba, CEO (composer, credited as Raito)</dd></div>\n    <div><dt>Founded</dt><dd>March 2010</dd></div>\n    <div><dt>Address</dt><dd>9F, 1-1-1 Kumoji, Naha, Okinawa, Japan</dd></div>\n    <div><dt>Business</dt><dd>Commercial music and sound logos, music for facilities and spaces, planning and production of game and anime music</dd></div>",
+ "contact_head": "<span>Contact</span><small>CONTACT</small>",
+ "contact_block": "<a class=\"mail\" href=\"mailto:contact@lisa-rec.com\">contact@lisa-rec.com<span aria-hidden=\"true\">↗</span></a></p>\n    <p class=\"fade contact-note\">For international projects, please write to <a href=\"https://raito.studio/#contact\">Raito.studio</a>.",
+ "footer_info": "<span>Lisa-Rec Inc. | CEO: Masaru Kuba (Raito) | Founded March 2010</span>\n    <span>9F, 1-1-1 Kumoji, Naha, Okinawa, Japan</span>\n    <a href=\"{{root}}blog/index.html\" hreflang=\"ja\">Blog (Japanese)</a>\n    <span class=\"updated\">Last updated: <time datetime=\"2026-09-11\">11 September 2026</time></span>",
+ "js_collapse": "'Show fewer commercials'",
+ "js_expand": "'Show all commercials'"
+}

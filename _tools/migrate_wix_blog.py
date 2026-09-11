@@ -532,6 +532,7 @@ def page_head(post: Post) -> str:
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="リサレコブログ RSS" href="../../blog/feed.xml">
 <link rel="stylesheet" href="../../blog.css">
+<script src="../../lang.js" defer></script>
 <script type="application/ld+json">{schema_json}</script>"""
 
 
@@ -590,6 +591,7 @@ def render_post(post: Post, newer: Post | None = None, older: Post | None = None
 <header class="site-header">
   <a class="wordmark" href="../../index.html" aria-label="株式会社リサレコ トップ"><img src="../../logo.png" alt="株式会社リサレコ" width="1946" height="342"></a>
   <nav aria-label="ブログナビゲーション"><a href="../../index.html">会社サイト</a><a href="../../blog/index.html">ブログ</a></nav>
+  <nav class="lang-switch" aria-label="言語"><a href="../../en/" lang="en" hreflang="en" data-lang-switch="en">EN</a><span aria-hidden="true">/</span><a href="../../index.html" lang="ja" hreflang="ja" data-lang-switch="ja" aria-current="page">日本語</a></nav>
 </header>
 <main class="post-page">
   <nav class="breadcrumb" aria-label="パンくずリスト"><a href="../../index.html">トップ</a><span>／</span><a href="../../blog/index.html">ブログ</a></nav>
@@ -616,6 +618,7 @@ def render_blog_header(root_prefix: str, blog_prefix: str) -> str:
     return f"""<header class="site-header">
   <a class="wordmark" href="{root_prefix}index.html" aria-label="株式会社リサレコ トップ"><img src="{root_prefix}logo.png" alt="株式会社リサレコ" width="1946" height="342"></a>
   <nav aria-label="ブログナビゲーション"><a href="{root_prefix}index.html">会社サイト</a><a aria-current="page" href="{blog_prefix}index.html">ブログ</a></nav>
+  <nav class="lang-switch" aria-label="言語"><a href="{root_prefix}en/" lang="en" hreflang="en" data-lang-switch="en">EN</a><span aria-hidden="true">/</span><a href="{root_prefix}index.html" lang="ja" hreflang="ja" data-lang-switch="ja" aria-current="page">日本語</a></nav>
 </header>"""
 
 
@@ -707,7 +710,8 @@ def render_blog_head(title: str, description: str, canonical: str, root_prefix: 
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{SITE_URL}/ogp-v3.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{root_prefix}blog.css">"""
+<link rel="stylesheet" href="{root_prefix}blog.css">
+<script src="{root_prefix}lang.js" defer></script>"""
 
 
 def collection_schema(title: str, description: str, canonical: str, posts: list[Post]) -> str:
@@ -1020,6 +1024,12 @@ def write_sitemap(posts: list[Post], root: Path, total_pages: int) -> None:
         "    <lastmod>2026-08-29</lastmod>",
         "    <changefreq>monthly</changefreq>",
         "    <priority>1.0</priority>",
+        "  </url>",
+        "  <url>",
+        f"    <loc>{SITE_URL}/en/</loc>",
+        "    <lastmod>2026-09-11</lastmod>",
+        "    <changefreq>monthly</changefreq>",
+        "    <priority>0.9</priority>",
         "  </url>",
         "  <url>",
         f"    <loc>{SITE_URL}/blog/</loc>",

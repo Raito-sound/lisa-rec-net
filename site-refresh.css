@@ -381,3 +381,15 @@ footer { padding: 36px var(--gutter); border-top: 1px solid var(--line); backgro
   .global-section *, #contact * { color: black !important; }
   a { text-decoration: none; }
 }
+
+/* Language switch in the header */
+.lang-switch { display: flex; align-items: center; gap: 8px; margin-left: auto; font-size: .8125rem; letter-spacing: .04em; white-space: nowrap; flex-shrink: 0; }
+.lang-switch a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted, #6b6b6b); text-decoration: none; }
+.lang-switch a:hover { color: var(--blue); }
+.lang-switch a[aria-current="page"] { color: var(--ink); font-weight: 700; }
+.lang-switch span { color: var(--line); }
+.wordmark + .lang-switch, .site-header nav + .lang-switch { margin-left: 0; }
+@media (max-width: 1000px) { .lang-switch { order: 1; margin-left: auto; font-size: .75rem; } .menu-toggle:not([hidden]) { order: 2; } .site-header nav { order: 3; } }
+.contact-note { margin-top: 18px; font-size: .9375rem; color: var(--muted, #555); }
+.contact-note a { color: var(--blue); }
+.feature-body h3 small, .artist h3 small { display: block; font-size: .75rem; font-weight: 400; letter-spacing: .06em; color: var(--muted, #666); margin-top: 4px; }
