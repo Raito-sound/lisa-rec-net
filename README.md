@@ -35,6 +35,7 @@
 | `_tools/migrate_wix_blog.py` | Wixの公開HTMLから記事・画像・メタデータを移行するスクリプト |
 | `content/work-links.json` | raito.studio の作品ページ一覧（`raito/scripts/build-works-pages.py` が生成）。記事本文に作品名があれば「関連する作品」リンクと BlogPosting の `mentions` を自動付与 |
 | `content/cm-credits.json` | CM記事ごとの作曲者クレジット（記事冒頭の「答えの一文」、meta description、BlogPosting の `about`）。役割は compose／arrange／partial。ここにない CM 記事にはクレジットを出さない |
+| `content/redirects.json` / `_tools/build_redirects.py` | 旧 WordPress 形式 `/YYYY/MM/slug/` の旧URLから現行記事 `/post/<slug>/` への転送スタブ（canonical + meta refresh）。検索結果に残る旧URLの評価を引き継ぐため |
 | `_tools/build_blog.py` | 記事・一覧・年別アーカイブ・RSS・サイトマップを一括再生成する通常更新用コマンド |
 
 ## 設計方針
