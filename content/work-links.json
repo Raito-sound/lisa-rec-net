@@ -1,0 +1,360 @@
+{
+ "reviewed": "2026-09-11",
+ "source": "raito-studio/content/works.json",
+ "works": [
+  {
+   "slug": "double-dragon-revive",
+   "url": "https://raito.studio/ja/works/double-dragon-revive/",
+   "title_ja": "Double Dragon Revive",
+   "roles_ja": "作曲・編曲",
+   "year": "2025",
+   "keywords": [
+    "ダブルドラゴン",
+    "Double Dragon"
+   ],
+   "lisarec_title": "Double Dragon Revive"
+  },
+  {
+   "slug": "raiden-iii-mikado-maniax",
+   "url": "https://raito.studio/ja/works/raiden-iii-mikado-maniax/",
+   "title_ja": "雷電III x MIKADO MANIAX",
+   "roles_ja": "編曲",
+   "year": "2023",
+   "keywords": [
+    "雷電III",
+    "MIKADO MANIAX"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "fate-grand-order",
+   "url": "https://raito.studio/ja/works/fate-grand-order/",
+   "title_ja": "Fate/Grand Order",
+   "roles_ja": "編曲",
+   "year": "2021",
+   "keywords": [
+    "Fate/Grand Order",
+    "FGO"
+   ],
+   "lisarec_title": "Fate/Grand Order"
+  },
+  {
+   "slug": "sk8-the-infinity",
+   "url": "https://raito.studio/ja/works/sk8-the-infinity/",
+   "title_ja": "SK∞ エスケーエイト",
+   "roles_ja": "作曲・編曲",
+   "year": "2021",
+   "keywords": [
+    "SK∞",
+    "SK8",
+    "エスケーエイト"
+   ],
+   "lisarec_title": "SK∞ エスケーエイト"
+  },
+  {
+   "slug": "kingdom-dash",
+   "url": "https://raito.studio/ja/works/kingdom-dash/",
+   "title_ja": "キングダム DASH!!",
+   "roles_ja": "作曲（BGM）・効果音",
+   "year": "2021",
+   "keywords": [
+    "キングダム DASH",
+    "キングダムDASH"
+   ],
+   "lisarec_title": "キングダム DASH!!"
+  },
+  {
+   "slug": "bofuri-line-wars",
+   "url": "https://raito.studio/ja/works/bofuri-line-wars/",
+   "title_ja": "痛いのは嫌なので防御力に極振りしたいと思います。～らいんうぉーず！～",
+   "roles_ja": "作曲（BGM）・効果音",
+   "year": "2020",
+   "keywords": [
+    "らいんうぉーず",
+    "防振り",
+    "極振り"
+   ],
+   "lisarec_title": "痛いのは嫌なので防御力に極振りしたいと思います。～らいんうぉーず！～"
+  },
+  {
+   "slug": "indivisible",
+   "url": "https://raito.studio/ja/works/indivisible/",
+   "title_ja": "Indivisible",
+   "roles_ja": "効果音",
+   "year": "2019",
+   "keywords": [
+    "Indivisible"
+   ],
+   "lisarec_title": "Indivisible"
+  },
+  {
+   "slug": "osomatsu-san-hesokuri-wars",
+   "url": "https://raito.studio/ja/works/osomatsu-san-hesokuri-wars/",
+   "title_ja": "おそ松さんのへそくりウォーズ 〜ニートの攻防〜",
+   "roles_ja": "作曲・編曲",
+   "year": "2019",
+   "keywords": [
+    "へそくりウォーズ",
+    "おそ松さん"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "bokuben-study",
+   "url": "https://raito.studio/ja/works/bokuben-study/",
+   "title_ja": "ぼくたちは勉強ができない（Study 主題歌）",
+   "roles_ja": "作曲・編曲",
+   "year": "2019",
+   "keywords": [
+    "ぼくたちは勉強ができない",
+    "ぼく勉",
+    "PROGRESSIVE",
+    "Can now"
+   ],
+   "lisarec_title": "ぼくたちは勉強ができない（Study 主題歌）"
+  },
+  {
+   "slug": "blazblue-cross-tag-battle",
+   "url": "https://raito.studio/ja/works/blazblue-cross-tag-battle/",
+   "title_ja": "BLAZBLUE CROSS TAG BATTLE",
+   "roles_ja": "編曲",
+   "year": "2018",
+   "keywords": [
+    "BLAZBLUE CROSS TAG",
+    "BBTAG",
+    "クロスタッグ"
+   ],
+   "lisarec_title": "BLAZBLUE CROSS TAG BATTLE"
+  },
+  {
+   "slug": "rxn-raijin",
+   "url": "https://raito.studio/ja/works/rxn-raijin/",
+   "title_ja": "RXN -雷神-",
+   "roles_ja": "作曲",
+   "year": "2018",
+   "keywords": [
+    "RXN",
+    "雷神"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "saiki-k-psi-kick-battle",
+   "url": "https://raito.studio/ja/works/saiki-k-psi-kick-battle/",
+   "title_ja": "斉木楠雄のΨ難 妄想暴走!Ψキックバトル",
+   "roles_ja": "作曲",
+   "year": "2018",
+   "keywords": [
+    "斉木楠雄",
+    "Ψキックバトル"
+   ],
+   "lisarec_title": "斉木楠雄のΨ難 妄想暴走!Ψキックバトル"
+  },
+  {
+   "slug": "voez",
+   "url": "https://raito.studio/ja/works/voez/",
+   "title_ja": "VOEZ",
+   "roles_ja": "編曲",
+   "year": "2017",
+   "keywords": [
+    "VOEZ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "okinawa-no-kowai-hanashi",
+   "url": "https://raito.studio/ja/works/okinawa-no-kowai-hanashi/",
+   "title_ja": "オキナワノコワイハナシ",
+   "roles_ja": "劇伴・効果音・挿入歌",
+   "year": "2016",
+   "keywords": [
+    "オキナワノコワイハナシ",
+    "コワイハナシ"
+   ],
+   "lisarec_title": "オキナワノコワイハナシ 劇伴（TVドラマシリーズ）"
+  },
+  {
+   "slug": "dragonfang",
+   "url": "https://raito.studio/ja/works/dragonfang/",
+   "title_ja": "ドラゴンファング",
+   "roles_ja": "作曲（OP主題歌）・声優収録ディレクション",
+   "year": "2015",
+   "keywords": [
+    "ドラゴンファング",
+    "DragonFang"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "crayon-shin-chan-kasukabe-runner",
+   "url": "https://raito.studio/ja/works/crayon-shin-chan-kasukabe-runner/",
+   "title_ja": "クレヨンしんちゃん 嵐を呼ぶ炎のカスカベランナー!!",
+   "roles_ja": "サウンド制作",
+   "year": "2014",
+   "keywords": [
+    "カスカベランナー"
+   ],
+   "lisarec_title": "クレヨンしんちゃん 嵐を呼ぶ炎のカスカベランナー!!"
+  },
+  {
+   "slug": "dengeki-bunko-fighting-climax",
+   "url": "https://raito.studio/ja/works/dengeki-bunko-fighting-climax/",
+   "title_ja": "電撃文庫 FIGHTING CLIMAX",
+   "roles_ja": "効果音",
+   "year": "2014",
+   "keywords": [
+    "FIGHTING CLIMAX",
+    "電撃文庫"
+   ],
+   "lisarec_title": "電撃文庫 FIGHTING CLIMAX"
+  },
+  {
+   "slug": "legend-of-dark-witch",
+   "url": "https://raito.studio/ja/works/legend-of-dark-witch/",
+   "title_ja": "魔神少女シリーズ / Brave Dungeon",
+   "roles_ja": "作曲・編曲",
+   "year": "2014",
+   "keywords": [
+    "魔神少女",
+    "Brave Dungeon",
+    "Dark Witch"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "under-night-in-birth",
+   "url": "https://raito.studio/ja/works/under-night-in-birth/",
+   "title_ja": "UNDER NIGHT IN-BIRTH シリーズ",
+   "roles_ja": "作曲・編曲・効果音",
+   "year": "2012",
+   "keywords": [
+    "UNDER NIGHT",
+    "Under Night",
+    "UNI2",
+    "UNIB",
+    "アンダーナイト",
+    "Sys:Celes"
+   ],
+   "lisarec_title": "UNDER NIGHT IN-BIRTH シリーズ"
+  },
+  {
+   "slug": "touhou-project-arrangements",
+   "url": "https://raito.studio/ja/works/touhou-project-arrangements/",
+   "title_ja": "東方Project アレンジ参加作品群",
+   "roles_ja": "作曲・編曲",
+   "year": "2012",
+   "keywords": [
+    "東方Project",
+    "東方アレンジ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "arcana-heart-2",
+   "url": "https://raito.studio/ja/works/arcana-heart-2/",
+   "title_ja": "アルカナハート2",
+   "roles_ja": "Remix",
+   "year": "2009",
+   "keywords": [
+    "アルカナハート"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "deathsmiles",
+   "url": "https://raito.studio/ja/works/deathsmiles/",
+   "title_ja": "デススマイルズ",
+   "roles_ja": "編曲",
+   "year": "2009",
+   "keywords": [
+    "デススマイルズ",
+    "Deathsmiles"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "cutie-honey-the-live",
+   "url": "https://raito.studio/ja/works/cutie-honey-the-live/",
+   "title_ja": "キューティーハニー THE LIVE",
+   "roles_ja": "Remix",
+   "year": "2008",
+   "keywords": [
+    "キューティーハニー"
+   ],
+   "lisarec_title": "キューティーハニー THE LIVE"
+  },
+  {
+   "slug": "lucky-star",
+   "url": "https://raito.studio/ja/works/lucky-star/",
+   "title_ja": "らき☆すた",
+   "roles_ja": "作曲・編曲・Remix",
+   "year": "2007",
+   "keywords": [
+    "らき☆すた",
+    "らきすた"
+   ],
+   "lisarec_title": "らき☆すた"
+  },
+  {
+   "slug": "higurashi-image-albums",
+   "url": "https://raito.studio/ja/works/higurashi-image-albums/",
+   "title_ja": "ひぐらしのなく頃に イメージアルバム",
+   "roles_ja": "作曲・編曲",
+   "year": "2006",
+   "keywords": [
+    "ひぐらし"
+   ],
+   "lisarec_title": "ひぐらしのなく頃に イメージアルバム"
+  },
+  {
+   "slug": "ragnarok-battle-offline",
+   "url": "https://raito.studio/ja/works/ragnarok-battle-offline/",
+   "title_ja": "ラグナロクバトルオフライン",
+   "roles_ja": "作曲・編曲",
+   "year": "2005",
+   "keywords": [
+    "ラグナロクバトル",
+    "RBO"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "lamune",
+   "url": "https://raito.studio/ja/works/lamune/",
+   "title_ja": "ラムネ（OP主題歌）",
+   "roles_ja": "作曲",
+   "year": "2005",
+   "keywords": [
+    "ラムネ色のメロディ"
+   ],
+   "lisarec_title": ""
+  },
+  {
+   "slug": "melty-blood",
+   "url": "https://raito.studio/ja/works/melty-blood/",
+   "title_ja": "MELTY BLOOD シリーズ",
+   "roles_ja": "作曲・編曲",
+   "year": "2003",
+   "keywords": [
+    "MELTY BLOOD",
+    "Melty Blood",
+    "メルティブラッド",
+    "メルブラ",
+    "TYPE LUMINA"
+   ],
+   "lisarec_title": "MELTY BLOOD シリーズ"
+  },
+  {
+   "slug": "glove-on-fight",
+   "url": "https://raito.studio/ja/works/glove-on-fight/",
+   "title_ja": "GLOVE ON FIGHT",
+   "roles_ja": "作曲・編曲",
+   "year": "2002",
+   "keywords": [
+    "GLOVE ON FIGHT",
+    "グローブオンファイト"
+   ],
+   "lisarec_title": ""
+  }
+ ]
+}

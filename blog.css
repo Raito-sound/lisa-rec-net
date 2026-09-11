@@ -113,3 +113,11 @@ footer a { font-size: .875rem; }
   .wordmark img { width: 122px; }
   .site-header nav { gap: 12px; }
 }
+
+/* 関連する作品（raito.studio の作品ページへ） */
+.related-works { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); }
+.related-works .post-label { margin: 0 0 12px; }
+.related-works a { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; }
+.related-works a:hover { color: var(--blue); }
+.related-works strong { font-size: 1rem; font-weight: 500; line-height: 1.6; overflow-wrap: anywhere; }
+.related-works span { color: var(--muted); font-size: .75rem; letter-spacing: .04em; }

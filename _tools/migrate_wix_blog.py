@@ -435,6 +435,44 @@ def plain_post_text(post: Post) -> str:
     )
 
 
+WORK_LINKS_FILE = Path(__file__).resolve().parent.parent / "content" / "work-links.json"
+_WORK_LINKS: list[dict] | None = None
+
+
+def _keyword_pattern(keyword: str) -> re.Pattern[str]:
+    if re.fullmatch(r"[A-Za-z0-9 :\-!.]+", keyword):
+        return re.compile(r"(?<![A-Za-z0-9])" + re.escape(keyword) + r"(?![A-Za-z0-9])")
+    return re.compile(re.escape(keyword))
+
+
+def load_work_links() -> list[dict]:
+    """Works from raito.studio (content/work-links.json) that blog posts can point to."""
+    global _WORK_LINKS
+    if _WORK_LINKS is None:
+        _WORK_LINKS = []
+        if WORK_LINKS_FILE.is_file():
+            for work in json.loads(WORK_LINKS_FILE.read_text(encoding="utf-8"))["works"]:
+                work["_patterns"] = [_keyword_pattern(k) for k in work["keywords"]]
+                _WORK_LINKS.append(work)
+    return _WORK_LINKS
+
+
+def related_works(post: Post) -> list[dict]:
+    text = post.title + " " + plain_post_text(post)
+    return [w for w in load_work_links() if any(p.search(text) for p in w["_patterns"])]
+
+
+def render_related_works(post: Post) -> str:
+    works = related_works(post)
+    if not works:
+        return ""
+    links = "".join(
+        f'<a href="{html.escape(w["url"])}"><strong>{html.escape(w["title_ja"])}</strong><span>{html.escape(w["roles_ja"])} · {html.escape(w["year"])}</span></a>'
+        for w in works
+    )
+    return f'<nav class="related-works" aria-label="関連する作品"><p class="post-label">関連する作品（来兎の担当作品ページ）</p>{links}</nav>\n'
+
+
 def page_head(post: Post) -> str:
     title = html.escape(f"{post.title}｜リサレコブログ")
     description = html.escape(post.description[:180], quote=True)
@@ -460,6 +498,9 @@ def page_head(post: Post) -> str:
         schema["articleSection"] = post.tags[0]
     if post.hero:
         schema["image"] = image
+    mentioned = related_works(post)
+    if mentioned:
+        schema["mentions"] = [{"@type": "CreativeWork", "@id": f"{w['url'].replace('/ja/works/', '/works/')}#work", "name": w["title_ja"], "url": w["url"]} for w in mentioned]
     breadcrumb = {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -562,7 +603,7 @@ def render_post(post: Post, newer: Post | None = None, older: Post | None = None
 {render_blocks(post)}
     </div>
   </article>
-  {render_article_navigation(newer, older)}
+  {render_related_works(post)}{render_article_navigation(newer, older)}
   <nav class="post-back"><a href="../../blog/index.html">← ブログ一覧へ</a></nav>
 </main>
 <footer><div><span>© Lisa-Rec Co.,Ltd</span><a href="mailto:contact@lisa-rec.com">contact@lisa-rec.com</a></div></footer>
